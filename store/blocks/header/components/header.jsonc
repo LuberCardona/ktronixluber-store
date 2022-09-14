@@ -1,0 +1,148 @@
+{
+  "header":{
+   "title": "Header",
+   "blocks":[
+     "header-layout.desktop",
+     "header-layout.mobile"
+   ]
+  },
+  "header.full":{
+   "title": "Header",
+   "blocks":[
+     "header-layout.desktop",
+     "header-layout.mobile"
+   ]
+  },
+  "header-layout.desktop":{
+   "title": "Header Desktop",
+   "children":[
+     "header-row#header__top--one",
+     "header-row#header__top--two",
+     "header-row#header__top--three"
+   ]
+  },
+  "header-row#header__top--one":{
+    "title": "Header superior",
+    "children":[    
+      "logo#header__top--logo",
+      "header-spacer", 
+      "flex-layout.row#header__top--one"
+    ],
+    "props":{
+      "blockClass": "Header__top"
+    }
+  },
+  "logo#header__top--logo":{
+    "title": "Logo",
+    "props":{
+      "blockClass":"Header__top--logo",
+      "url": "assets/img/logo.svg",
+      "href": "/"
+    }
+  },
+  "flex-layout.row#header__top--one":{
+      "children":[       
+        "flex-layout.row#header__top--one-televentas",
+        "flex-layout.row#header__top--one-contacto",
+        "flex-layout.row#header__top--one-rastreo",
+        "flex-layout.row#header__top--one-tiendas",
+        "flex-layout.row#header__top--one-catalogo",
+        "flex-layout.row#header__top--one-pqr"
+    ],
+    "props":{
+      "horizontalAlign": "right"
+    }
+  },
+  "flex-layout.row#header__top--one-televentas":{
+     "children":["rich-text#televentas"]
+  },
+  "rich-text#televentas":{
+    "props":{
+      "text": "Televentas: (601) 3649734"  
+    }
+  }, 
+  "flex-layout.row#header__top--one-contacto":{
+    "children":["rich-text#contacto"]
+  },
+  "rich-text#contacto":{
+    "props":{
+      "text": "Atención al cliente: 018000 111 448"      
+    }
+  }, 
+  "flex-layout.row#header__top--one-rastreo":{
+    "children":["rich-text#rastreo"]
+  },
+  "rich-text#rastreo":{
+    "props":{
+      "text": "Rastrea tu pedido"      
+    }
+  }, 
+  "flex-layout.row#header__top--one-tiendas":{
+    "children":["rich-text#tiendas"]
+  },
+  "rich-text#tiendas":{
+    "props":{
+      "text": "Tiendas"      
+    }
+  }, 
+  "flex-layout.row#header__top--one-catalogo":{
+    "children":["rich-text#catalogo"]
+  },
+  "rich-text#catalogo":{
+    "props":{
+      "text": "Catálogo"      
+    }
+  }, 
+  "flex-layout.row#header__top--one-pqr":{
+    "children":["rich-text#pqr"]
+  },
+  "rich-text#pqr":{
+    "props":{
+      "text": "PQR"      
+    }
+  }, 
+  "header-row#header__top--two":{
+    "title": "Header inferior",
+    "children":[
+      "header-spacer",
+      "flex-layout.row#header__top--two"
+    ],
+    "props":{
+      "blockClass": "Header__top"
+    }    
+  },
+ 
+  "flex-layout.row#header__top--two":{
+    "children":[
+      "search-bar#header__search",
+      "login",
+      "minicart.v2"
+    ]
+  },
+   "search-bar#header__search":{
+    "blocks": ["autocomplete-result-list.v2"],
+    "props": {
+      "openAutocompleteOnFocus": true,
+      "placeholder": "¿Qué buscas hoy?"
+    }
+  }, 
+   "login":{
+    "props": {
+      "emailAndPasswordTitle": "LOG-IN",
+      "accessCodeTitle": "Acess Code LOG-IN",
+      "emailPlaceholder": "e-mail",
+      "passwordPlaceholder": "password",
+      "showPasswordVerificationIntoTooltip": true,
+       "showIconProfile": true
+    }
+  },
+  "header-row#header__top--three":{
+    "title": "Header menu",
+      "children":[
+        "drawer#header__menu"
+      ],
+      "props":{
+        "blockClass": "header__menu"
+      }
+  } 
+}

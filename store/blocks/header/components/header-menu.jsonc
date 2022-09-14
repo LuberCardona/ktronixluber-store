@@ -1,0 +1,70 @@
+{
+  "drawer#header__menu":{
+    "children":[
+        "vtex.menu@2.x:menu#header__menu--celulares"
+    ],
+    "blocks":[
+        "drawer-trigger"
+    ],
+    "props":{
+      "blockClass": "header__menu--celulares"
+    } 
+  },
+  "drawer-trigger":{
+    "children":[
+      "flex-layout.row#header__menu"       
+    ]
+  },
+  "flex-layout.row#header__menu":{
+    "children":[
+      "rich-text#menu__celulares"
+    ]
+  },
+  "rich-text#menu__celulares":{
+    "props":{
+        "text": "Celulares",
+        "textColor": "c-on-emphasis"
+
+    }
+  }, 
+  "rich-text#menu__compu-impresoras":{
+    "props":{
+        "text": "Computadores e Impresoras",
+        "textColor": "c-on-emphasis"
+
+    }
+  }, 
+  "vtex.menu@2.x:menu#header__menu--celulares":{
+    "children": [
+        "menu-item#department__celulares",
+        "menu-item#department__acc-tablets"
+    ]
+  },
+  "menu-item#department__celulares":{
+    "props":{
+        "id": "department-celulares",
+        "type": "custom",
+        "itemProps": {
+        "type": "external",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Celulares",
+        "text": "Celulares"
+        }
+    }
+  },
+  "menu-item#department__acc-tablets":{
+    "props":{
+        "id": "department-acc-tablets",
+        "type": "custom",
+        "itemProps": {
+        "type": "external",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Accesorios Celulares y Tabletas",
+        "text": "Accesorios Celulares y Tabletas"
+        }
+    }
+  }  
+ 
+}
