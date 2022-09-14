@@ -1,0 +1,147 @@
+{
+  "store.home": { 
+    "blocks": [
+      "flex-layout.row#home__section--one"
+    ]
+  },
+  "flex-layout.row#home__section--one":{
+    "children":[
+      "slider-layout#home__section--one-slider",
+      "flex-layout.row#home__section--one-department"
+    ]
+  },
+  
+  "flex-layout.row#home__section--one-department":{
+    "children":[
+      "flex-layout.col#home__section--one-department-one",
+      "flex-layout.col#home__section--one-department-two",
+      "flex-layout.col#home__section--one-department-three",
+      "flex-layout.col#home__section--one-department-four",
+      "flex-layout.col#home__section--one-department-five"     
+      
+    ]
+  },
+  "flex-layout.col#home__section--one-department-one":{
+     "children":[
+      "image#home__section--one-department-celulares",
+      "image#home__section--one-department-videojuegos",
+      "image#home__section--one-department-camaras"
+     ]
+  },
+  "flex-layout.col#home__section--one-department-two":{
+     "children":[
+      "image#home__section--one-department-computadores",    
+      "image#home__section--one-department-accesorios",
+      "image#home__section--one-department-netflix"  
+     ]
+  },
+  "flex-layout.col#home__section--one-department-three":{
+    "children":[     
+      "image#home__section--one-department-televisores",
+      "image#home__section--one-department-smartw",
+      "image#home__section--one-department-c-intelligent"
+    ]
+ },
+ "flex-layout.col#home__section--one-department-four":{
+  "children":[
+    "image#home__section--one-department-electro",    
+    "image#home__section--one-department-tablets",
+    "image#home__section--one-department-deportes"
+  ]
+},
+"flex-layout.col#home__section--one-department-five":{
+  "children":[     
+    "image#home__section--one-department-audio",
+    "image#home__section--one-department-impresoras", 
+    "image#home__section--one-department-ofertas"
+  ]
+},
+"image#home__section--one-department-celulares":{
+  "props": {
+    "src": "assets/img/computador.png"
+  }
+},
+
+  "image#home__section--one-department-computadores":{
+    "props": {
+      "src": "assets/img/computador.png"
+    }
+         
+  },  
+  "image#home__section--one-department-televisores":{
+    "props": {
+      "src": "assets/img/computador.png"
+  }
+  },
+  "image#home__section--one-department-electro":{
+    "props": {
+      "src": "assets/img/computador.png"
+  }
+  },
+  "image#home__section--one-department-audio":{
+    "props": {
+      "src": "assets/img/computador.png"
+  }
+  },
+  "image#home__section--one-department-videojuegos":{
+    "props": {
+      "src": "assets/img/computador.png"
+    }
+  },
+  "image#home__section--one-department-accesorios":{
+    "props": {
+      "src": "assets/img/computador.png"
+  }
+  },
+  "image#home__section--one-department-smartw":{
+    "props": {
+      "src": "assets/img/computador.png"
+  }
+  },
+  "image#home__section--one-department-tablets":{
+    "props": {
+      "src": "assets/img/computador.png"
+  }
+  },
+  "image#home__section--one-department-impresoras":{
+    "props": {
+      "src": "assets/img/computador.png"
+  }
+  },
+  "image#home__section--one-department-camaras":{
+    "props": {
+      "src": "assets/img/computador.png"
+  }
+  },
+  "image#home__section--one-department-netflix":{
+    "props": {
+      "src": "assets/img/computador.png"
+  }
+  },
+  "image#home__section--one-department-c-intelligent":{
+    "props": {
+      "src": "assets/img/computador.png"
+  }
+  },
+  "image#home__section--one-department-deportes":{
+    "props": {
+      "src": "assets/img/computador.png"
+  }
+  },
+  "image#home__section--one-department-ofertas":{
+    "props": {
+      "src": "assets/img/computador.png"
+  }
+  }
+
+/* 
+  "rich-text": { 
+    "props": { 
+      "text": "VTEX Store Framework",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-1"
+    }
+  } */
+  }
+
