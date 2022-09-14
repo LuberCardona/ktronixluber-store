@@ -1,0 +1,14 @@
+.flexRow--footer__container--mediosdepago{
+    border-top: 1px solid grey;
+    max-width: 1366px;
+}
+
+.flexRowContent--footer__container--socialmedia{   
+    border-top: 1px solid grey;   
+    
+}
+.flexRowContent--footer__container--socialmedia-text-icons{
+    align-items: center;
+    margin-left: 85%;
+    width: 220px;
+}

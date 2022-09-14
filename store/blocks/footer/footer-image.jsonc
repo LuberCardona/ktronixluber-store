@@ -1,0 +1,42 @@
+{
+    "image#footer__container--contacto-col-one":{
+        "title": "Imagen de contacto - Nosotros",
+        "props": {
+            "src": "assets/img/about-icon.png",
+            "title:": "Nosotros",
+            "blockClass": "footer__image--nosotros",
+            "link":{
+                "url": "#",
+                "newTab": false,
+                "attributeNoFollow": false
+            }
+        }
+    },
+    "image#footer__container--contacto-col-two":{
+        "title": "Imagen de contacto - Email",
+        "props": {
+            "src": "assets/img/email-icon.png",
+            "title:": "Email",
+            "blockClass": "footer__image--email",
+            "link":{
+                "url": "#",
+                "newTab": false,
+                "attributeNoFollow": false
+            }
+        }
+    },
+    "image#footer__container--contacto-col-three":{
+        "title": "Imagen de contacto - Telefono",
+        "props": {
+            "src": "assets/img/contact-icon.png",
+            "title:": "Venta Telefónica",
+            "blockClass": "footer__image--ventatelefonica",
+            "link":{
+                "url": "#",
+                "newTab": false,
+                "attributeNoFollow": false
+            }
+        }
+    }     
+
+}
