@@ -1,6 +1,22 @@
+
+.flexRow--footer__container--contacto{
+    max-width: 1366px;
+    margin: 34px auto;
+    text-align: center;
+}
+.flexRowContent--footer__container--contacto{
+    justify-content: space-around;
+}
+.flexRowContent--footer__container--mediosdepago-img{
+    justify-content: space-between;
+    
+}
 .flexRow--footer__container--mediosdepago{
     border-top: 1px solid grey;
     max-width: 1366px;
+}
+.flexRow--footer__container--mediosdepago-img{
+    margin: 20px auto;
 }
 
 .flexRowContent--footer__container--socialmedia{   
