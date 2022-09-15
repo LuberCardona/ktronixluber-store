@@ -1,9 +1,19 @@
 {
   "store.home": { 
     "blocks": [
-      "flex-layout.row#home__section--one"
+      "flex-layout.row#home__section--one",
+      "flex-layout.row#home__section--two--title",
+      "flex-layout.row#home__section--two--images",
+      "flex-layout.row#home__section--three--title",
+      "flex-layout.row#home__section--three--images",
+      "flex-layout.row#home__section--four--title",
+      "flex-layout.row#home__section--four--images",
+      "flex-layout.row#home__section--four--title",
+      "flex-layout.row#home__section--five--images"
     ]
   },
+
+
   "flex-layout.row#home__section--one":{
     "children":[
       "slider-layout#home__section--one-slider",

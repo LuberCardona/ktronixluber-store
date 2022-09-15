@@ -1,0 +1,100 @@
+{
+    "flex-layout.row#home__section--five--title":{
+      "title": "section five -title-tv",
+      "children":[
+         "flex-layout.row#home__section--five--title-tv"
+      ],
+      "props":{
+        "blockClass": "home__section--two"
+       }
+    },  
+    "flex-layout.row#home__section--five--title-tv":{
+      "children":[
+        "rich-text#home__section--five--title"
+      ],
+      "props":{
+        "blockClass": "home__section--two--title"
+      }
+    },
+    "rich-text#home__section--five--title":{
+      "props":{
+        "text": "**Televisores**",
+        "textPosition": "CENTER",
+        "blockClass": "home__section--two--title-text"
+      }
+    },
+    "flex-layout.row#home__section--five--images":{
+     "title": "section -images-tv",
+      "children":[
+        "flex-layout.row#home__section--five--images-tv"  
+         
+      ],        
+      "props":{
+        "blockClass": "home__section--two"
+       }
+    },
+    "flex-layout.row#home__section--five--images-tv":{
+      "children":[
+        "flex-layout.col#section__five--image1",
+        "flex-layout.col#section__five--image2",
+        "flex-layout.col#section__five--image3"
+      ]
+    }, 
+    "flex-layout.col#section__five--image1":{
+      "title": "Section five - tv - image1",
+      "children":[
+        "image#section__five--image1"
+      ],
+      "props":{
+        "blockClass": "home__section__four--image"
+      }
+    },
+    "image#section__five--image1":{
+      "title": "Image1 -section five - tv",
+      "props": {
+          "src": "assets/img/samsungtv55.jpg",
+          "blockClass": "home__section__four--image",
+          "link":{
+              "url": "/"
+          }
+      }
+    },
+    "flex-layout.col#section__five--image2":{
+      "title": "section five - tv Image2",
+      "children":[
+        "image#section__five--image2"
+      ],
+      "props":{
+        "blockClass": "home__section__five--image"
+      }
+    },
+    "image#section__five--image2":{
+      "title": "Image2 -section five - tv",
+      "props": {
+          "src": "assets/img/xiaomi.jpg",
+          "blockClass": "home__section__five--image",
+          "link":{
+              "url": "/"
+          }
+      }
+    },
+    "flex-layout.col#section__five--image3":{
+      "title": "Section five tv",
+      "children":[
+        "image#section__five--image3"
+      ],
+      "props":{
+        "blockClass": "home__section__five--image"
+      }
+    },
+    "image#section__five--image3":{
+      "title": "Image3 -section five - tv",
+      "props": {
+          "src": "assets/img/lgtv.jpg",
+          "blockClass": "home__section__five--image",
+          "link":{
+              "url": "/"
+          }
+      }
+    }
+  }
