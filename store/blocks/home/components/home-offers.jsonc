@@ -5,7 +5,7 @@
        "flex-layout.row#home__section--two--title-offers"
     ],
     "props":{
-      "blockClass": "home__section--two"
+      "blockClass": "home__section--two--title"
      }
   },  
   "flex-layout.row#home__section--two--title-offers":{
@@ -13,7 +13,7 @@
       "rich-text#home__section--two--title"
     ],
     "props":{
-      "blockClass": "home__section--two--title"
+      "blockClass": "home__section--two--title-offers"
     }
   },
   "rich-text#home__section--two--title":{
@@ -30,7 +30,7 @@
        
     ],        
     "props":{
-      "blockClass": "home__section--two"
+      "blockClass": "home__section--two--images"
      }
   },
   "flex-layout.row#home__section--two--images-offers":{
@@ -39,7 +39,10 @@
       "flex-layout.col#section__two--image2",
       "flex-layout.col#section__two--image3",
       "flex-layout.col#section__two--image4" 
-    ]
+    ],
+    "props":{
+      "blockClass":"home__section--two--images-offers"
+    }
   }, 
   "flex-layout.col#section__two--image1":{
     "title": "Section two - top offers - image1",

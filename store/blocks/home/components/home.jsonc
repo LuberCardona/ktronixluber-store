@@ -8,8 +8,16 @@
       "flex-layout.row#home__section--three--images",
       "flex-layout.row#home__section--four--title",
       "flex-layout.row#home__section--four--images",
-      "flex-layout.row#home__section--four--title",
-      "flex-layout.row#home__section--five--images"
+      "flex-layout.row#home__section--five--title",
+      "flex-layout.row#home__section--five--images",
+      "flex-layout.row#home__section--six--title",
+      "flex-layout.row#home__section--six--images",
+      "flex-layout.row#home__section--seven--title",
+      "flex-layout.row#home__section--seven--images",
+      "flex-layout.row#home__section--eight--title",
+      "flex-layout.row#home__section--eight--images",
+      "flex-layout.row#home__section--nine--title",
+      "flex-layout.row#home__section--nine--images"
     ]
   },
 

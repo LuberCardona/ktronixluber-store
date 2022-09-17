@@ -5,7 +5,7 @@
          "flex-layout.row#home__section--three--title-celphones"
       ],
       "props":{
-        "blockClass": "home__section--two"
+        "blockClass": "home__section--three--title"
        }
     },  
     "flex-layout.row#home__section--three--title-celphones":{
@@ -13,14 +13,14 @@
         "rich-text#home__section--three--title"
       ],
       "props":{
-        "blockClass": "home__section--two--title"
+        "blockClass": "home__section--three--title-celphones"
       }
     },
     "rich-text#home__section--three--title":{
       "props":{
         "text": "**Celulares**",
         "textPosition": "CENTER",
-        "blockClass": "home__section--two--title-text"
+        "blockClass": "home__section--three--title-text"
       }
     },
     "flex-layout.row#home__section--three--images":{
@@ -30,7 +30,7 @@
          
       ],        
       "props":{
-        "blockClass": "home__section--two"
+        "blockClass": "home__section--three--images"
        }
     },
     "flex-layout.row#home__section--three--images-celphones":{
@@ -72,7 +72,7 @@
       "title": "Image2 -section  three - celphones",
       "props": {
           "src": "assets/img/galaxyA22.jpg",
-          "blockClass": "home__section__two--image",
+          "blockClass": "home__section__three--image",
           "link":{
               "url": "/"
           }

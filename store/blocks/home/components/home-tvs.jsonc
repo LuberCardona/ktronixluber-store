@@ -5,22 +5,22 @@
          "flex-layout.row#home__section--five--title-tv"
       ],
       "props":{
-        "blockClass": "home__section--two"
+        "blockClass": "home__section--five"
        }
     },  
     "flex-layout.row#home__section--five--title-tv":{
       "children":[
-        "rich-text#home__section--five--title"
+       "rich-text#home__section--five--title"
       ],
       "props":{
-        "blockClass": "home__section--two--title"
+        "blockClass": "home__section--five--title"
       }
     },
     "rich-text#home__section--five--title":{
       "props":{
         "text": "**Televisores**",
         "textPosition": "CENTER",
-        "blockClass": "home__section--two--title-text"
+        "blockClass": "home__section--five--title-text"
       }
     },
     "flex-layout.row#home__section--five--images":{
@@ -30,7 +30,7 @@
          
       ],        
       "props":{
-        "blockClass": "home__section--two"
+        "blockClass": "home__section--five"
        }
     },
     "flex-layout.row#home__section--five--images-tv":{

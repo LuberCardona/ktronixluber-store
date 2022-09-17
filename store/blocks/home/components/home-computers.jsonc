@@ -5,7 +5,7 @@
          "flex-layout.row#home__section--four--title-computers"
       ],
       "props":{
-        "blockClass": "home__section--two"
+        "blockClass": "home__section--four"
        }
     },  
     "flex-layout.row#home__section--four--title-computers":{
@@ -13,14 +13,14 @@
         "rich-text#home__section--four--title"
       ],
       "props":{
-        "blockClass": "home__section--two--title"
+        "blockClass": "home__section--four--title"
       }
     },
     "rich-text#home__section--four--title":{
       "props":{
         "text": "**Computadores**",
         "textPosition": "CENTER",
-        "blockClass": "home__section--two--title-text"
+        "blockClass": "home__section--four--title-text"
       }
     },
     "flex-layout.row#home__section--four--images":{
@@ -30,7 +30,7 @@
          
       ],        
       "props":{
-        "blockClass": "home__section--two"
+        "blockClass": "home__section--four"
        }
     },
     "flex-layout.row#home__section--four--images-computers":{
