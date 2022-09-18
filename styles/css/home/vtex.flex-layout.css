@@ -1,0 +1,86 @@
+
+.flexRow--home__section--two--title{
+    background-color: #f5f5f5;
+    text-align: -webkit-center;
+}
+.flexRow--home__section--two--images{
+    background-color: #f5f5f5; 
+    padding-top:16px;
+    text-align: -webkit-center;
+}
+.flexRowContent--home__section--two--title,
+.flexRowContent--home__section--three--title,
+.flexRowContent--home__section--four--title,
+.flexRowContent--home__section--five--title,
+.flexRowContent--home__section--six--title,
+.flexRowContent--home__section--seven--title,
+.flexRowContent--home__section--eight--title,
+.flexRowContent--home__section--nine--title{
+    border-bottom: solid 1px #e0e0e0; 
+    max-width: 1280px;
+}
+.flexRowContent--home__section--two--images,
+.flexRowContent--home__section--three--images,
+.flexRowContent--home__section--four--images,
+.flexRowContent--home__section--five--images,
+.flexRowContent--home__section--six--images,
+.flexRowContent--home__section--seven--images,
+.flexRowContent--home__section--eight--images,
+.flexRowContent--home__section--nine--images{
+    max-width: 1280px;
+}
+.flexRow--home__section--three--title,
+.flexRow--home__section--four--title,
+.flexRow--home__section--five--title,
+.flexRow--home__section--six--title,
+.flexRow--home__section--seven--title,
+.flexRow--home__section--eight--title,
+.flexRow--home__section--nine--title{
+    text-align: -webkit-center;
+    padding-top:20px;
+}
+.flexRow--home__section--three--images,
+.flexRow--home__section--four--images,
+.flexRow--home__section--five--images,
+.flexRow--home__section--six--images,
+.flexRow--home__section--seven--images,
+.flexRow--home__section--eight--images,
+.flexRow--home__section--nine--images{
+    padding-top:16px;
+    text-align: -webkit-center;
+}
+.paragraph--home__section--two--title-text{
+    padding: 5px 0px;
+    margin: 0px;
+}
+.flexRowContent--home__section--four,
+.flexRowContent--home__section--five,
+.flexRowContent--home__section--six,
+.flexRowContent--home__section--seven,
+.flexRowContent--home__section--eight,
+.flexRowContent--home__section--nine{
+    padding-top:16px;
+}
+.flexCol--home__section__three--image,
+.flexCol--home__section__four--image,
+.flexCol--home__section__five--image,
+.flexCol--home__section__six--image,
+.flexCol--home__section__seven--image,
+.flexCol--home__section__eight--image,
+.flexCol--home__section__nine--image{ 
+    margin-left: 16px;
+}
+.flexRow--home__section--two, 
+.flexRow--home__section--four,
+.flexRow--home__section--five,
+.flexRow--home__section--three,
+.flexRow--home__section--six,
+.flexRow--home__section--seven,
+.flexRow--home__section--eight,
+.flexRow--home__section--nine{
+    padding-left: 16px; 
+    padding-right: 16px;
+}
+.flexCol--home__section__six--image{    
+    margin-top: 20px
+} 

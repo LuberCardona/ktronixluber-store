@@ -1,0 +1,100 @@
+{
+    "flex-layout.row#home__section--three--title":{
+      "title": "section three -title-celphones",
+      "children":[
+         "flex-layout.row#home__section--three--title-celphones"
+      ],
+      "props":{
+        "blockClass": "home__section--three--title"
+       }
+    },  
+    "flex-layout.row#home__section--three--title-celphones":{
+      "children":[
+        "rich-text#home__section--three--title"
+      ],
+      "props":{
+        "blockClass": "home__section--three--title-celphones"
+      }
+    },
+    "rich-text#home__section--three--title":{
+      "props":{
+        "text": "**Celulares**",
+        "textPosition": "CENTER",
+        "blockClass": "home__section--three--title-text"
+      }
+    },
+    "flex-layout.row#home__section--three--images":{
+     "title": "section three -images-celphones",
+      "children":[
+        "flex-layout.row#home__section--three--images-celphones"  
+         
+      ],        
+      "props":{
+        "blockClass": "home__section--three--images"
+       }
+    },
+    "flex-layout.row#home__section--three--images-celphones":{
+      "children":[
+        "flex-layout.col#section__three--image1",
+        "flex-layout.col#section__three--image2",
+        "flex-layout.col#section__three--image3"
+      ]
+    }, 
+    "flex-layout.col#section__three--image1":{
+      "title": "Section three - celphones - image1",
+      "children":[
+        "image#section__three--image1"
+      ],
+      "props":{
+        "blockClass": "home__section__three--image"
+      }
+    },
+    "image#section__three--image1":{
+      "title": "Image1 -section three - celphones",
+      "props": {
+          "src": "assets/img/redmi10.jpg",
+          "blockClass": "home__section__three--image",
+          "link":{
+              "url": "/"
+          }
+      }
+    },
+    "flex-layout.col#section__three--image2":{
+      "title": "Image2 -section three - celphones",
+      "children":[
+        "image#section__three--image2"
+      ],
+      "props":{
+        "blockClass": "home__section__three--image"
+      }
+    },
+    "image#section__three--image2":{
+      "title": "Image2 -section  three - celphones",
+      "props": {
+          "src": "assets/img/galaxyA22.jpg",
+          "blockClass": "home__section__three--image",
+          "link":{
+              "url": "/"
+          }
+      }
+    },
+    "flex-layout.col#section__three--image3":{
+      "title": "Section three - three - celphones",
+      "children":[
+        "image#section__three--image3"
+      ],
+      "props":{
+        "blockClass": "home__section__three--image"
+      }
+    },
+    "image#section__three--image3":{
+      "title": "Image3 -section  three - celphones",
+      "props": {
+          "src": "assets/img/oppoA16.jpg",
+          "blockClass": "home__section__three--image",
+          "link":{
+              "url": "/"
+          }
+      }
+    }
+  }

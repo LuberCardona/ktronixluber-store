@@ -1,0 +1,29 @@
+.container--home__section--two--title-text{
+   padding-top: 16px;
+}
+
+.wrapper--home__section--two--title-text,
+.wrapper--home__section--three--title-text,
+.wrapper--home__section--four--title-text,
+.wrapper--home__section--five--title-text,
+.wrapper--home__section--six--title-text,
+.wrapper--home__section--seven--title-text,
+.wrapper--home__section--eight--title-text,
+.wrapper--home__section--nine--title-text{
+    margin-bottom: 2px;
+    box-shadow: 0px 4px #e63027;
+}
+.paragraph--home__section--two--title-text,
+.paragraph--home__section--three--title-text,
+.paragraph--home__section--four--title-text,
+.paragraph--home__section--five--title-text,
+.paragraph--home__section--six--title-text,
+.paragraph--home__section--seven--title-text,
+.paragraph--home__section--eight--title-text,
+.paragraph--home__section--nine--title-text{
+    margin: 4px 0px 4px 0px;
+    color: #004691;
+}
+
+
+

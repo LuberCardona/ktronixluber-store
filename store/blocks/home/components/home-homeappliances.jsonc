@@ -1,0 +1,135 @@
+{
+    "flex-layout.row#home__section--six--title":{
+      "title": "section six -title-homeappliances",
+      "children":[
+         "flex-layout.row#home__section--six--title-homeappliances"
+      ],
+      "props":{
+        "blockClass": "home__section--six"
+       }
+    },  
+    "flex-layout.row#home__section--six--title-homeappliances":{
+      "children":[
+       "rich-text#home__section--six--title"
+      ],
+      "props":{
+        "blockClass": "home__section--six--title"
+      }
+    },
+    "rich-text#home__section--six--title":{
+      "props":{
+        "text": "**Electrodomésticos**",
+        "textPosition": "CENTER",
+        "blockClass": "home__section--six--title-text"
+      }
+    },
+    "flex-layout.row#home__section--six--images":{
+     "title": "section -images-homeappliances",
+      "children":[
+        "flex-layout.row#home__section--six--images-homeappliances"  
+         
+      ],        
+      "props":{
+        "blockClass": "home__section--six"
+       }
+    },
+    "flex-layout.row#home__section--six--images-homeappliances":{
+      "children":[
+        "flex-layout.col#section__six--image1",
+        "flex-layout.col#section__six--image2",
+        "flex-layout.col#section__six--image3"
+                
+      ]
+    }, 
+    "flex-layout.col#section__six--image1":{
+      "title": "Section six - homeappliances - image1",
+      "children":[
+        "image#section__six--image1",
+        "image#section__six--image4"
+
+      ],
+      "props":{
+        "blockClass": "home__section__six--image"
+      }
+    },
+    "image#section__six--image1":{
+      "title": "Image1 -section six - homeappliances",
+      "props": {
+          "src": "assets/img/lavadoraawh18.jpg",
+          "blockClass": "home__section__six--image",
+          "link":{
+              "url": "/"
+          }
+      }
+    },
+    "flex-layout.col#section__six--image2":{
+      "title": "section six - homeappliances Image2",
+      "children":[
+        "image#section__six--image2",
+        "image#section__six--image5"
+      ],
+      "props":{
+        "blockClass": "home__section__six--image"
+      }
+    },
+    "image#section__six--image2":{
+      "title": "Image2 -section six - homeappliances",
+      "props": {
+          "src": "assets/img/nevera.jpg",
+          "blockClass": "home__section__six--image",
+          "link":{
+              "url": "/"
+          }
+      }
+    },
+    "flex-layout.col#section__six--image3":{
+      "title": "Section six homeappliances",
+      "children":[
+        "image#section__six--image3",
+        "image#section__six--image6"
+      ],
+      "props":{
+        "blockClass": "home__section__six--image"
+      }
+    },
+    "image#section__six--image3":{
+      "title": "Image3 -section six - homeappliances",
+      "props": {
+          "src": "assets/img/lavaseca.jpg",
+          "blockClass": "home__section__six--image",
+          "link":{
+              "url": "/"
+          }
+      }
+    },
+      "image#section__six--image4":{
+        "title": "Image4 -section six - homeappliances",
+        "props": {
+            "src": "assets/img/licuadora.jpg",
+            "blockClass": "home__section__six--image",
+            "link":{
+                "url": "/"
+            }
+        }
+      },     
+      "image#section__six--image5":{
+        "title": "Image5 -section six - homeappliances",
+        "props": {
+            "src": "assets/img/aspiradora.jpg",
+            "blockClass": "home__section__six--image",
+            "link":{
+                "url": "/"
+            }
+        }
+      },      
+      "image#section__six--image6":{
+        "title": "Image4 -section six - homeappliances",
+        "props": {
+            "src": "assets/img/freidorablack.jpg",
+            "blockClass": "home__section__six--image",
+            "link":{
+                "url": "/"
+            }
+        }
+      }
+  }
