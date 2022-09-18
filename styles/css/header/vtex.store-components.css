@@ -1,3 +1,16 @@
-.logoImage--Header__top--logo{
+.logoImage--header__top--logo{ 
     position: absolute;
+    margin-left: 94px;
+    margin-top: 8px;
+    z-index: 5;
+}
+.searchBarContainer :global(.vtex-input-prefix__group){
+    border: solid 1px  #004691;
+    border-radius: 3px;
+}
+.searchBarIcon--header__search--search{
+    color: white;
+    background-color: red;
+    padding: 10px;
+    border-radius: 4px;
 }

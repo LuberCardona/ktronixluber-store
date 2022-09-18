@@ -1,0 +1,13 @@
+.submenuAccordion--category-container{
+    background: white;
+}
+.styledLinkContent--department-name{
+    color: white;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 14px;
+    max-width: max-content;  
+}
+.styledLinkContainer--department-name{
+    padding: 10px;
+    margin: 0px;
+}

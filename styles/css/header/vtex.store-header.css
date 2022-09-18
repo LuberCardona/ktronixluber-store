@@ -1,9 +1,18 @@
-.headerRowBackground--Header__top{
-    background-color: #fff;   
+.headerRowContentContainer--header__desktop--menu{
+    border-top: solid 3px #e63027;
+    background: #004691;
+}
+.headerRowContainer--Header__middle {
+    justify-content: center;
+    margin-left: 240px;
+}
+.headerRowContainer--Header__top{
+    align-items: self-start;
+    justify-content: center;
+}
+.headerRowContentContainer--Header__top{  
+    height: 50px;
 }
 
-.headerRowBackground--header__menu {
-    background-color: #004691
-} 
 
 
