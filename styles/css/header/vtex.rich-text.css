@@ -1,0 +1,10 @@
+.wrapper--header__contact--text{
+    box-shadow: none !important;
+}
+.paragraph--header__contact--text{
+    font-family: Arial,Helvetica,sans-serif;
+    color: #004691;
+    font-size: 14px;
+    line-height: 16px;
+    margin-right: 25px;
+}

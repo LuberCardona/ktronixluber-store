@@ -16,17 +16,22 @@
   "header-layout.desktop":{
    "title": "Header Desktop",
    "children":[
-     "header-row#header__top--one",
-     "header-row#header__top--two",
-     "header-row#header__top--three"
+     "header-row#header__top",
+     "header-row#header__middle",
+     "header-row#header__menu"
    ]
   },
-  "header-row#header__top--one":{
+  "header-row#header__top":{
     "title": "Header superior",
     "children":[    
       "logo#header__top--logo",
       "header-spacer", 
-      "flex-layout.row#header__top--one"
+      "rich-text#televentas",
+      "rich-text#contacto",
+      "rich-text#rastreo",
+      "rich-text#tiendas",
+      "rich-text#catalogo",
+      "rich-text#pqr"
     ],
     "props":{
       "blockClass": "Header__top"
@@ -35,97 +40,70 @@
   "logo#header__top--logo":{
     "title": "Logo",
     "props":{
-      "blockClass":"Header__top--logo",
+      "blockClass":"header__top--logo",
       "url": "assets/img/logo.svg",
       "href": "/"
     }
-  },
-  "flex-layout.row#header__top--one":{
-      "children":[       
-        "flex-layout.row#header__top--one-televentas",
-        "flex-layout.row#header__top--one-contacto",
-        "flex-layout.row#header__top--one-rastreo",
-        "flex-layout.row#header__top--one-tiendas",
-        "flex-layout.row#header__top--one-catalogo",
-        "flex-layout.row#header__top--one-pqr"
-    ],
-    "props":{
-      "horizontalAlign": "right"
-    }
-  },
-  "flex-layout.row#header__top--one-televentas":{
-     "children":["rich-text#televentas"]
-  },
+  }, 
   "rich-text#televentas":{
     "props":{
-      "text": "Televentas: (601) 3649734"  
+      "text": "Televentas: (601) 3649734",
+      "blockClass":"header__contact--text"
     }
   }, 
-  "flex-layout.row#header__top--one-contacto":{
-    "children":["rich-text#contacto"]
-  },
   "rich-text#contacto":{
     "props":{
-      "text": "Atención al cliente: 018000 111 448"      
+      "text": "Atención al cliente: 018000 111 448",
+      "blockClass":"header__contact--text"    
     }
-  }, 
-  "flex-layout.row#header__top--one-rastreo":{
-    "children":["rich-text#rastreo"]
   },
   "rich-text#rastreo":{
     "props":{
-      "text": "Rastrea tu pedido"      
+      "text": "Rastrea tu pedido",
+      "blockClass":"header__contact--text"      
     }
-  }, 
-  "flex-layout.row#header__top--one-tiendas":{
-    "children":["rich-text#tiendas"]
   },
   "rich-text#tiendas":{
     "props":{
-      "text": "Tiendas"      
+      "text": "Tiendas",
+      "blockClass":"header__contact--text"      
     }
-  }, 
-  "flex-layout.row#header__top--one-catalogo":{
-    "children":["rich-text#catalogo"]
   },
   "rich-text#catalogo":{
     "props":{
-      "text": "Catálogo"      
+      "text": "Catálogo",
+      "blockClass":"header__contact--text"     
     }
-  }, 
-  "flex-layout.row#header__top--one-pqr":{
-    "children":["rich-text#pqr"]
   },
   "rich-text#pqr":{
     "props":{
-      "text": "PQR"      
+      "text": "PQR",
+      "blockClass":"header__contact--text"
     }
   }, 
-  "header-row#header__top--two":{
-    "title": "Header inferior",
-    "children":[
-      "header-spacer",
-      "flex-layout.row#header__top--two"
-    ],
-    "props":{
-      "blockClass": "Header__top"
-    }    
-  },
  
-  "flex-layout.row#header__top--two":{
+  "header-row#header__middle":{
     "children":[
       "search-bar#header__search",
       "login",
       "minicart.v2"
-    ]
+    ],
+     "props":{
+     "blockClass": "Header__middle"
+    }
   },
    "search-bar#header__search":{
     "blocks": ["autocomplete-result-list.v2"],
     "props": {
       "openAutocompleteOnFocus": true,
-      "placeholder": "¿Qué buscas hoy?"
+      "placeholder": "¿Qué buscas hoy?",
+      "maxWidth": 500,
+      "blockClass":"header__search"
     }
-  }, 
+  },   
+  "autocomplete-result-list.v2": {
+    "blocks": ["product-summary"]
+  },  
    "login":{
     "props": {
       "emailAndPasswordTitle": "LOG-IN",
@@ -135,14 +113,6 @@
       "showPasswordVerificationIntoTooltip": true,
        "showIconProfile": true
     }
-  },
-  "header-row#header__top--three":{
-    "title": "Header menu",
-      "children":[
-        "drawer#header__menu"
-      ],
-      "props":{
-        "blockClass": "header__menu"
-      }
-  } 
+  }
+ 
 }

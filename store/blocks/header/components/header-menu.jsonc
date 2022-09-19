@@ -1,70 +1,1056 @@
 {
-  "drawer#header__menu":{
+  "header-row#header__menu":{
+    "title": "Header__menu",
     "children":[
-        "vtex.menu@2.x:menu#header__menu--celulares"
-    ],
-    "blocks":[
-        "drawer-trigger"
+      "vtex.menu@2.x:menu#header__menu"
     ],
     "props":{
-      "blockClass": "header__menu--celulares"
-    } 
-  },
-  "drawer-trigger":{
-    "children":[
-      "flex-layout.row#header__menu"       
-    ]
-  },
-  "flex-layout.row#header__menu":{
-    "children":[
-      "rich-text#menu__celulares"
-    ]
-  },
-  "rich-text#menu__celulares":{
-    "props":{
-        "text": "Celulares",
-        "textColor": "c-on-emphasis"
-
+      "blockClass": "header__desktop--menu"
     }
-  }, 
-  "rich-text#menu__compu-impresoras":{
-    "props":{
-        "text": "Computadores e Impresoras",
-        "textColor": "c-on-emphasis"
-
-    }
-  }, 
-  "vtex.menu@2.x:menu#header__menu--celulares":{
+  },
+  "vtex.menu@2.x:menu#header__menu":{
     "children": [
-        "menu-item#department__celulares",
-        "menu-item#department__acc-tablets"
-    ]
-  },
-  "menu-item#department__celulares":{
+      "menu-item#department__celphones--one",
+      "menu-item#department__computers--two",
+      "menu-item#department__tv--three",
+      "menu-item#department__audio--four",
+      "menu-item#department__homeAppliances--five",
+      "menu-item#department__videogames--six",
+      "menu-item#department__cameras--seven",
+      "menu-item#department__homeintelligent--eight",
+      "menu-item#department__accessories--nine"
+    ],
     "props":{
-        "id": "department-celulares",
-        "type": "custom",
-        "itemProps": {
+      "orientation": "horizontal" 
+    }
+   },
+   "menu-item#department__celphones--one":{
+    "props":{
+      "id": "department-celphones--one",
+      "type": "custom",
+      "blockClass":"department-name",  
+      "itemProps": {
         "type": "external",
-        "href": "#",
+        "href": "/",
         "noFollow": true,
         "tagTitle": "Celulares",
         "text": "Celulares"
-        }
-    }
-  },
-  "menu-item#department__acc-tablets":{
+      }
+    },
+    "blocks":["submenu.accordion#department__celphones--one"]
+   },
+   "submenu.accordion#department__celphones--one":{
+     "children":[
+      "menu#department__celphones--one"
+     ],
+     "props":{
+      "blockClass": "category-container"        
+      }
+   },
+   "menu#department__celphones--one":{
+      "children":[
+        "menu-item#category__celphones--one",
+        "menu-item#category__celphones--two",
+        "menu-item#category__celphones--three",
+        "menu-item#category__celphones--four",
+        "menu-item#category__celphones--five"
+
+      ],
+      "props":{
+        "orientation": "vertical"       
+      }
+   },   
+   "menu-item#category__celphones--one":{
     "props":{
-        "id": "department-acc-tablets",
+      "id": "category-celphones-one",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Celulares",
+        "text": "Celulares"
+      }
+    }
+   },
+    "menu-item#category__celphones--two":{
+      "props":{
+        "id": "category-celphones--two",
         "type": "custom",
         "itemProps": {
+          "type": "external",
+          "href": "/",
+          "noFollow": true,
+          "tagTitle": "Accesorios",
+          "text": "Accesorios"
+        }
+      }
+   },
+    "menu-item#category__celphones--three":{
+      "props":{
+        "id": "category-celphones-three",
+        "type": "custom",
+        "itemProps": {
+          "type": "external",
+          "href": "/",
+          "noFollow": true,
+          "tagTitle": "Smartwatch",
+          "text": "Smartwatch"
+          }
+        }
+    },
+    "menu-item#category__celphones--four":{
+      "props":{
+        "id": "category-celphones-four",
+        "type": "custom",
+        "itemProps": {
+          "type": "external",
+          "href": "/",
+          "noFollow": true,
+          "tagTitle": "Tabletas",
+          "text": "Tabletas"
+          }
+        }
+    },
+    "menu-item#category__celphones--five":{
+      "props":{
+        "id": "category-celphones-five",
+        "type": "custom",
+        "itemProps": {
+          "type": "external",
+          "href": "/",
+          "noFollow": true,
+          "tagTitle": "Conoce mas",
+          "text": "Conoce más"
+          }
+        }
+    },
+    
+   "menu-item#department__computers--two":{
+    "props":{
+      "id": "department-computers--two",
+      "type": "custom",
+      "blockClass":"department-name",
+      "itemProps": {
         "type": "external",
-        "href": "#",
+        "href": "/",
         "noFollow": true,
-        "tagTitle": "Accesorios Celulares y Tabletas",
-        "text": "Accesorios Celulares y Tabletas"
+        "tagTitle": "Computadores",
+        "text": "Computadores"
+      }
+    },
+    "blocks":["submenu.accordion#department__computers--two"]
+   },
+   "submenu.accordion#department__computers--two":{
+     "children":[
+      "menu#department__computers--two"
+     ],
+     "props":{
+      "blockClass": "category-container"        
+      }
+   },
+   "menu#department__computers--two":{
+      "children":[
+        "menu-item#category__computers--one",
+        "menu-item#category__computers--two",
+        "menu-item#category__computers--three",
+        "menu-item#category__computers--four",
+        "menu-item#category__computers--five",
+        "menu-item#category__computers--six",
+        "menu-item#category__computers--seven",
+        "menu-item#category__computers--eight",
+        "menu-item#category__computers--nine",
+        "menu-item#category__computers--ten"
+      ],
+      "props":{
+        "orientation": "vertical"
+      }
+   },   
+   "menu-item#category__computers--one":{
+    "props":{
+      "id": "category-computers-one",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Portátiles",
+        "text": "Portátiles"
+      }
+    }
+   },
+    "menu-item#category__computers--two":{
+      "props":{
+        "id": "category-computers--two",
+        "type": "custom",
+        "itemProps": {
+          "type": "external",
+          "href": "/",
+          "noFollow": true,
+          "tagTitle": "Comp Escritorio",
+          "text": "Comp Escritorio"
+        }
+      }
+   },
+    "menu-item#category__computers--three":{
+      "props":{
+        "id": "category-computers-three",
+        "type": "custom",
+        "itemProps": {
+          "type": "external",
+          "href": "/",
+          "noFollow": true,
+          "tagTitle": "Zona Emp",
+          "text": "Zona Emp"
+          }
+        }
+    },
+    "menu-item#category__computers--four":{
+      "props":{
+        "id": "category-computers-four",
+        "type": "custom",
+        "itemProps": {
+          "type": "external",
+          "href": "/",
+          "noFollow": true,
+          "tagTitle": "Complem comp",
+          "text": "Complem comp"
+          }
+        }
+    },
+    "menu-item#category__computers--five":{
+      "props":{
+        "id": "category-computers-five",
+        "type": "custom",
+        "itemProps": {
+          "type": "external",
+          "href": "/",
+          "noFollow": true,
+          "tagTitle": "Tabletas",
+          "text": "Tabletas"
+          }
+        }
+    },
+    "menu-item#category__computers--six":{
+      "props":{
+        "id": "category-computers-six",
+        "type": "custom",
+        "itemProps": {
+          "type": "external",
+          "href": "/",
+          "noFollow": true,
+          "tagTitle": "Zona Gaming",
+          "text": "Zona Gaming"
+          }
+        }
+    },
+    "menu-item#category__computers--seven":{
+      "props":{
+        "id": "category-computers-seven",
+        "type": "custom",
+        "itemProps": {
+          "type": "external",
+          "href": "/",
+          "noFollow": true,
+          "tagTitle": "Impresoras",
+          "text": "Impresoras"
+          }
+        }
+    },
+    "menu-item#category__computers--eight":{
+      "props":{
+        "id": "category-computers-eight",
+        "type": "custom",
+        "itemProps": {
+          "type": "external",
+          "href": "/",
+          "noFollow": true,
+          "tagTitle": "Monitores",
+          "text": "Monitores"
+          }
+        }
+    },
+  "menu-item#category__computers--nine":{
+    "props":{
+      "id": "category-computers-nine",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Proyectores",
+        "text": "Proyectores"
+        }
+      }
+  },
+  "menu-item#category__computers--ten":{
+    "props":{
+      "id": "category-computers-ten",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Tintas y Papel",
+        "text": "Tintas y Papel"
+        }
+      }
+  },
+  "menu-item#department__tv--three":{
+    "props":{
+      "id": "department-tv--three",
+      "type": "custom",
+      "blockClass":"department-name",
+      "itemProps": {
+        "type": "external",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "TV",
+        "text": "TV"
+      }
+    },
+    "blocks":["submenu.accordion#department__tv--three"]
+   },
+   "submenu.accordion#department__tv--three":{
+     "children":[
+      "menu#department__tv--three"
+     ],
+     "props":{
+      "blockClass": "category-container"        
+      }
+   },
+   "menu#department__tv--three":{
+      "children":[
+        "menu-item#category__tv--one",
+        "menu-item#category__tv--two",
+        "menu-item#category__tv--three",
+        "menu-item#category__tv--four",
+        "menu-item#category__tv--five"
+
+      ],
+      "props":{
+        "orientation": "vertical"
+      }
+   },   
+   "menu-item#category__tv--one":{
+    "props":{
+      "id": "category-tv-one",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Televisores",
+        "text": "Televisores"
+      }
+    }
+   },
+    "menu-item#category__tv--two":{
+      "props":{
+        "id": "category-tv--two",
+        "type": "custom",
+        "itemProps": {
+          "type": "external",
+          "href": "/",
+          "noFollow": true,
+          "tagTitle": "Comple de TV",
+          "text": "Comple de TV"
+        }
+      }
+   },
+    "menu-item#category__tv--three":{
+      "props":{
+        "id": "category-tv-three",
+        "type": "custom",
+        "itemProps": {
+          "type": "external",
+          "href": "/",
+          "noFollow": true,
+          "tagTitle": "Accesorios TV",
+          "text": "Accesorios TV"
+          }
+        }
+    },
+    "menu-item#category__tv--four":{
+      "props":{
+        "id": "category-tv-four",
+        "type": "custom",
+        "itemProps": {
+          "type": "external",
+          "href": "/",
+          "noFollow": true,
+          "tagTitle": "Netflix y Pines",
+          "text": "Netflix y Pines"
+          }
+        }
+    },
+    "menu-item#category__tv--five":{
+      "props":{
+        "id": "category-tv-five",
+        "type": "custom",
+        "itemProps": {
+          "type": "external",
+          "href": "/",
+          "noFollow": true,
+          "tagTitle": "Conoce mas",
+          "text": "Conoce más"
+          }
         }
     }
-  }  
- 
+    ,
+    "menu-item#department__audio--four":{
+      "props":{
+        "id": "department-audio--four",
+        "type": "custom",
+        "blockClass":"department-name",
+        "itemProps": {
+          "type": "external",
+          "href": "/",
+          "noFollow": true,
+          "tagTitle": "Audio",
+          "text": "Audio"
+        }
+      },
+      "blocks":["submenu.accordion#department__audio--four"]
+     },
+     "submenu.accordion#department__audio--four":{
+       "children":[
+        "menu#department__audio--four"
+       ],
+       "props":{
+        "blockClass": "category-container"        
+        }
+     },
+     "menu#department__audio--four":{
+        "children":[
+          "menu-item#category__audio--one",
+          "menu-item#category__audio--two",
+          "menu-item#category__audio--three",
+          "menu-item#category__audio--four",
+          "menu-item#category__audio--five",
+          "menu-item#category__audio--six",
+          "menu-item#category__audio--seven",
+          "menu-item#category__audio--eight",
+          "menu-item#category__audio--nine"
+  
+        ],
+        "props":{
+          "orientation": "vertical"
+          //"blockClass": "category-container"
+        }
+     },   
+     "menu-item#category__audio--one":{
+      "props":{
+        "id": "category-audio-one",
+        "type": "custom",
+        "itemProps": {
+          "type": "external",
+          "href": "/",
+          "noFollow": true,
+          "tagTitle": "Audio Hogar",
+          "text": "Audio Hogar"
+        }
+      }
+     },
+      "menu-item#category__audio--two":{
+        "props":{
+          "id": "category-audio--two",
+          "type": "custom",
+          "itemProps": {
+            "type": "external",
+            "href": "/",
+            "noFollow": true,
+            "tagTitle": "Audífonos",
+            "text": "Audífonos"
+          }
+        }
+     },
+      "menu-item#category__audio--three":{
+        "props":{
+          "id": "category-audio-three",
+          "type": "custom",
+          "itemProps": {
+            "type": "external",
+            "href": "/",
+            "noFollow": true,
+            "tagTitle": "Audio Portable",
+            "text": "Audio Portable"
+            }
+          }
+      },
+      "menu-item#category__audio--four":{
+        "props":{
+          "id": "category-audio-four",
+          "type": "custom",
+          "itemProps": {
+            "type": "external",
+            "href": "/",
+            "noFollow": true,
+            "tagTitle": "Car Audio",
+            "text": "Car Audio"
+            }
+          }
+      },
+      "menu-item#category__audio--five":{
+        "props":{
+          "id": "category-audio-five",
+          "type": "custom",
+          "itemProps": {
+            "type": "external",
+            "href": "/",
+            "noFollow": true,
+            "tagTitle": "Accesorios",
+            "text": "Accesorios"
+            }
+          }
+      },
+      "menu-item#category__audio--six":{
+        "props":{
+          "id": "category-audio-six",
+          "type": "custom",
+          "itemProps": {
+            "type": "external",
+            "href": "/",
+            "noFollow": true,
+            "tagTitle": "Bose",
+            "text": "Bose"
+            }
+          }
+      },
+      "menu-item#category__audio--seven":{
+        "props":{
+          "id": "category-audio-seven",
+          "type": "custom",
+          "itemProps": {
+            "type": "external",
+            "href": "/",
+            "noFollow": true,
+            "tagTitle": "Sonos",
+            "text": "Sonos"
+            }
+          }
+      },
+      "menu-item#category__audio--eight":{
+        "props":{
+          "id": "category-audio-eight",
+          "type": "custom",
+          "itemProps": {
+            "type": "external",
+            "href": "/",
+            "noFollow": true,
+            "tagTitle": "Spotify",
+            "text": "Spotify"
+            }
+          }
+      },
+      "menu-item#category__audio--nine":{
+        "props":{
+          "id": "category-audio-nine",
+          "type": "custom",
+          "itemProps": {
+            "type": "external",
+            "href": "/",
+            "noFollow": true,
+            "tagTitle": "Inst musicales",
+            "text": "Inst musicales"
+            }
+          }
+      }
+      ,
+      "menu-item#department__homeAppliances--five":{
+        "props":{
+          "id": "department-homeAppliances--five",
+          "type": "custom",
+          "blockClass":"department-name",
+          "itemProps": {
+            "type": "external",
+            "href": "/",
+            "noFollow": true,
+            "tagTitle": "Electrodomésticos",
+            "text": "Electrodomésticos"
+          }
+        },
+        "blocks":["submenu.accordion#department__homeAppliances--five"]
+       },
+       "submenu.accordion#department__homeAppliances--five":{
+         "children":[
+          "menu#department__homeAppliances--five"
+         ],
+         "props":{
+          "blockClass": "category-container"        
+          }
+       },
+       "menu#department__homeAppliances--five":{
+          "children":[
+            "menu-item#category__homeAppliances--one",
+            "menu-item#category__homeAppliances--two",
+            "menu-item#category__homeAppliances--three",
+            "menu-item#category__homeAppliances--four",
+            "menu-item#category__homeAppliances--five",
+            "menu-item#category__homeAppliances--six",
+            "menu-item#category__homeAppliances--seven",
+            "menu-item#category__homeAppliances--eight",
+            "menu-item#category__homeAppliances--nine"
+    
+          ],
+          "props":{
+            "orientation": "vertical"
+          }
+       },   
+       "menu-item#category__homeAppliances--one":{
+        "props":{
+          "id": "category-homeAppliances-one",
+          "type": "custom",
+          "itemProps": {
+            "type": "external",
+            "href": "/",
+            "noFollow": true,
+            "tagTitle": "Refrigeración",
+            "text": "Refrigeración"
+          }
+        }
+       },
+        "menu-item#category__homeAppliances--two":{
+          "props":{
+            "id": "category-homeAppliances--two",
+            "type": "custom",
+            "itemProps": {
+              "type": "external",
+              "href": "/",
+              "noFollow": true,
+              "tagTitle": "Lavadoras",
+              "text": "Lavadoras"
+            }
+          }
+       },
+        "menu-item#category__homeAppliances--three":{
+          "props":{
+            "id": "category-homeAppliances-three",
+            "type": "custom",
+            "itemProps": {
+              "type": "external",
+              "href": "/",
+              "noFollow": true,
+              "tagTitle": "Cocina",
+              "text": "Cocina"
+              }
+            }
+        },
+        "menu-item#category__homeAppliances--four":{
+          "props":{
+            "id": "category-homeAppliances-four",
+            "type": "custom",
+            "itemProps": {
+              "type": "external",
+              "href": "/",
+              "noFollow": true,
+              "tagTitle": "Prep alimentos",
+              "text": "Prep alimentos"
+              }
+            }
+        },
+        "menu-item#category__homeAppliances--five":{
+          "props":{
+            "id": "category-homeAppliances-five",
+            "type": "custom",
+            "itemProps": {
+              "type": "external",
+              "href": "/",
+              "noFollow": true,
+              "tagTitle": "Climatización",
+              "text": "Climatización"
+              }
+            }
+        },
+        "menu-item#category__homeAppliances--six":{
+          "props":{
+            "id": "category-homeAppliances-six",
+            "type": "custom",
+            "itemProps": {
+              "type": "external",
+              "href": "/",
+              "noFollow": true,
+              "tagTitle": "Cuidado personal",
+              "text": "Cuidado personal"
+              }
+            }
+        },
+        "menu-item#category__homeAppliances--seven":{
+          "props":{
+            "id": "category-homeAppliances-seven",
+            "type": "custom",
+            "itemProps": {
+              "type": "external",
+              "href": "/",
+              "noFollow": true,
+              "tagTitle": "Cuidado de Hogar",
+              "text": "Cuidado de Hogar"
+              }
+            }
+        },
+        "menu-item#category__homeAppliances--eight":{
+          "props":{
+            "id": "category-homeAppliances-eight",
+            "type": "custom",
+            "itemProps": {
+              "type": "external",
+              "href": "/",
+              "noFollow": true,
+              "tagTitle": "Otros Electrohogar",
+              "text": "Otros Electrohogar"
+              }
+            }
+        },
+        "menu-item#category__homeAppliances--nine":{
+          "props":{
+            "id": "category-homeAppliances-nine",
+            "type": "custom",
+            "itemProps": {
+              "type": "external",
+              "href": "/",
+              "noFollow": true,
+              "tagTitle": "Acces y rptos",
+              "text": "Acces y rptos"
+              }
+            }
+        },
+      "menu-item#department__videogames--six":{
+        "props":{
+          "id": "department-videogames--six",
+          "type": "custom",
+          "blockClass":"department-name",
+          "itemProps": {
+            "type": "external",
+            "href": "/",
+            "noFollow": true,
+            "tagTitle": "Videojuegos",
+            "text": "Videojuegos"
+          }
+        },
+        "blocks":["submenu.accordion#department__videogames-six"]         
+      },     
+       
+       "submenu.accordion#department__videogames-six":{
+         "children":[
+          "menu#department__videogames-six"
+         ],
+         "props":{
+          "blockClass": "category-container"        
+          }
+       },
+       "menu#department__videogames-six":{
+          "children":[
+            "menu-item#category__videogames--one",
+            "menu-item#category__videogames--two",
+            "menu-item#category__videogames--three",
+            "menu-item#category__videogames--four",
+            "menu-item#category__videogames--five",
+            "menu-item#category__videogames--two",
+            "menu-item#category__videogames--six",
+            "menu-item#category__videogames--seven",
+            "menu-item#category__videogames--eight",
+            "menu-item#category__videogames--nine"
+    
+          ],
+          "props":{
+            "orientation": "vertical"
+          }
+       },   
+       "menu-item#category__videogames--one":{
+        "props":{
+          "id": "category-videogames-one",
+          "type": "custom",
+          "itemProps": {
+            "type": "external",
+            "href": "/",
+            "noFollow": true,
+            "tagTitle": "Consolas",
+            "text": "Consolas"
+          }
+        }
+       },
+        "menu-item#category__videogames--two":{
+          "props":{
+            "id": "category-videogames--two",
+            "type": "custom",
+            "itemProps": {
+              "type": "external",
+              "href": "/",
+              "noFollow": true,
+              "tagTitle": "Videojuegos",
+              "text": "Videojuegos"
+            }
+          }
+       },
+        "menu-item#category__videogames--three":{
+          "props":{
+            "id": "category-videogames-three",
+            "type": "custom",
+            "itemProps": {
+              "type": "external",
+              "href": "/",
+              "noFollow": true,
+              "tagTitle": "Controles",
+              "text": "Controles"
+              }
+            }
+        },
+        "menu-item#category__videogames--four":{
+          "props":{
+            "id": "category-videogames-four",
+            "type": "custom",
+            "itemProps": {
+              "type": "external",
+              "href": "/",
+              "noFollow": true,
+              "tagTitle": "Membresías",
+              "text": "Membresías"
+              }
+            }
+        },
+        "menu-item#category__videogames--five":{
+          "props":{
+            "id": "category-videogames-five",
+            "type": "custom",
+            "itemProps": {
+              "type": "external",
+              "href": "/",
+              "noFollow": true,
+              "tagTitle": "PC Gaming",
+              "text": "PC Gaming"
+              }
+            }
+        },
+        "menu-item#category__videogames--six":{
+          "props":{
+            "id": "category-videogames-six",
+            "type": "custom",
+            "itemProps": {
+              "type": "external",
+              "href": "/",
+              "noFollow": true,
+              "tagTitle": "XBOX",
+              "text": "XBOX"
+              }
+            }
+        },
+        "menu-item#category__videogames--seven":{
+          "props":{
+            "id": "category-videogames-seven",
+            "type": "custom",
+            "itemProps": {
+              "type": "external",
+              "href": "/",
+              "noFollow": true,
+              "tagTitle": "PlayStation",
+              "text": "PlayStation"
+              }
+            }
+        },
+        "menu-item#category__videogames--eight":{
+          "props":{
+            "id": "category-videogames-eight",
+            "type": "custom",
+            "itemProps": {
+              "type": "external",
+              "href": "/",
+              "noFollow": true,
+              "tagTitle": "Nintendo",
+              "text": "Nintendo"
+              }
+            }
+        },
+        "menu-item#category__videogames--nine":{
+          "props":{
+            "id": "category-videogames-nine",
+            "type": "custom",
+            "itemProps": {
+              "type": "external",
+              "href": "/",
+              "noFollow": true,
+              "tagTitle": "Coleccionables",
+              "text": "Coleccionables"
+              }
+            }
+        },
+
+      "menu-item#department__cameras--seven":{
+        "props":{
+          "id": "department-cameras--seven",
+          "type": "custom",
+          "blockClass":"department-name",
+          "itemProps": {
+            "type": "external",
+            "href": "/",
+            "noFollow": true,
+            "tagTitle": "Cámaras",
+            "text": "Cámaras"
+          }
+        },
+        "blocks":["submenu.accordion#department__cameras-seven"]        
+      },      
+       
+       "submenu.accordion#department__cameras-seven":{
+         "children":[
+          "menu#department__cameras-seven"
+         ],
+         "props":{
+          "blockClass": "category-container"        
+          }
+       },
+       "menu#department__cameras-seven":{
+          "children":[
+            "menu-item#category__cameras--one",
+            "menu-item#category__cameras--two"
+          ],
+          "props":{
+            "orientation": "vertical"
+          }
+          },
+          "menu-item#category__cameras--one":{
+            "props":{
+              "id": "category-cameras-one",
+              "type": "custom",
+              "itemProps": {
+                "type": "external",
+                "href": "/",
+                "noFollow": true,
+                "tagTitle": "Cámaras",
+                "text": "Cámaras"
+              }
+            }
+           },
+            "menu-item#category__cameras--two":{
+              "props":{
+                "id": "category-cameras--two",
+                "type": "custom",
+                "itemProps": {
+                  "type": "external",
+                  "href": "/",
+                  "noFollow": true,
+                  "tagTitle": "Accesorios cámaras",
+                  "text": "Accesorios"
+                }
+              }
+           },
+
+      "menu-item#department__homeintelligent--eight":{
+        "props":{
+          "id": "department-homeintelligent--eight",
+          "type": "custom",
+          "blockClass":"department-name",
+          "itemProps": {
+            "type": "external",
+            "href": "/",
+            "noFollow": true,
+            "tagTitle": "Casa Inteligente",
+            "text": "Casa Inteligente"
+          }
+        }   ,
+        "blocks":["submenu.accordion#department__homeintelligent-eight"]         
+      },
+      "submenu.accordion#department__homeintelligent-eight":{
+        "children":[
+         "menu#department__homeintelligent-eight"
+        ],
+        "props":{
+         "blockClass": "category-container"        
+         }
+      },
+      "menu#department__homeintelligent-eight":{
+         "children":[
+           "menu-item#category__homeintelligent--one",
+           "menu-item#category__homeintelligent--two"
+         ],
+         "props":{
+           "orientation": "vertical"
+         }
+         },
+         "menu-item#category__homeintelligent--one":{
+           "props":{
+             "id": "category-cameras-one",
+             "type": "custom",
+             "itemProps": {
+               "type": "external",
+               "href": "/",
+               "noFollow": true,
+               "tagTitle": "Redes y wifi",
+              "text": "Redes"
+             }
+           }
+          },
+           "menu-item#category__homeintelligent--two":{
+             "props":{
+               "id": "category-homeintelligent--two",
+               "type": "custom",
+               "itemProps": {
+                 "type": "external",
+                 "href": "/",
+                 "noFollow": true,
+                 "tagTitle": "Iluminacion y electricidad",
+                 "text": "Iluminacion"
+               }
+             }
+          },
+
+
+      "menu-item#department__accessories--nine":{
+        "props":{
+          "id": "department-accessories--nine",
+          "type": "custom",
+          "blockClass":"department-name",
+          "itemProps": {
+            "type": "external",
+            "href": "/",
+            "noFollow": true,
+            "tagTitle": "Accesorios",
+            "text": "Accesorios"
+          }
+        },
+        "blocks":["submenu.accordion#department__accessories-nine"]         
+      },
+      "submenu.accordion#department__accessories-nine":{
+        "children":[
+         "menu#department__accessories-nine"
+        ],
+        "props":{
+         "blockClass": "category-container"        
+         }
+      },
+      "menu#department__accessories-nine":{
+         "children":[
+           "menu-item#category__accessories--one",
+           "menu-item#category__accessories--two"
+         ],
+         "props":{
+           "orientation": "vertical"
+           //"blockClass": "category-container" 
+         }
+         },
+         "menu-item#category__accessories--one":{
+           "props":{
+             "id": "category-accessories-one",
+             "type": "custom",
+             "itemProps": {
+               "type": "external",
+               "href": "/",
+               "noFollow": true,
+               "tagTitle": "Accesorios cel",
+              "text": "Accesorios"
+             }
+           }
+          },
+           "menu-item#category__accessories--two":{
+             "props":{
+               "id": "category-accessories--two",
+               "type": "custom",
+               "itemProps": {
+                 "type": "external",
+                 "href": "/",
+                 "noFollow": true,
+                 "tagTitle": "Accesorios comp",
+                 "text": "Accesorios comp"
+               }
+             }
+          }
 }
