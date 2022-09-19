@@ -10,6 +10,7 @@
       "flex-layout.row#footer__container--contacto",
       "flex-layout.row#footer__container--mediosdepago-text",
       "flex-layout.row#footer__container--mediosdepago",
+     // "disclosure-layout-group#footer__menu--politicas",
       "flex-layout.row#footer__container--socialmedia"
     ],
     "props":{
@@ -19,13 +20,16 @@
   "flex-layout.row#footer__container--contacto":{
     "title": "Section 1 contacto-footer",
     "children":[
-      "flex-layout.row#footer__container--contacto-1"
+      //"flex-layout.row#footer__container--contacto-1"
+      "flex-layout.col#footer__container--contacto-col-one",
+      "flex-layout.col#footer__container--contacto-col-two",
+      "flex-layout.col#footer__container--contacto-col-three"
     ],
     "props":{
       "blockClass": "footer__container--contacto"
     }
   },
-  "flex-layout.row#footer__container--contacto-1":{
+  /* "flex-layout.row#footer__container--contacto-1":{
     "children":[
       "flex-layout.col#footer__container--contacto-col-one",
       "flex-layout.col#footer__container--contacto-col-two",
@@ -35,7 +39,7 @@
       "blockClass": "footer__container--contacto1"
     }
     
-  },
+  }, */
   "flex-layout.col#footer__container--contacto-col-one":{
       "children":[
        "image#footer__container--contacto-col-one",
@@ -48,25 +52,22 @@
 
   "rich-text#footer__container--contacto-col-one":{
     "props":{
-      "text": "**Sobre Nosotros**",
+      "text": "Sobre Nosotros",
       "textPosition": "CENTER",
-      "textColor": "c-on-emphasis",
-      "blockClass": "rich-text__footer__container--contacto"
+      "blockClass": "rich-text__footer__container--contacto-title"
     }
   },
   "rich-text#footer__container--razonsocial-col-one":{
     "props":{
       "text": "**Colombiana de Comercio S.A.**",
       "textPosition": "CENTER",
-      "textColor": "c-on-emphasis",
-      "blockClass": "rich-text__footer__container--contacto"
+      "blockClass": "rich-text__footer__container--contacto-razonsocial"
     }
   },
   "rich-text#footer__container--nit-col-one":{
     "props":{
       "text": "Nit:890.900.943-1",
       "textPosition": "CENTER",
-      "textColor": "c-on-emphasis",
       "blockClass": "rich-text__footer__container--contacto"
     }
   },
@@ -75,22 +76,23 @@
       "image#footer__container--contacto-col-two",
       "rich-text#footer__container--contacto-col-two",
       "rich-text#footer__container--email-col-two"
-    ]
+    ],
+    "props":{
+      "blockClass":"footer__container--contacto-col"
+    }
   },
   "rich-text#footer__container--contacto-col-two":{
     "props":{
-      "text": "**Email**",
+      "text": "Email",
       "textPosition": "CENTER",
-      "textColor": "c-on-emphasis",
-      "blockClass": "rich-text__footer__container--contacto"
+      "blockClass": "rich-text__footer__container--contacto-title-email"
     }
   },
   "rich-text#footer__container--email-col-two":{
     "props":{
       "text": "sugerencias@ktronix.com",
       "textPosition": "CENTER",
-      "textColor": "c-on-emphasis",
-      "blockClass": "rich-text__footer__container--contacto"
+      "blockClass": "rich-text__footer__container--contacto-email"
     }
   },
   "flex-layout.col#footer__container--contacto-col-three":{
@@ -103,17 +105,15 @@
   },
   "rich-text#footer__container--contacto-col-three":{
     "props":{
-      "text": "**Venta telefónica**",
+      "text": "Venta telefónica",
       "textPosition": "CENTER",
-      "textColor": "c-on-emphasis",
-      "blockClass": "rich-text__footer__container--contacto"
+      "blockClass": "rich-text__footer__container--contacto-title"
     }
   },
   "rich-text#footer__container--serv-cliente-col-three":{
     "props":{
-      "text": "Servicio al Cliente: (601) 4073033",
+      "text": "Servicio al Cliente:(601) 4073033",
       "textPosition": "CENTER",
-      "textColor": "c-on-emphasis",
       "blockClass": "rich-text__footer__container--contacto"
     }
   },
@@ -121,7 +121,6 @@
     "props":{
       "text": "Venta Telefónica: (601) 7468001",
       "textPosition": "CENTER",
-      "textColor": "c-on-emphasis",
       "blockClass": "rich-text__footer__container--contacto"
     }
   }, 
@@ -144,7 +143,7 @@
     "props":{
       "text": "Medios de pago aceptados",
       "textPosition": "LEFT",
-      "textColor": "c-on-emphasis"
+      "blockClass":"footer__container--mediosdepago-text"
     }
   },
   "flex-layout.row#footer__container--mediosdepago-img":{
@@ -245,16 +244,65 @@
         "blockClass": "footer__container--mediosdepago-card"
     }
   },
+  "disclosure-layout-group#footer__menu--politicas":{
+    "title":"Terms and conditions",
+    "children": [
+      "disclosure-layout#policies"
+    ]
+  },
+  "disclosure-layout#policies":{
+    "children":[
+      "disclosure-trigger#policies",
+      "disclosure-content#policies"
+    ]
+  }, 
+  "disclosure-trigger#policies":{
+    "children":[
+      "rich-text#policies"
+    ]
+  }, 
+  "rich-text#policies":{
+    "props":{
+      "text": "Términos y Condiciones Ofertas de Medios de pago"
+    }
+  }, 
+  "disclosure-content#policies":{
+    "children":[
+      "menu#policies" 
+    ]
+  },  
+  "menu#policies":{
+    "children":[
+      "menu-item#terms-and-conds"
+    ],
+    "props":{
+      "orientation": "vertical"
+    }
+  }, 
+  "menu-item#terms-and-conds":{
+    "props": {
+      "id": "terms-and-conds",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "tagTitle": "Términos y condiciones",
+        "text": "Legal: Máximo 3 unidades por cliente con cualquier medio de pago (Para consolas máximo 1 unidad por referencia)"
+      }
+    }
+  },
+
   "flex-layout.row#footer__container--socialmedia":{
     "title": "social media",
     "children":[
-      "flex-layout.row#footer__container--socialmedia-text-icons"     
+    "flex-layout.row#footer__container--socialmedia-text-icons"     
+     
   ],
   "props":{
     "blockClass": "footer__container--socialmedia"
   }
   },
-  "flex-layout.row#footer__container--socialmedia-text-icons":{
+   "flex-layout.row#footer__container--socialmedia-text-icons":{
     "children":[
       "rich-text#footer__container--socialmedia",
       "social-networks"
@@ -262,7 +310,7 @@
      "props":{
       "blockClass": "footer__container--socialmedia-text-icons"
     }
-  },
+  }, 
   "rich-text#footer__container--socialmedia":{
     "props":{
       "text": "Síguenos en:",
