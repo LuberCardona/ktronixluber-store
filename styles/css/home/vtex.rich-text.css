@@ -9,7 +9,8 @@
 .wrapper--home__section--six--title-text,
 .wrapper--home__section--seven--title-text,
 .wrapper--home__section--eight--title-text,
-.wrapper--home__section--nine--title-text{
+.wrapper--home__section--nine--title-text,
+.wrapper--home__section--ten--title-text{
     margin-bottom: 2px;
     box-shadow: 0px 4px #e63027;
 }
@@ -20,10 +21,17 @@
 .paragraph--home__section--six--title-text,
 .paragraph--home__section--seven--title-text,
 .paragraph--home__section--eight--title-text,
-.paragraph--home__section--nine--title-text{
+.paragraph--home__section--nine--title-text,
+.paragraph--home__section--ten--title-text{
     margin: 4px 0px 4px 0px;
     color: #004691;
 }
-
+.wrapper--home__section--banner--one-1-text{
+    font-size: 14px;
+    font-family: Arial,Helvetica,sans-serif;
+}
+.container--home__section--banner--one-1-text{
+    width: 230px;
+}
 
 

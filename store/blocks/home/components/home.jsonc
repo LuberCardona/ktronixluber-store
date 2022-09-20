@@ -4,10 +4,12 @@
       "flex-layout.row#home__section--one",
       "flex-layout.row#home__section--two--title",
       "flex-layout.row#home__section--two--images",
+      "flex-layout.row#home__section--banner--one",
       "flex-layout.row#home__section--three--title",
       "flex-layout.row#home__section--three--images",
       "flex-layout.row#home__section--four--title",
       "flex-layout.row#home__section--four--images",
+      "flex-layout.row#home__section--banner--two",
       "flex-layout.row#home__section--five--title",
       "flex-layout.row#home__section--five--images",
       "flex-layout.row#home__section--six--title",
@@ -17,12 +19,14 @@
       "flex-layout.row#home__section--eight--title",
       "flex-layout.row#home__section--eight--images",
       "flex-layout.row#home__section--nine--title",
-      "flex-layout.row#home__section--nine--images"
+      "flex-layout.row#home__section--nine--images",
+      "flex-layout.row#home__section--ten--title",
+      "flex-layout.row#home__section--ten--images"
     ]
   },
 
-
   "flex-layout.row#home__section--one":{
+    "title":"slider",
     "children":[
       "slider-layout#home__section--one-slider",
       "flex-layout.row#home__section--one-department"
