@@ -1,0 +1,146 @@
+{
+    "flex-layout.row#home__section--banner--one":{
+        "title":"home__banner--one",
+        "children":[
+            "flex-layout.row#home__section--banner--one-1",
+            "flex-layout.row#home__section--banner--one-2",
+            "flex-layout.row#home__section--banner--one-3",
+            "flex-layout.row#home__section--banner--one-4"
+        ],
+        "props": {            
+            "blockClass": "home__section--banner--one",
+            "colsizing": "auto"     
+            
+        }
+
+    },
+    "flex-layout.row#home__section--banner--one-1":{
+        "children":[
+            "flex-layout.col#home__section--banner--one-1-img",
+            "flex-layout.col#home__section--banner--one-1-text"
+        ],
+        "props": {   
+            "colsizing": "auto",
+            "blockClass": "container__banner--img" 
+        }        
+    },
+    "flex-layout.col#home__section--banner--one-1-img":{
+        "children":["image#home__section--banner--one-1"]
+    },
+    "image#home__section--banner--one-1":{
+        "props": {
+            "src": "assets/img/envio.svg",
+            "blockClass": "banner__one--img"
+        }
+    },
+    "flex-layout.col#home__section--banner--one-1-text":{
+        "children":["rich-text#home__section--banner--one-1"]
+    },
+
+    "rich-text#home__section--banner--one-1":{
+        "props":{
+            "text":"Envío Gratis a 600 municipios",
+            "blockClass":"home__section--banner--one-1-text"
+        }
+    },
+    "flex-layout.row#home__section--banner--one-2":{
+        "children":[
+            "flex-layout.col#home__section--banner--one-2-img",
+            "flex-layout.col#home__section--banner--one-2-text"
+        ],
+        "props": {   
+            "colsizing": "auto",
+            "blockClass": "container__banner--img" 
+        }        
+    },
+    "flex-layout.col#home__section--banner--one-2-img":{
+        "children":["image#home__section--banner--one-2"]
+    },
+    "flex-layout.col#home__section--banner--one-2-text":{
+        "children":["rich-text#home__section--banner--one-2"]
+    },
+    "image#home__section--banner--one-2":{
+        "props": {
+            "src": "assets/img/gana-50.svg",
+            "blockClass": "banner__one--img"
+        }
+    },
+    "rich-text#home__section--banner--one-2":{
+        "props":{
+            "text":"Gana la mitad de tu compra",
+            "blockClass":"home__section--banner--one-1-text"
+        }
+    },
+    "flex-layout.row#home__section--banner--one-3":{
+        "children":[
+            "flex-layout.col#home__section--banner--one-3-img",
+            "flex-layout.col#home__section--banner--one-3-text"
+        ],
+        "props": {   
+            "colsizing": "auto",
+            "blockClass": "container__banner--img"    
+        }  
+    },
+    "flex-layout.col#home__section--banner--one-3-img":{
+        "children":["image#home__section--banner--one-3"]
+    },
+    "flex-layout.col#home__section--banner--one-3-text":{
+        "children":["rich-text#home__section--banner--one-3"]
+    },
+    "image#home__section--banner--one-3":{
+        "props": {
+            "src": "assets/img/tienda.svg",
+            "blockClass": "banner__one--img"
+        }
+    },
+    "rich-text#home__section--banner--one-3":{
+        "props":{
+            "text":"Compra en línea y recoge en tienda",
+            "blockClass":"home__section--banner--one-1-text"
+        }
+    },
+    "flex-layout.row#home__section--banner--one-4":{
+        "children":[
+            "flex-layout.col#home__section--banner--one-4-img",
+            "flex-layout.col#home__section--banner--one-4-text"           
+        ],
+        "props": {   
+            "colsizing": "auto",
+            "blockClass": "container__banner--img"    
+        }  
+    },
+    "flex-layout.col#home__section--banner--one-4-img":{
+        "children":["image#home__section--banner--one-4"]
+    },
+    "flex-layout.col#home__section--banner--one-4-text":{
+        "children":["rich-text#home__section--banner--one-4"]
+    },
+    "image#home__section--banner--one-4":{
+        "props": {
+            "src": "assets/img/calendario.svg",
+            "blockClass": "banner__one--img"
+        }
+    },
+    "rich-text#home__section--banner--one-4":{
+        "props":{
+            "text":"Tiempos de cambios y devoluciones",
+            "blockClass":"home__section--banner--one-1-text"
+        }
+    },
+
+    "flex-layout.row#home__section--banner--two":{
+        "title":"home__banner--two",
+        "children":[
+            "image#home__section--banner--two"
+        ],
+        "props": {   
+            "colsizing": "auto"  
+        }  
+    },
+    "image#home__section--banner--two":{
+        "props": {
+            "src": "assets/img/img-banner2.jpg",
+            "blockClass": "banner__two--img"
+        }
+    }
+}

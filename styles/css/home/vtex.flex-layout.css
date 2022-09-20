@@ -15,7 +15,8 @@
 .flexRowContent--home__section--six--title,
 .flexRowContent--home__section--seven--title,
 .flexRowContent--home__section--eight--title,
-.flexRowContent--home__section--nine--title{
+.flexRowContent--home__section--nine--title,
+.flexRowContent--home__section--ten--title{
     border-bottom: solid 1px #e0e0e0; 
     max-width: 1280px;
 }
@@ -35,7 +36,8 @@
 .flexRow--home__section--six--title,
 .flexRow--home__section--seven--title,
 .flexRow--home__section--eight--title,
-.flexRow--home__section--nine--title{
+.flexRow--home__section--nine--title,
+.flexRow--home__section--ten--title{
     text-align: -webkit-center;
     padding-top:20px;
 }
@@ -84,3 +86,11 @@
 .flexCol--home__section__six--image{    
     margin-top: 20px
 } 
+.flexRow--home__section--banner--one{
+    background: #EBEBEB;
+    padding: 0 42px 0 60px;
+    margin-top: 15px;
+}
+.flexRowContent--container__banner--img{
+    width: 100px;
+}
