@@ -37,6 +37,19 @@
                 "attributeNoFollow": false
             }
         }
-    }     
+    },
+    "image#footer__container--policies":{
+        "title": "Image policies",
+        "props": {
+            "src": "assets/img/Logo-tuya.png",
+            "title:": "Img policies",
+            "blockClass": "footer__image--policies",
+            "link":{
+                "url": "#",
+                "newTab": false,
+                "attributeNoFollow": false
+            }
+        }
+    }        
 
 }
