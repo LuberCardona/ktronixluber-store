@@ -1,4 +1,4 @@
-{
+{    
     "slider-layout#home__section--one-slider":{
     "title": "Slider con hijos declarados",
     "props":{

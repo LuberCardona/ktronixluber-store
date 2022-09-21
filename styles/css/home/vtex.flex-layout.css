@@ -102,3 +102,16 @@
 .flexRowContent--home__section--ten {
     margin-bottom: 40px;
 }
+.flexRowContent--home__section--one-department-images{ 
+    flex-wrap: wrap;
+}
+.flexRowContent--home__section--one-slider-departments{ 
+    margin-top: 30px;
+}
+.flexRowContent--home__section--one-departments{
+    justify-content: center;
+}
+.flexCol--home__section--one-col-departments{ 
+    align-items: center;
+    margin: 15px
+}

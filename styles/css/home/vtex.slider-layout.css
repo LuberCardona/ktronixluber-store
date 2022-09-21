@@ -6,7 +6,6 @@
 .paginationDotsContainer--home__slider{
     transform: translateY(-15px);
 }
-
-/* .imageElement--home__slider{
-    max-height: initial !important;
-} */
+.sliderLayoutContainer--home__slider{ 
+    margin-left: 35px;
+}
