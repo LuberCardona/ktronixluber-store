@@ -2,7 +2,8 @@
     "flex-layout.row#home__section--one":{
       "title":"slider",
       "children":[
-          "slider-layout#home__section--one-slider",
+         //"slider-layout#home__section--one-slider",
+         "list-context.product-list#slider",
           "flex-layout.row#home__section--one-department"
       ],
       "props":{
