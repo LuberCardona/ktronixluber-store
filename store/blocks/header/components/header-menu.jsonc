@@ -17,8 +17,8 @@
       "menu-item#department__homeAppliances--five",
       "menu-item#department__videogames--six",
       "menu-item#department__cameras--seven",
-      "menu-item#department__homeintelligent--eight",
-      "menu-item#department__accessories--nine"
+      "menu-item#department__homeintelligent--eight"
+     // "menu-item#department__accessories--nine"
     ],
     "props":{
       "orientation": "horizontal" 

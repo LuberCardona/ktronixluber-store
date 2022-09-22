@@ -86,7 +86,7 @@
   "search-content#results__content--products":{
     "blocks":[
       "gallery#department",
-      "not-found"
+       "not-found"
     ]
   },
   "gallery#department":{
