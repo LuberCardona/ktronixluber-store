@@ -4,7 +4,7 @@
       "product-summary-image",
       "product-summary-name",
       "product-summary-price",
-      "product-summary-buy-button"
+      "add-to-cart-button"
     ]
   },
   "list-context.product-list#slider": {
