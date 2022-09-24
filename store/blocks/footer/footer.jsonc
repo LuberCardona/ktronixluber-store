@@ -377,7 +377,7 @@
   },
   "rich-text#footer__container--links-col-one-link1":{
     "props":{
-      "text":"Conócenos",
+      "text":"[Conócenos](/)",
       "blockClass":"links-footer"
     }
   },

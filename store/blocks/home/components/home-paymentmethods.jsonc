@@ -44,7 +44,9 @@
     "flex-layout.col#section__ten--image1":{
       "title": "Section nine - payment-methods - image1",
       "children":[
-        "image#section__ten--image1"
+        "image#section__ten--image1",
+        "rich-text#section__ten--image1-text1",
+        "rich-text#section__ten--image1-text2"
       ],
       "props":{
         "blockClass": "home__section__ten--image"
@@ -60,10 +62,24 @@
           }
       }
     },
+    "rich-text#section__ten--image1-text1":{
+      "props":{
+        "text":"**Tarjeta Alkosto Mastercard**",
+        "blockClass":"section__ten--text1"
+      }
+    },
+    "rich-text#section__ten--image1-text2":{
+      "props":{
+        "text":"Conoce las ofertas",
+        "blockClass":"section__ten--text2"
+      }
+    },
     "flex-layout.col#section__ten--image2":{
       "title": "section ten - payment-methods Image2",
       "children":[
-        "image#section__ten--image2"
+        "image#section__ten--image2",
+        "rich-text#section__ten--image2-text1",
+        "rich-text#section__ten--image2-text2"
       ],
       "props":{
         "blockClass": "home__section__ten--image"
@@ -79,10 +95,24 @@
           }
       }
     },
+    "rich-text#section__ten--image2-text1":{
+      "props":{
+        "text":"**Tarjeta de Crédito Fácil Codensa**",
+        "blockClass":"section__ten--text1"
+      }
+    },
+    "rich-text#section__ten--image2-text2":{
+      "props":{
+        "text":"Conoce las ofertas",
+        "blockClass":"section__ten--text2"
+      }
+    },
     "flex-layout.col#section__ten--image3":{
       "title": "Section ten payment-methods",
       "children":[
-        "image#section__ten--image3"
+        "image#section__ten--image3",
+        "rich-text#section__ten--image3-text1",
+        "rich-text#section__ten--image3-text2"
       ],
       "props":{
         "blockClass": "home__section__ten--image"
@@ -98,15 +128,29 @@
           }
       }
     },
+    "rich-text#section__ten--image3-text1":{
+      "props":{
+        "text":"**Conoce aquí nuestro plan 0 es 3**",
+        "blockClass":"section__ten--text1"
+      }
+    },
+    "rich-text#section__ten--image3-text2":{
+      "props":{
+        "text":"en equipos Aple",
+        "blockClass":"section__ten--text2"
+      }
+    },
     "flex-layout.col#section__ten--image4":{
       "title": "Section ten payment-methods",
       "children":[
-        "image#section__ten--image4"
+        "image#section__ten--image4",
+        "rich-text#section__ten--image4-text1",
+        "rich-text#section__ten--image4-text2"
       ],
       "props":{
         "blockClass": "home__section__ten--image"
       }
-    },
+    },    
     "image#section__ten--image4":{
       "title": "Image4 -section ten - payment-methods",
       "props": {
@@ -115,6 +159,18 @@
           "link":{
               "url": "/"
           }
+      }
+    },
+    "rich-text#section__ten--image4-text1":{
+      "props":{
+        "text":"**Solicita aquí tu**",
+        "blockClass":"section__ten--text1"
+      }
+    },
+    "rich-text#section__ten--image4-text2":{
+      "props":{
+        "text":"Krédito en 20 Minutos",
+        "blockClass":"section__ten--text2"
       }
     }
   }

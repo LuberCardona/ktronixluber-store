@@ -33,5 +33,28 @@
 .container--home__section--banner--one-1-text{
     width: 230px;
 }
-
+.wrapper--section__ten--text1{
+    font-size: 16px;
+    color: #444444;
+    margin-bottom: 0;
+    margin-top: 16px;
+    font-family: inherit;
+}
+.paragraph--section__ten--text1{
+    margin: 0px;
+    line-height: 1;
+}
+.paragraph--section__ten--text2{
+    font-size: 14px;
+    color: #e63027;
+    text-decoration: underline;
+    font-weight: normal;
+    margin: 0;
+}
+.paragraph--home_section-one-departmentName{ 
+    line-height: 0.5;
+    font-size: 14px;
+    color: #004691;
+    font-family: Arial,Helvetica,sans-serif; 
+}
 

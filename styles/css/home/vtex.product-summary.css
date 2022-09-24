@@ -1,0 +1,9 @@
+.image{
+    width: 230px;
+    height: 178px;
+}
+.containerNormal{
+    border: solid 1px #004691;;
+    padding: 15px;
+    box-shadow: 1px 1px 10px 1px #004691;
+}

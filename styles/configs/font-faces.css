@@ -1,0 +1,18 @@
+/* @font-face {
+    font-family: 'sans-serif';
+    src: url(assets/fonts/sans-serif-Bold.woff2), url(assets/fonts/sans-serif-Bold.ttf);
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'sans-serif';
+    src: url(assets/fonts/sans-serif-Light.woff2), url(assets/fonts/sans-serif-Light.ttf);
+    font-weight: lighter;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'sans-serif';
+    src: url(assets/fonts/sans-serif-Light.woff2), url(assets/fonts/sans-serif-Light.ttf);
+    /*font-weight: Regular;/* 
+     font-style: normal ;
+} */
