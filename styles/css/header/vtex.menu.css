@@ -3,7 +3,7 @@
 }
 .styledLinkContent--department-name{
     color: white;
-    font-family: Arial,Helvetica,sans-serif;
+    /* font-family: Arial,Helvetica,sans-serif; */
     font-size: 14px;
     max-width: max-content;  
 }
