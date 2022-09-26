@@ -1,14 +1,14 @@
 .paragraph--rich-text__footer__container--contacto,
 .link--rich-text__footer__container--contacto-email{
     margin: 0px;
-    font-family: Arial,Helvetica,sans-serif;
+   /*  font-family: Arial,Helvetica,sans-serif; */
     font-size: 12px;
     line-height: 0.3;
 }
 .paragraph--rich-text__footer__container--contacto-title{
     font-size: 16px;
     color: #fff;
-    font-family: Arial,Helvetica,sans-serif;
+   /*  font-family: Arial,Helvetica,sans-serif; */
     line-height: 0.3;
     
 }
@@ -17,7 +17,7 @@
     color: #929292;
 }
 .paragraph--rich-text__footer__container--contacto-razonsocial{
-    font-family: Arial,Helvetica,sans-serif;
+    /* font-family: Arial,Helvetica,sans-serif; */
     font-size: 12px;
     color: #fff;
     line-height: 0.3;
@@ -27,7 +27,7 @@
     border-right: solid 1px white;
     font-size: 16px;
     color: #fff;
-    font-family: Arial,Helvetica,sans-serif;
+   /*  font-family: Arial,Helvetica,sans-serif; */
     line-height: 0.3;
 }
 
@@ -47,13 +47,13 @@
 .paragraph--policies__content-text{
     font-size: 12px;
     color: #929292;
-    font-family: Arial,Helvetica,sans-serif;
+   /*  font-family: Arial,Helvetica,sans-serif; */
     margin-left: 80px;
 }
  .paragraph--policies__content-text-2{
     font-size: 12px;
     color: #929292;
-    font-family: Arial,Helvetica,sans-serif;
+    /* font-family: Arial,Helvetica,sans-serif; */
     margin-right: 63px;
     text-align: justify;
     transform: translateX(-30px);
@@ -61,7 +61,7 @@
  .paragraph--policies__content-text-3{
     font-size: 12px;
     color: #929292;
-    font-family: Arial,Helvetica,sans-serif;
+   /*  font-family: Arial,Helvetica,sans-serif; */
     margin: 1px 80px 1px 80px;
     text-align: justify;
  }
@@ -75,19 +75,19 @@
     margin: 15px 80px 40px 80px;
     font-size: 12px;
     color: #929292;
-    font-family: Arial,Helvetica,sans-serif;
+    /* font-family: Arial,Helvetica,sans-serif; */
     text-align: justify;
  }
  .paragraph--links-title{
     font-size: 18px;
     color: #fcfcfc;
-    font-family: Arial,Helvetica,sans-serif;
+   /*  font-family: Arial,Helvetica,sans-serif; */
  }
  .wrapper--links-footer{
     color: #929292;
     font-size: 12px;
     font-weight: 400;
-    font-family: Arial,Helvetica,sans-serif;
+    /* font-family: Arial,Helvetica,sans-serif; */
  }
  .container--links-footer{
     height: 30px;

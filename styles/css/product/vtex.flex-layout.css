@@ -1,14 +1,26 @@
 .flexRowContent--product__dropdown__add-to-cart,
-.flexRowContent--product__dropdown__add-to-cart:first-child :last-child{
-    background-color: #e63027;
-    border-radius: 5px;
+.flexRowContent--product__dropdown__add-to-cart :first-child :last-child{
+    background-color: #e63027; 
+}  
+.flexRowContent--product__dropdown__add-to-cart :global(.vtex-button){
+    border: none;
+}
+.flexRowContent--product__dropdown__add-to-cart :global(.vtex-dropdown__container){
+    border: none;
+}
+.flexRowContent--product__dropdown__add-to-cart :global(.vtex-dropdown__button){
+    color: #fff;
+}
+.flexRowContent--product__dropdown__add-to-cart :global(.vtex-dropdown__arrow){
+    color: #fff;
 }
 .flexRowContent--product__dropdown__add-to-cart:first-child{
-    width: 25%;
+    width: 10%;
 }
 .flexRowContent--product__dropdown__add-to-cart:last-child{
-    width: 75%;
+    width: 90%;
 }
+
 .flexRow--container__product--info{
     padding: 10px 50px 10px 50px;
 }

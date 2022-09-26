@@ -1,18 +1,12 @@
-/* @font-face {
-    font-family: 'sans-serif';
-    src: url(assets/fonts/sans-serif-Bold.woff2), url(assets/fonts/sans-serif-Bold.ttf);
+@font-face {
+    font-family: 'Arial,Helvetica,sans-serif';
+    src: url(assets/fonts/arial-Bold.ttf);
     font-weight: bold;
     font-style: normal;
 }
 @font-face {
-    font-family: 'sans-serif';
-    src: url(assets/fonts/sans-serif-Light.woff2), url(assets/fonts/sans-serif-Light.ttf);
-    font-weight: lighter;
+    font-family: 'Arial,Helvetica,sans-serif';
+    src: url(assets/fonts/arial-Regular.ttf);
+    font-weight: normal;
     font-style: normal;
 }
-@font-face {
-    font-family: 'sans-serif';
-    src: url(assets/fonts/sans-serif-Light.woff2), url(assets/fonts/sans-serif-Light.ttf);
-    /*font-weight: Regular;/* 
-     font-style: normal ;
-} */

@@ -34,7 +34,7 @@
     "children":[
       "share",
       "vtex.store-components:product-name",
-      "vtex.store-components:product-brand",
+     // "vtex.store-components:product-brand",
       "product-rating-inline",
       "product-price",
       "flex-layout.row#product__dropdown__add-to-cart",
@@ -57,7 +57,8 @@
   },
   "product-quantity#selector__pdp":{ 
         "props":{
-          "selectorType": "dropdown"
+          "selectorType": "dropdown",
+          "showLabel": false
         }
   },  
   "rich-text#product__promo-info":{
