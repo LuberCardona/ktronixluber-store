@@ -10,6 +10,7 @@
   },
   "vtex.menu@2.x:menu#header__menu":{
     "children": [
+      "link#department",
       "menu-item#department__celphones--one",
       "menu-item#department__computers--two",
       "menu-item#department__tv--three",
@@ -22,6 +23,13 @@
     ],
     "props":{
       "orientation": "horizontal" 
+    }
+   },
+   "link#department":{
+    "props": {
+      "href": "/construccion",
+      "label": "Construcción",
+      "blockClass":"link__department"
     }
    },
    "menu-item#department__celphones--one":{
