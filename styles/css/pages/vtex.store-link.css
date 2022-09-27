@@ -1,9 +1,9 @@
-.label{
+.label--link__about-us{
     padding: 10px;
     color: #e63027;
     border-radius: 5px;
     border: solid 1px #e63027;
 }
-.link{
+.link--link__about-us{
     text-decoration: none;
 }

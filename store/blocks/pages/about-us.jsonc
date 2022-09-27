@@ -71,7 +71,8 @@
   "link#about-us__section--two": {
     "props": {
       "href": "/",
-      "label": "Ir a las mejores ofertas"
+      "label": "Ir a las mejores ofertas",
+      "blockClass":"link__about-us"
     }
   },
   "image#about-us__section--three-image-one":{

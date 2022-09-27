@@ -86,7 +86,7 @@
     "children":[
       "search-bar#header__search",
       "login",
-      "minicart.v2"
+      "flex-layout.row#minicart__logo--header"
     ],
      "props":{
      "blockClass": "Header__middle"
@@ -113,6 +113,20 @@
       "showPasswordVerificationIntoTooltip": true,
        "showIconProfile": true
     }
+  },
+  "flex-layout.row#minicart__logo--header":{
+    "children":[
+      "flex-layout.col#minicart__logo--header"    
+    ],
+    "props":{
+      "blockClass":"container__minicart__logo--header"
+    }
+  },
+  "flex-layout.col#minicart__logo--header":{
+    "children":[     
+      "minicart.v2#minicart__logo--header",
+      "link#minicart"
+    ]
   }
  
 }
