@@ -1,0 +1,12 @@
+.container--about-us__section--three-text1{
+    background-color: #f6f6f6;
+    border-bottom: #cccccc solid 1px;
+}
+.paragraph--about-us__section--three-text1,
+.paragraph--about-us__section--three-text2,
+.paragraph--about-us__section--three-text3,
+.paragraph--about-us__section--three-text4,
+.paragraph--about-us__section--three-text5,
+.paragraph--about-us__section--three-text6{
+    padding: 0 10px 0 10px;
+}

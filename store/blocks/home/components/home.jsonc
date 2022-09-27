@@ -1,6 +1,7 @@
 {
   "store.home": { 
     "blocks": [
+     // "store.custom#about-us",
       "flex-layout.row#home__section--one",
       "flex-layout.row#home__section--two--title",
       "flex-layout.row#home__section--two--images",
