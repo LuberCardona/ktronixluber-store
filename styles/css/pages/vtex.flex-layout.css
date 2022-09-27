@@ -1,0 +1,27 @@
+.flexCol--about-us__section--two{
+    align-items: center;
+    margin-bottom: 30px;
+}
+.flexRowContent--about-us__section--three-one,
+.flexRowContent--about-us__section--three-two, 
+.flexRowContent--about-us__section--three-four,
+.flexRowContent--about-us__section--three-five,
+.flexRowContent--about-us__section--three-six{    
+    margin-bottom: 10px;
+} 
+.flexCol--container-about-us__section--three,
+.flexCol--container-about-us__section--five{
+    padding: 0px 90px 0px 90px;
+    align-items: flex-start;
+}
+.flexRowContent--about-us__section--three-three,
+.flexRowContent--about-us__section--three-five{
+    background-color: #f6f6f6;
+    border-bottom: #cccccc solid 1px;
+    margin-bottom: 10px;
+    place-content: baseline;
+}
+.flexRow--about-us__section--three-three,
+.flexRow--about-us__section--three-five{
+    width: 1160px;
+}
