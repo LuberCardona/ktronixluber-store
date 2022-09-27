@@ -1,0 +1,18 @@
+.flexRowContent--container__col__minicart__empty{
+    width: 1250px;
+    margin: 20px 20px 100px 20px;
+}
+.flexCol--container__col1__minicart__empty{
+    align-items: start;
+    text-align-last: start;
+}
+.flexCol--container__col1__minicart__empty :last-child{
+    align-self: center;
+}
+.flexCol--container__col2__minicart__empty{
+    align-items: center;
+    background-color: #f8f8f8;
+    height: 210px;
+    transform: translateY(150px);
+    padding: 50px;
+}

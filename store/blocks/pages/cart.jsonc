@@ -14,7 +14,10 @@
 
   "minicart-base-content":{  
     "blocks":["minicart-empty-state"],
-    "children":["minicart-product-list", "flex-layout.row#minicart__footer"]
+    "children":["minicart-product-list", "flex-layout.row#minicart__footer"],
+    "props":{
+      "blockClass":"minicart__title"
+    }
   },
   "minicart-empty-state":{
     "children":["flex-layout.row#minicart__empty"],          
@@ -48,7 +51,7 @@
   "flex-layout.col#minicart__empty2":{
       "children":[      
       "rich-text#minicart__empty2--title",
-      "rich-text#minicart__empty--text2",
+      "rich-text#minicart__empty2--text1",
       "link#minicart__empty--link"
 
     ],
@@ -74,12 +77,13 @@
       "props":{
           "text":"Tu carrito de compras está vacío.",
           "textAlignment": "CENTER",
-          "textPosition": "CENTER"
+          "textPosition": "CENTER",
+          "blockClass":"minicart__empty--text2"
       }
   },
   "rich-text#minicart__empty--text3":{
       "props":{
-          "text":"Puedes seleccionar un producto para seguir comprando\r\nO puedes volver al inicio para ver las últimas ofertas",
+          "text":"Puedes seleccionar un producto para seguir comprando\nO puedes volver al inicio para ver las últimas ofertas",
           "textAlignment": "CENTER",
           "textPosition": "CENTER"
       }
@@ -87,16 +91,25 @@
   "link#minicart__empty--link": {
       "props": {
         "href": "/",
-        "label": "Volver al inicio"
+        "label": "Volver al inicio",
+        "blockClass":"minicart__empty--link"
       }
     },
 
     "rich-text#minicart__empty2--title":{
       "props":{
-          "text":"### Mi carrito",
+          "text":"**Mi carrito**",
           "textAlignment": "CENTER",
           "textPosition": "CENTER"
       }
+    },
+    "rich-text#minicart__empty2--text1":{
+      "props":{
+        "text":"Tu carrito de compras está vacío.",
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER",
+        "blockClass":"minicart__empty2--text1"
+    }
     },
   "minicart-product-list":{
     "blocks":["product-list#minicart"]
