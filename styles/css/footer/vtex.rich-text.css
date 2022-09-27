@@ -92,4 +92,8 @@
  .container--links-footer{
     height: 30px;
  }
+ .link--links-footer{
+    color: #929292;
+    text-decoration: none;
+ }
  

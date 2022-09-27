@@ -1,7 +1,12 @@
 {
   "store.custom#about-us": {
     "path": "/quienes-somos"
-  }
+  },
+  "store.custom#cart": {
+    "path": "/cart"
+  }  
 }
+
+
 
   
