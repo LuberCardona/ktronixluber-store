@@ -1,0 +1,100 @@
+{
+    "flex-layout.row#home__section--eight--title":{ 
+      "title": "section eight -title-smartwatch",
+      "children":[
+         "flex-layout.row#home__section--eight--title-smartwatch"
+      ],
+      "props":{
+        "blockClass": "home__section--eight"
+       }
+    },  
+    "flex-layout.row#home__section--eight--title-smartwatch":{
+      "children":[
+       "rich-text#home__section--eight--title"
+      ],
+      "props":{
+        "blockClass": "home__section--eight--title"
+      }
+    },
+    "rich-text#home__section--eight--title":{
+      "props":{
+        "text": "**Smartwatch**",
+        "textPosition": "CENTER",
+        "blockClass": "home__section--eight--title-text"
+      }
+    },
+    "flex-layout.row#home__section--eight--images":{
+     "title": "section -images-smartwatch",
+      "children":[
+        "flex-layout.row#home__section--eight--images-smartwatch"  
+         
+      ],        
+      "props":{
+        "blockClass": "home__section--eight"
+       }
+    },
+    "flex-layout.row#home__section--eight--images-smartwatch":{
+      "children":[
+        "flex-layout.col#section__eight--image1",
+        "flex-layout.col#section__eight--image2",
+        "flex-layout.col#section__eight--image3"
+      ]
+    }, 
+    "flex-layout.col#section__eight--image1":{
+      "title": "Section eight - smartwatch - image1",
+      "children":[
+        "image#section__eight--image1"
+      ],
+      "props":{
+        "blockClass": "home__section__four--image"
+      }
+    },
+    "image#section__eight--image1":{
+      "title": "Image1 -section eight - smartwatch",
+      "props": {
+          "src": "assets/img/huaweigt2pro.jpg",
+          "blockClass": "home__section__four--image",
+          "link":{
+              "url": "/"
+          }
+      }
+    },
+    "flex-layout.col#section__eight--image2":{
+      "title": "section eight - smartwatch Image2",
+      "children":[
+        "image#section__eight--image2"
+      ],
+      "props":{
+        "blockClass": "home__section__eight--image"
+      }
+    },
+    "image#section__eight--image2":{
+      "title": "Image2 -section eight - smartwatch",
+      "props": {
+          "src": "assets/img/huaweigt2.jpg",
+          "blockClass": "home__section__eight--image",
+          "link":{
+              "url": "/"
+          }
+      }
+    },
+    "flex-layout.col#section__eight--image3":{
+      "title": "Section eight smartwatch",
+      "children":[
+        "image#section__eight--image3"
+      ],
+      "props":{
+        "blockClass": "home__section__eight--image"
+      }
+    },
+    "image#section__eight--image3":{
+      "title": "Image3 -section eight - smartwatch",
+      "props": {
+          "src": "assets/img/relojmtw.jpg",
+          "blockClass": "home__section__eight--image",
+          "link":{
+              "url": "/"
+          }
+      }
+    }
+  }

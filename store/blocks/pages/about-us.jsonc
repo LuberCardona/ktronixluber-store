@@ -1,0 +1,201 @@
+{
+   "store.custom#about-us":{
+    "blocks":[
+      "flex-layout.row#about-us__section--one",
+      "flex-layout.row#about-us__section--two",
+      "flex-layout.row#about-us__section--three"
+    ]
+  },
+  "flex-layout.row#about-us__section--one":{
+    "children":[
+      "flex-layout.col#about-us__section--one"
+    ]
+  },
+  "flex-layout.row#about-us__section--two":{
+    "children":[
+      "flex-layout.col#about-us__section--two"
+    ]
+  },
+  "flex-layout.row#about-us__section--three":{
+    "children":[
+      "flex-layout.col#about-us__section--three"
+    ]
+  },
+  "flex-layout.col#about-us__section--one":{
+    "children":[
+      "rich-text#about-us__section--one"
+    ]
+  },
+  "flex-layout.col#about-us__section--two":{
+    "children":[
+      "rich-text#about-us__section--two",
+      "link#about-us__section--two"
+    ],
+    "props":{
+      "blockClass":"about-us__section--two"
+    }
+  },
+  "flex-layout.col#about-us__section--three":{
+    "children":[
+      "flex-layout.row#about-us__section--three-one",
+      "flex-layout.row#about-us__section--three-two",
+      "flex-layout.row#about-us__section--three-three",
+      "flex-layout.row#about-us__section--three-four",
+      "flex-layout.row#about-us__section--three-five",
+      "flex-layout.row#about-us__section--three-six"
+    ],
+    "props":{
+      "blockClass":"container-about-us__section--three"
+    }
+  },  
+  "flex-layout.row#about-us__section--three-one":{
+    "children":[
+      "image#about-us__section--three-image-one",
+      "rich-text#about-us__section--three-text-one"
+    ],
+    "props":{
+      "blockClass":"about-us__section--three-one",
+      "colSizing": "auto"
+    }
+  },
+  "rich-text#about-us__section--one":{
+    "props":{
+      "text":"### Quiénes somos"
+    }
+  },
+  "rich-text#about-us__section--two":{
+    "props":{
+      "text":"**Déjate sorprender por Ktronix, un espectáculo de conectividad y emoción. Disfruta del verdadero placer de la tecnología.**"
+    }
+  },
+  "link#about-us__section--two": {
+    "props": {
+      "href": "/",
+      "label": "Ir a las mejores ofertas",
+      /* "displayMode": "button", */
+      "blockClass":"link__about-us"
+    }
+  },
+  "image#about-us__section--three-image-one":{
+    "props":{
+       "src":"assets/img/simbolo-k.svg",
+       "blockClass": "about-us__section--three-image1"
+    }
+  },
+  "rich-text#about-us__section--three-text-one":{
+    "props":{
+       "text": "En 1998 ALKOSTO líder en tecnología decide lanzar un nuevo formato, Ktronix, como la única tienda multimarcas especializada en electrónica y tecnología.",
+       "blockClass": "about-us__section--three-text1"
+    }
+  },
+  "flex-layout.row#about-us__section--three-two":{
+    "children":[
+      "image#about-us__section--three-image-two",
+      "rich-text#about-us__section--three-text-two"
+    ],
+    "props":{
+      "blockClass":"about-us__section--three-two",
+      "colSizing": "auto"
+    }
+  },
+  "image#about-us__section--three-image-two":{
+    "props":{
+       "src":"assets/img/click-open.svg",
+       "blockClass": "about-us__section--three-image2"
+    }
+  },
+  "rich-text#about-us__section--three-text-two":{
+    "props":{
+       "text": "En 2010 abrimos nuestra Tienda Virtual www.ktronix.com, con más de 1.000 referencias y la posibilidad de comprar en línea.",
+       "blockClass": "about-us__section--three-text2"
+    }
+  },
+  "flex-layout.row#about-us__section--three-three":{
+    "children":[
+      "image#about-us__section--three-image-three",
+      "rich-text#about-us__section--three-text-three"
+    ],
+    "props":{
+      "blockClass":"about-us__section--three-three",
+      "colSizing": "auto"
+    }
+  },
+  "image#about-us__section--three-image-three":{
+    "props":{
+       "src":"assets/img/nevera-electro.svg",
+       "blockClass": "about-us__section--three-image3"
+    }
+  },
+  "rich-text#about-us__section--three-text-three":{
+    "props":{
+       "text": "Puedes elegir entre más de 1.600 referencias de electrodomésticos, tecnología, accesorios y consumibles, bajo un mismo techo.\nAlgunas de estas referencias ahora las puedes comprar en línea en www.ktronix.com.",
+       "blockClass": "about-us__section--three-text3"
+    }
+  },
+  "flex-layout.row#about-us__section--three-four":{
+    "children":[
+      "image#about-us__section--three-image-four",
+      "rich-text#about-us__section--three-text-four"
+    ],
+    "props":{
+      "blockClass":"about-us__section--three-four",
+      "colSizing": "auto"
+    }
+  },
+  "image#about-us__section--three-image-four":{
+    "props":{
+       "src":"assets/img/tiendas.svg",
+       "blockClass": "about-us__section--three-image4"
+    }
+  },
+  "rich-text#about-us__section--three-text-four":{
+    "props":{
+       "text": "Nuestras tiendas, con un diseño de vanguardia en un ambiente moderno y futurista, cuentan con el mejor surtido, variedad y metros de exhibición de tecnología de todas las marcas, con la mejor asesoría y precios del mercado.",
+       "blockClass": "about-us__section--three-text4"
+    }
+  },
+  "flex-layout.row#about-us__section--three-five":{
+    "children":[
+      "image#about-us__section--three-image-five",
+      "rich-text#about-us__section--three-text-five"
+    ],
+    "props":{
+      "blockClass":"about-us__section--three-five",
+      "colSizing": "auto"
+    }
+  },
+  "image#about-us__section--three-image-five":{
+    "props":{
+       "src":"assets/img/plane-nacional.svg",
+       "blockClass": "about-us__section--three-image5"
+    }
+  },
+  "rich-text#about-us__section--three-text-five":{
+    "props":{
+       "text": "Hoy contamos con tiendas en Bogotá, Medellín, Bucaramanga, Cali, Villavicencio, Tunja, Manizales, con despacho a nivel Nacional.",
+       "blockClass": "about-us__section--three-text5"
+    }
+  },
+  "flex-layout.row#about-us__section--three-six":{
+    "children":[
+      "image#about-us__section--three-image-six",
+      "rich-text#about-us__section--three-text-six"
+    ],
+    "props":{
+      "blockClass":"about-us__section--three-six",
+      "colSizing": "auto"
+    }
+  },
+  "image#about-us__section--three-image-six":{
+    "props":{
+       "src":"assets/img/empleados.svg",
+       "blockClass": "about-us__section--three-image6"
+    }
+  },
+  "rich-text#about-us__section--three-text-six":{
+    "props":{
+       "text": "Ktronix una empresa 100% colombiana, ha significado la generación de empleos directos e indirecto. Velamos por la capacitación completa al personal, tanto en conocimiento de producto como en parámetros de atención y servicio.",
+       "blockClass": "about-us__section--three-text6"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "product-summary.shelf#slider": {
+    "children": [
+      "product-summary-image",
+      "product-summary-name",
+      "product-summary-price",
+      "add-to-cart-button"
+    ]
+  },
+  "list-context.product-list#slider": {
+    "blocks": ["product-summary.shelf#slider"],
+    "children": ["slider-layout#demo-products"]
+  },
+  "slider-layout#demo-products":{
+    "title": "Slider con hijos declarados",
+    "props":{
+    "itemsPerPage": {
+        "desktop": 2,
+        "tablet": 1,
+        "phone": 1
+    },
+    "infinite": true,
+    "blockClass": "home__slider"
+    } 
+  }
+}

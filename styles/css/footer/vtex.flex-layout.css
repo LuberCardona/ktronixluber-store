@@ -1,0 +1,51 @@
+
+.flexRow--footer__container--contacto{
+    margin: 0px 150px 0px 150px;
+    padding: 30px 0px 30px 0;
+}
+.flexRow--footer__container--mediosdepago{
+    border-top: 1px solid grey;
+    max-width: 1366px;
+    margin: 25px 65px 20px;
+    padding-top: 10px;
+
+}
+.flexRow--footer__container--mediosdepago-img{
+    margin: 0px 0px 20px 0px;
+}
+.flexRowContent--footer__container--mediosdepago-img{
+    justify-content: center;
+}
+.flexRowContent--footer__container--disclosure{
+    margin: 45px 0px 20px 75px;    
+}
+.flexColChild--policies__content2--image{
+   /* max-width: max-content;
+    margin-left: 90px; */
+    width: 200px;
+    padding: 20px;
+    margin-left: 15px;
+} 
+.flexRow--footer__container--links{
+    border-top: 1px solid grey;
+    max-width: 1366px;
+    margin: 0px 65px 180px 65px;
+    padding-top: 10px;
+}
+.flexRowContent--footer__container--links{
+    align-items: flex-start;
+    margin-left: 10px;
+}
+
+.flexRowContent--footer__container--socialmedia{   
+    border-top: 1px solid grey;   
+    
+}
+.flexRowContent--footer__container--socialmedia-text-icons{
+    align-items: center;
+    margin-left: 85%;
+    width: 220px;
+} 
+.flexRow--footer__container--socialmedia{
+    margin: 0px 60px 0px 60px;
+}

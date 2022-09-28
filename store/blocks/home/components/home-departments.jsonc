@@ -1,0 +1,274 @@
+{
+    "flex-layout.row#home__section--one":{
+      "title":"slider",
+      "children":[
+         //"slider-layout#home__section--one-slider",
+         "list-context.product-list#slider",
+          "flex-layout.row#home__section--one-department"
+      ],
+      "props":{
+          "blockClass":"home__section--one-slider-departments"
+      }    
+    },
+    "flex-layout.row#home__section--one-department":{
+      "children":[
+          "flex-layout.col#home__section--one-department-one",
+          "flex-layout.col#home__section--one-department-two",
+          "flex-layout.col#home__section--one-department-three",
+          "flex-layout.col#home__section--one-department-four",
+          "flex-layout.col#home__section--one-department-five"    
+      ],
+      "props":{
+          "blockClass":"home__section--one-departments"
+      }
+    },
+    "flex-layout.col#home__section--one-department-one":{
+      "children":[
+          "image#home__section--one-department-celulares",
+          "rich-text#department-one-1",
+          "image#home__section--one-department-videojuegos",
+          "rich-text#department-one-2",
+          "image#home__section--one-department-camaras",
+          "rich-text#department-one-3"
+      ],
+      "props":{
+          "blockClass":"home__section--one-col-departments"
+      }
+      
+    },
+    
+    "flex-layout.col#home__section--one-department-two":{
+      "children":[
+          "image#home__section--one-department-computadores", 
+          "rich-text#department-two-1",
+          "image#home__section--one-department-accesorios",
+          "rich-text#department-two-2",
+          "image#home__section--one-department-netflix",
+          "rich-text#department-two-3" 
+      ],
+      "props":{
+          "blockClass":"home__section--one-col-departments"
+      }
+    },
+    "flex-layout.col#home__section--one-department-three":{
+      "children":[     
+          "image#home__section--one-department-televisores",
+          "rich-text#department-three-1",
+          "image#home__section--one-department-smartw",
+          "rich-text#department-three-2",
+          "image#home__section--one-department-c-intelligent",
+          "rich-text#department-three-3"
+      ],
+      "props":{
+          "blockClass":"home__section--one-col-departments"
+      }
+    },
+      "flex-layout.col#home__section--one-department-four":{
+      "children":[
+      "image#home__section--one-department-electro", 
+      "rich-text#department-four-1",  
+      "image#home__section--one-department-tablets",
+      "rich-text#department-four-2",
+      "image#home__section--one-department-deportes",
+      "rich-text#department-four-3"
+      ],
+      "props":{
+      "blockClass":"home__section--one-col-departments"
+      }
+    },
+    "flex-layout.col#home__section--one-department-five":{
+      "children":[     
+      "image#home__section--one-department-audio",
+      "rich-text#department-five-1",
+      "image#home__section--one-department-impresoras",
+      "rich-text#department-five-2", 
+      "image#home__section--one-department-ofertas",
+      "rich-text#department-five-3"
+      ],
+      "props":{
+      "blockClass":"home__section--one-col-departments"
+      }
+    },
+    "image#home__section--one-department-celulares":{
+      "props": {
+      "src": "assets/img/celulares.jpg",
+      "blockClass":"home__section--one-department-img"
+      }
+    },
+    "image#home__section--one-department-computadores":{
+      "props": {
+      "src": "assets/img/computador.png",
+      "blockClass":"home__section--one-department-img"
+      }
+        
+    },  
+    "image#home__section--one-department-televisores":{
+      "props": {
+      "src": "assets/img/televisor.png",
+      "blockClass":"home__section--one-department-img"
+      }
+    },
+    "image#home__section--one-department-electro":{
+      "props": {
+      "src": "assets/img/electro.jpg",
+      "blockClass":"home__section--one-department-img"
+      }
+    },
+    "image#home__section--one-department-audio":{
+      "props": {
+      "src": "assets/img/audio.jpg",
+      "blockClass":"home__section--one-department-img"
+      }
+    },
+    "image#home__section--one-department-videojuegos":{
+      "props": {
+      "src": "assets/img/videojuegos.jpg",
+      "blockClass":"home__section--one-department-img"
+      }
+    },
+    "image#home__section--one-department-accesorios":{
+      "props": {
+      "src": "assets/img/accesorios.png",
+      "blockClass":"home__section--one-department-img"
+      }
+    },
+    "image#home__section--one-department-smartw":{
+      "props": {
+      "src": "assets/img/reloj-izq.jpg",
+      "blockClass":"home__section--one-department-img"
+      }
+    },
+    "image#home__section--one-department-tablets":{
+      "props": {
+      "src": "assets/img/tablet.jpg",
+      "blockClass":"home__section--one-department-img"
+      }
+    },
+    "image#home__section--one-department-impresoras":{
+      "props": {
+      "src": "assets/img/impresoras.png",
+      "blockClass":"home__section--one-department-img"
+      }
+    },
+    "image#home__section--one-department-camaras":{
+      "props": {
+      "src": "assets/img/camaras.png",
+      "blockClass":"home__section--one-department-img"
+      }
+    },
+    "image#home__section--one-department-netflix":{
+      "props": {
+      "src": "assets/img/netflix.png",
+      "blockClass":"home__section--one-department-img"
+      }
+    },
+    "image#home__section--one-department-c-intelligent":{
+      "props": {
+      "src": "assets/img/casa-inteligente.png",
+      "blockClass":"home__section--one-department-img"
+      }
+    },
+    "image#home__section--one-department-deportes":{
+      "props": {
+      "src": "assets/img/deportes.png",
+      "blockClass":"home__section--one-department-img"
+      }
+    },
+    "image#home__section--one-department-ofertas":{
+      "props": {
+      "src": "assets/img/netflix.png",
+      "blockClass":"home__section--one-department-img"
+      }
+    },
+    "rich-text#department-one-1":{
+      "props":{
+      "text":"Celulares",
+      "blockClass":"home_section-one-departmentName"      
+      }
+    },
+    "rich-text#department-one-2":{
+      "props":{
+      "text":"Videojuegos",
+      "blockClass":"home_section-one-departmentName"      
+      }
+    },
+    "rich-text#department-one-3":{
+      "props":{
+      "text":"Cámaras",
+      "blockClass":"home_section-one-departmentName"      
+      }
+    },
+    "rich-text#department-two-1":{
+      "props":{
+      "text":"Computadores",
+      "blockClass":"home_section-one-departmentName"      
+      }
+    },
+    "rich-text#department-two-2":{
+      "props":{
+      "text":"Accesorios",
+      "blockClass":"home_section-one-departmentName"      
+      }
+    },
+    "rich-text#department-two-3":{
+      "props":{
+      "text":"Netflix y Pines",
+      "blockClass":"home_section-one-departmentName"      
+      }
+    },
+    "rich-text#department-three-1":{
+      "props":{
+      "text":"Televisores",
+      "blockClass":"home_section-one-departmentName"      
+      }
+    },
+    "rich-text#department-three-2":{
+      "props":{
+      "text":"Smartwatch",
+      "blockClass":"home_section-one-departmentName"      
+      }
+    },
+    "rich-text#department-three-3":{
+      "props":{
+      "text":"C. Inteligente",
+      "blockClass":"home_section-one-departmentName"      
+      }
+    },
+    "rich-text#department-four-1":{
+      "props":{
+      "text":"Electrodomésticos",
+      "blockClass":"home_section-one-departmentName"      
+      }
+    },
+    "rich-text#department-four-2":{
+      "props":{
+      "text":"Tabletas",
+      "blockClass":"home_section-one-departmentName"      
+      }
+    },
+    "rich-text#department-four-3":{
+      "props":{
+      "text":"Deportes",
+      "blockClass":"home_section-one-departmentName"      
+      }
+    },
+    "rich-text#department-five-1":{
+      "props":{
+      "text":"Audio",
+      "blockClass":"home_section-one-departmentName"      
+      }
+    },
+    "rich-text#department-five-2":{
+      "props":{
+      "text":"Impresoras",
+      "blockClass":"home_section-one-departmentName"      
+      }
+    },
+    "rich-text#department-five-3":{
+      "props":{
+      "text":"Ofertas",
+      "blockClass":"home_section-one-departmentName"      
+      }
+    }
+
+}

@@ -1,0 +1,100 @@
+{
+    "flex-layout.row#home__section--nine--title":{ 
+      "title": "section nine -title-audio",
+      "children":[
+         "flex-layout.row#home__section--nine--title-audio"
+      ],
+      "props":{
+        "blockClass": "home__section--nine"
+       }
+    },  
+    "flex-layout.row#home__section--nine--title-audio":{
+      "children":[
+       "rich-text#home__section--nine--title"
+      ],
+      "props":{
+        "blockClass": "home__section--nine--title"
+      }
+    },
+    "rich-text#home__section--nine--title":{
+      "props":{
+        "text": "**Audio**",
+        "textPosition": "CENTER",
+        "blockClass": "home__section--nine--title-text"
+      }
+    },
+    "flex-layout.row#home__section--nine--images":{
+     "title": "section -images-audio",
+      "children":[
+        "flex-layout.row#home__section--nine--images-audio"  
+         
+      ],        
+      "props":{
+        "blockClass": "home__section--nine"
+       }
+    },
+    "flex-layout.row#home__section--nine--images-audio":{
+      "children":[
+        "flex-layout.col#section__nine--image1",
+        "flex-layout.col#section__nine--image2",
+        "flex-layout.col#section__nine--image3"
+      ]
+    }, 
+    "flex-layout.col#section__nine--image1":{
+      "title": "Section nine - audio - image1",
+      "children":[
+        "image#section__nine--image1"
+      ],
+      "props":{
+        "blockClass": "home__section__four--image"
+      }
+    },
+    "image#section__nine--image1":{
+      "title": "Image1 -section nine - audio",
+      "props": {
+          "src": "assets/img/bose.jpg",
+          "blockClass": "home__section__four--image",
+          "link":{
+              "url": "/"
+          }
+      }
+    },
+    "flex-layout.col#section__nine--image2":{
+      "title": "section nine - audio Image2",
+      "children":[
+        "image#section__nine--image2"
+      ],
+      "props":{
+        "blockClass": "home__section__nine--image"
+      }
+    },
+    "image#section__nine--image2":{
+      "title": "Image2 -section nine - audio",
+      "props": {
+          "src": "assets/img/sonos.jpg",
+          "blockClass": "home__section__nine--image",
+          "link":{
+              "url": "/"
+          }
+      }
+    },
+    "flex-layout.col#section__nine--image3":{
+      "title": "Section nine audio",
+      "children":[
+        "image#section__nine--image3"
+      ],
+      "props":{
+        "blockClass": "home__section__nine--image"
+      }
+    },
+    "image#section__nine--image3":{
+      "title": "Image3 -section nine - audio",
+      "props": {
+          "src": "assets/img/minicomp.jpg",
+          "blockClass": "home__section__nine--image",
+          "link":{
+              "url": "/"
+          }
+      }
+    }
+  }

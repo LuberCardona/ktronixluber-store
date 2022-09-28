@@ -1,0 +1,18 @@
+{
+  "minicart.v2#minicart__logo--header":{   
+    "props":{          
+        "minicartIcon":"icon-cart", 
+        "itemCountMode":"total",
+        "quantityDisplay":"always", 
+        "variation":"link",
+        "linkVariationUrl":"/cart"
+    }
+  },
+  "link#minicart": {
+    "props": {
+      "href": "/cart",
+      "label": "Mi carrito",
+      "blockClass":"link__minicart"
+    }
+  }
+}

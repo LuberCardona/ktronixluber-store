@@ -1,0 +1,8 @@
+.imageElement--footer__container--mediosdepago-card{   
+    height: 40px;
+}
+.imageElement--footer__image--nosotros,
+.imageElement--footer__image--email,
+.imageElement--footer__image--ventatelefonica{
+    width: 25px;
+}
