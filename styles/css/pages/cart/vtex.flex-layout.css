@@ -16,3 +16,21 @@
     transform: translateY(150px);
     padding: 50px;
 }
+.flexRow--minicart__row--desktop{
+    width: 1250px;
+    margin: 20px 20px 200px 20px;
+}
+.flexCol--minicart__col2--desktop{
+    width: 350px !important;
+    background-color: #f5f5f5;
+} 
+.flexCol--minicart__col1--desktop,
+.flexCol--minicart__col2--desktop{
+    padding: 20px;
+    border: solid 2px #f3f3f3;    
+}
+.flexColChild--minicart__col2--desktop :global(.vtex-button){
+    background-color: #e63027;
+    border: none;
+}
+
