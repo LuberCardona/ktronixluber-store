@@ -72,6 +72,7 @@
     "props": {
       "href": "/",
       "label": "Ir a las mejores ofertas",
+      /* "displayMode": "button", */
       "blockClass":"link__about-us"
     }
   },
