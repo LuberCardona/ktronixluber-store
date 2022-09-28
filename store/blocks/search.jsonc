@@ -71,8 +71,14 @@
   },
   "modal-layout#global__quick-view--modal":{
     "children":[
+      "modal-header#header__quick-view--modal",
       "flex-layout.row#quick-view__modal"
     ]
+  },
+  "modal-header#header__quick-view--modal":{
+    "props":{
+      "showCloseButton": true
+    }
   },
   "flex-layout.row#quick-view__modal":{
     "children":[

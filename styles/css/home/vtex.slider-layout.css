@@ -6,6 +6,12 @@
 .paginationDotsContainer--home__slider{
     transform: translateY(-15px);
 }
+.paginationDot--home__slider--isActive{
+    background-color: #e63027;
+}
 .sliderLayoutContainer--home__slider{ 
     margin-left: 35px;
+}
+.caretIcon--home__slider{
+    color: #E63027;
 }
