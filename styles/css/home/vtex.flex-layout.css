@@ -115,3 +115,10 @@
     align-items: center;
     margin: 15px
 }
+.flexRow--container__quick-view__modal{
+    width: 1200px;
+}
+.flexRowContent--container__quick-view__modal{
+    align-items: center;
+    padding: 30px;
+}
