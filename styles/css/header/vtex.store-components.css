@@ -10,7 +10,22 @@
 }
 .searchBarIcon--header__search--search{
     color: white;
-    background-color: red;
+    background-color: #e63027;
     padding: 10px;
     border-radius: 4px;
+}
+.logoImage--header__top--logo-mobile{
+    height: 48px;
+}
+.searchBarInnerContainer--header__search--mobile{
+    width: 90%;
+    transform: translateX(20px);
+    height: 40px;
+}
+.searchIcon--header__search--mobile{
+    color: #e63027;
+}
+.headerRowContentContainer--hearder__mobile{
+    padding: 5px 16px;
+    border-bottom: solid 2px #e63027;
 }
