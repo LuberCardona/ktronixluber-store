@@ -15,3 +15,25 @@
 .caretIcon--home__slider{
     color: #E63027;
 }
+.caretIcon--home__slider--mobile{
+    color: #E63027;
+    transform: translateY(160px);
+    margin: 20px;
+}
+.paginationDot--home__slider--mobile--isActive{
+    background-color: #E63027;    
+}
+.slide--home__slider--mobile{
+    margin-bottom: 70px;
+}
+.paginationDotsContainer--home__slider--mobile{
+    margin-bottom: 15px;
+}
+.sliderLayoutContainer--slider__home--section-two-images{
+    padding: 15px 23px 0px 23px;
+    background-color: #f5f5f5;
+}
+.sliderTrack--slider__home--section-three-images,
+.sliderTrack--slider__home--section-four-images{
+    padding: 15px 100px 0 100px;
+}

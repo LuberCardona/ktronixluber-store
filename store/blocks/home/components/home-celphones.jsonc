@@ -23,7 +23,26 @@
         "blockClass": "home__section--three--title-text"
       }
     },
-    "flex-layout.row#home__section--three--images":{
+    "slider-layout#home__section--three--images":{
+      "title": "Slider celphones",
+      "props":{
+          "itemsPerPage": {
+              "desktop": 3,
+              "tablet": 3,
+              "phone": 1.8
+          },
+          "showPaginationDots":"never",
+          "showNavigationArrows": "never",
+          "infinite": true,
+          "blockClass": "slider__home--section-three-images"       
+      },
+      "children":[  
+        "image#section__three--image1",
+        "image#section__three--image2",
+        "image#section__three--image3"
+      ]
+    },
+   /*  "flex-layout.row#home__section--three--images":{
      "title": "section three -images-celphones",
       "children":[
         "flex-layout.row#home__section--three--images-celphones"  
@@ -48,7 +67,7 @@
       "props":{
         "blockClass": "home__section__three--image"
       }
-    },
+    }, */
     "image#section__three--image1":{
       "title": "Image1 -section three - celphones",
       "props": {
@@ -59,7 +78,7 @@
           }
       }
     },
-    "flex-layout.col#section__three--image2":{
+    /* "flex-layout.col#section__three--image2":{
       "title": "Image2 -section three - celphones",
       "children":[
         "image#section__three--image2"
@@ -67,7 +86,7 @@
       "props":{
         "blockClass": "home__section__three--image"
       }
-    },
+    }, */
     "image#section__three--image2":{
       "title": "Image2 -section  three - celphones",
       "props": {
@@ -78,7 +97,7 @@
           }
       }
     },
-    "flex-layout.col#section__three--image3":{
+   /*  "flex-layout.col#section__three--image3":{
       "title": "Section three - three - celphones",
       "children":[
         "image#section__three--image3"
@@ -86,7 +105,7 @@
       "props":{
         "blockClass": "home__section__three--image"
       }
-    },
+    }, */
     "image#section__three--image3":{
       "title": "Image3 -section  three - celphones",
       "props": {
