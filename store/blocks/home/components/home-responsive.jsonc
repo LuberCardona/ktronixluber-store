@@ -46,7 +46,7 @@
       "responsive-layout.desktop#home__info--desktop":{
         "title": "Component desktop",
          "children":[
-            "rich-text#home__info--desktop",
+           // "rich-text#home__info--desktop",
             "flex-layout.row#home__section--one",
             "flex-layout.row#home__section--two--title",
             "slider-layout#home__section--two--images",
