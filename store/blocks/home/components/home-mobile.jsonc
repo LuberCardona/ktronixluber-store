@@ -1,0 +1,31 @@
+{
+ /*  "responsive-layout.mobile#home__mobile":{
+    "title": "Componente Móvil",
+      "children":[
+        "rich-text#home__info--mobile",
+        "list-context.product-list#slider-mobile"
+       // "flex-layout.row#home__section--one-department-mobile"
+      ]          
+  },
+  "rich-text#home__info--mobile":{
+    "props":{
+      "text": "# Resolucion de Móvil  "
+    }
+  }, */
+  "list-context.product-list#slider-mobile": {
+    "blocks": ["product-summary.shelf#slider"],
+    "children": ["slider-layout#demo-products--mobile"]
+  },
+  "slider-layout#demo-products--mobile":{
+    "title": "Slider con hijos declarados",
+    "props":{
+    "itemsPerPage": {
+        "desktop": 2,
+        "tablet": 1,
+        "phone": 1
+    },
+    "infinite": true,
+    "blockClass": "home__slider--mobile"
+    } 
+  }
+}

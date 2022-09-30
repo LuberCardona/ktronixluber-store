@@ -23,7 +23,34 @@
       "blockClass": "home__section--two--title-text"
     }
   },
-  "flex-layout.row#home__section--two--images":{
+ /*  "responsive-layout.desktop#home__desktop--section-two--images":{
+    "title": "Componente desktop 2 imagenes",
+      "children":[
+        "flex-layout.row#home__section--two--images"
+      ]    
+  },   */
+  "slider-layout#home__section--two--images":{
+    "title": "Slider offers",
+    "props":{
+        "itemsPerPage": {
+            "desktop": 4,
+            "tablet": 4,
+            "phone": 1.5
+        },
+        "showPaginationDots":"never",
+        "showNavigationArrows": "never",
+        "infinite": true,
+        "blockClass": "slider__home--section-two-images"       
+    },
+    "children":[
+      //"flex-layout.row#home__section--two--images"   
+      "image#section__two--image1",
+      "image#section__two--image2",
+      "image#section__two--image3",
+      "image#section__two--image4"
+    ]
+  },
+/*   "flex-layout.row#home__section--two--images":{
     "title": "section two -images-top-offers",
     "children":[
       "flex-layout.row#home__section--two--images-offers"  
@@ -52,7 +79,7 @@
     "props":{
       "blockClass": "home__section__two--image"
     }
-  },
+  }, */
   "image#section__two--image1":{
     "title": "Image1 -section two",
     "props": {
@@ -63,7 +90,7 @@
         }
     }
   },
-  "flex-layout.col#section__two--image2":{
+ /*  "flex-layout.col#section__two--image2":{
     "title": "Section two - top offers - image2",
     "children":[
       "image#section__two--image2"
@@ -71,7 +98,7 @@
     "props":{
       "blockClass": "home__section__two--image"
     }
-  },
+  }, */
   "image#section__two--image2":{
     "title": "Image2 -section two",
     "props": {
@@ -82,7 +109,7 @@
         }
     }
   },
-  "flex-layout.col#section__two--image3":{
+ /*  "flex-layout.col#section__two--image3":{
     "title": "Section two - top offers - image3",
     "children":[
       "image#section__two--image3"
@@ -90,7 +117,7 @@
     "props":{
       "blockClass": "home__section__two--image"
     }
-  },
+  }, */
   "image#section__two--image3":{
     "title": "Image3 -section two",
     "props": {
@@ -101,7 +128,7 @@
         }
     }
   },
-   "flex-layout.col#section__two--image4":{
+  /*  "flex-layout.col#section__two--image4":{
     "title": "Section two - top offers - image4",
     "children":[
       "image#section__two--image4"
@@ -109,7 +136,7 @@
     "props":{
       "blockClass": "home__section__two--image"
     }
-  },
+  }, */
   "image#section__two--image4":{
     "title": "Image4 -section two",
     "props": {

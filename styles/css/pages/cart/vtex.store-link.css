@@ -4,6 +4,11 @@
     border-radius: 5px;
     border: solid 1px #e63027;
 }
+.label--minicart__empty--link:hover{ 
+    color: #fff;
+    background-color: #AB1114;
+}
+
 .link--minicart__empty--link{
     text-decoration: none;
 }

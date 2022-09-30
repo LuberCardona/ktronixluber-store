@@ -1,10 +1,17 @@
 {
   "store.home": { 
     "blocks": [
-      "flex-layout.row#home__section--one",
-      "flex-layout.row#home__section--two--title",
-      "flex-layout.row#home__section--two--images",
-      "flex-layout.row#home__section--banner--one",
+      "whatsapp-button",
+      //"flex-layout.row#home__section--one",
+      "responsive-layout.desktop#home__info--desktop",
+      "responsive-layout.phone#home__info--mobile",
+     // "responsive-layout.mobile#home__info--mobile",
+      "responsive-layout.tablet#home__info--tablet"
+      //"responsive-layout.desktop#home__desktop--section-one",***
+      //"flex-layout.row#home__section--two--title",
+     // "responsive-layout.desktop#home__desktop--section-two--images",
+     // "flex-layout.row#home__section--two--images",
+      /* "flex-layout.row#home__section--banner--one",
       "flex-layout.row#home__section--three--title",
       "flex-layout.row#home__section--three--images",
       "flex-layout.row#home__section--four--title",
@@ -21,8 +28,15 @@
       "flex-layout.row#home__section--nine--title",
       "flex-layout.row#home__section--nine--images",
       "flex-layout.row#home__section--ten--title",
-      "flex-layout.row#home__section--ten--images"
+      "flex-layout.row#home__section--ten--images" */
     ]
+  },
+  "whatsapp-button":{
+    "props":{
+      "logo": "assets/img/logo-whatsapp.png",
+      "phone": "3054572215",
+      "message": "Ktronix pasión tecno!. En qué podemos ayudarte?"
+    }
   }
 }
 

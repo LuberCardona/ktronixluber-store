@@ -1,0 +1,98 @@
+{
+    "responsive-layout.phone#home__info--mobile":{
+        "title": "Component phone",
+          "children":[
+            "rich-text#home__info--mobile",
+            "list-context.product-list#slider-mobile",
+            "flex-layout.row#home__section--two--title",
+            "slider-layout#home__section--two--images",
+            "flex-layout.row#home__section--three--title",
+            "slider-layout#home__section--three--images",
+            "flex-layout.row#home__section--four--title",
+            "slider-layout#home__section--four--images",
+            "flex-layout.row#home__section--five--title",
+            "flex-layout.row#home__section--six--title",
+            "flex-layout.row#home__section--seven--title",
+            "slider-layout#home__section--seven--images",
+            "flex-layout.row#home__section--eight--title",
+            "slider-layout#home__section--eight--images",
+            "flex-layout.row#home__section--nine--title",
+            "slider-layout#home__section--nine--images",
+            "flex-layout.row#home__section--ten--title"
+          ]          
+      },
+      "responsive-layout.tablet#home__info--tablet":{
+        "title": "Component Tablet",
+          "children":[
+            "rich-text#home__info--tablet",
+            "list-context.product-list#slider-mobile",
+            "flex-layout.row#home__section--two--title",
+            "slider-layout#home__section--two--images",
+            "flex-layout.row#home__section--three--title",
+            "slider-layout#home__section--three--images",
+            "flex-layout.row#home__section--four--title",
+            "slider-layout#home__section--four--images",
+            "flex-layout.row#home__section--five--title",
+            "flex-layout.row#home__section--six--title",
+            "flex-layout.row#home__section--seven--title",
+            "slider-layout#home__section--seven--images",
+            "flex-layout.row#home__section--eight--title",
+            "slider-layout#home__section--eight--images",
+            "flex-layout.row#home__section--nine--title",
+            "slider-layout#home__section--nine--images",
+            "flex-layout.row#home__section--ten--title"
+          ]    
+       },
+      "responsive-layout.desktop#home__info--desktop":{
+        "title": "Component desktop",
+         "children":[
+           // "rich-text#home__info--desktop",
+            "flex-layout.row#home__section--one",
+            "flex-layout.row#home__section--two--title",
+            "slider-layout#home__section--two--images",
+            //"flex-layout.row#home__section--two--images",
+            "flex-layout.row#home__section--banner--one",
+            "flex-layout.row#home__section--three--title",
+            "slider-layout#home__section--three--images",
+            //"flex-layout.row#home__section--three--images",
+            "flex-layout.row#home__section--four--title",
+            "slider-layout#home__section--four--images",
+           // "flex-layout.row#home__section--four--images",
+            "flex-layout.row#home__section--banner--two",
+            "flex-layout.row#home__section--five--title",
+            "slider-layout#home__section--five--images",
+           // "flex-layout.row#home__section--five--images",
+            "flex-layout.row#home__section--six--title",
+            "flex-layout.row#home__section--six--images",
+            "flex-layout.row#home__section--seven--title",
+            "slider-layout#home__section--seven--images",
+            //"flex-layout.row#home__section--seven--images",
+            "flex-layout.row#home__section--eight--title",
+            "slider-layout#home__section--eight--images",
+           // "flex-layout.row#home__section--eight--images",
+            "flex-layout.row#home__section--nine--title",
+            "slider-layout#home__section--nine--images",
+           // "flex-layout.row#home__section--nine--images",
+            "flex-layout.row#home__section--ten--title",
+            "flex-layout.row#home__section--ten--images"
+          ],
+          "props":{
+            "blockClass": "home__responsive"
+          }  
+      },
+      "rich-text#home__info--mobile":{
+        "props":{
+          "text": "# Resolucion de Móvil  "
+        }
+      },
+      "rich-text#home__info--tablet":{
+        "props":{
+          "text": "# Resolucion de Tableta"
+        }
+      },
+      "rich-text#home__info--desktop":{
+        "props":{
+          "text": "# Resolucion de Escritorio"
+        }
+      }
+}

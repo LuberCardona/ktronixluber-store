@@ -1,9 +1,17 @@
 .label--link__about-us{
-    padding: 10px;
+    padding: 15px;
     color: #e63027;
+    border: solid 1px #DD171B;
     border-radius: 5px;
-    border: solid 1px #e63027;
+}
+.label--link__about-us:hover{   
+    color: #ffffff;
+    background-color: #AB1114;
 }
 .link--link__about-us{
     text-decoration: none;
+}
+.link--link__about-us:hover{
+    text-decoration: underline;
+    color: #ffffff;
 }

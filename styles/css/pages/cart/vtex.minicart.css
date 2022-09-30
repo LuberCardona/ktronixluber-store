@@ -1,0 +1,9 @@
+.minicartTitle--minicart__title--text{
+    visibility: hidden;
+}
+.minicartTitle--minicart__title--text::after{
+    content: "Carrito de compras";
+    display: block;
+    visibility: visible;
+    font-size: 40px;
+}
