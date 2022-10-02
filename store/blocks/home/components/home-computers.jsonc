@@ -29,7 +29,7 @@
           "itemsPerPage": {
               "desktop": 3,
               "tablet": 3,
-              "phone": 1.8
+              "phone": 1.5
           },
           "showPaginationDots":"never",
           "showNavigationArrows": "never",

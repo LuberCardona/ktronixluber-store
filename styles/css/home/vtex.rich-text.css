@@ -28,11 +28,11 @@
 }
 .wrapper--home__section--banner--one-1-text{
     font-size: 14px;
-   /*  font-family: Arial,Helvetica,sans-serif; */
 }
 .container--home__section--banner--one-1-text{
-    width: 230px;
+    min-width: max-content;
 }
+
 .wrapper--section__ten--text1{
     font-size: 16px;
     color: #444444;
@@ -43,6 +43,7 @@
 .paragraph--section__ten--text1{
     margin: 0px;
     line-height: 1;
+    text-align: center;
 }
 .paragraph--section__ten--text2{
     font-size: 14px;
@@ -60,4 +61,3 @@
 .container--quick-view--trigger{
     place-content: center;
 }
-
