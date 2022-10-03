@@ -9,6 +9,7 @@
        }
     },  
     "flex-layout.row#home__section--ten--title-payment-methods":{
+      "title": "home section ten payment methods",
       "children":[
        "rich-text#home__section--ten--title"
       ],

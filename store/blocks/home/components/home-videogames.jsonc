@@ -29,7 +29,7 @@
           "itemsPerPage": {
               "desktop": 3,
               "tablet": 3,
-              "phone": 1.8
+              "phone": 1.5
           },
           "showPaginationDots":"never",
           "showNavigationArrows": "never",
@@ -72,7 +72,7 @@
       "title": "Image1 -section seven - videogames",
       "props": {
           "src": "assets/img/sony.jpg",
-          "blockClass": "home__section__four--image",
+          "blockClass": "home__section__seven--image",
           "link":{
               "url": "/"
           }

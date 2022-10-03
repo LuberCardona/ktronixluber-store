@@ -3,6 +3,7 @@
         "title": "Component phone",
           "children":[
             "rich-text#home__info--mobile",
+            "flex-layout.row#home__section--banner--one-mobile",
             "list-context.product-list#slider-mobile",
             "flex-layout.row#home__section--two--title",
             "slider-layout#home__section--two--images",
@@ -12,41 +13,47 @@
             "slider-layout#home__section--four--images",
             "flex-layout.row#home__section--five--title",
             "flex-layout.row#home__section--six--title",
+            "slider-layout#home__section--six--images-mobile",
             "flex-layout.row#home__section--seven--title",
             "slider-layout#home__section--seven--images",
             "flex-layout.row#home__section--eight--title",
             "slider-layout#home__section--eight--images",
             "flex-layout.row#home__section--nine--title",
             "slider-layout#home__section--nine--images",
-            "flex-layout.row#home__section--ten--title"
+            "flex-layout.row#home__section--ten--title",
+            "slider-layout#home__section--ten--images-mobile"
           ]          
       },
       "responsive-layout.tablet#home__info--tablet":{
         "title": "Component Tablet",
           "children":[
             "rich-text#home__info--tablet",
+            "flex-layout.row#home__section--banner--one-mobile",
             "list-context.product-list#slider-mobile",
             "flex-layout.row#home__section--two--title",
             "slider-layout#home__section--two--images",
+            "flex-layout.row#home__section--banner--one",
             "flex-layout.row#home__section--three--title",
             "slider-layout#home__section--three--images",
             "flex-layout.row#home__section--four--title",
             "slider-layout#home__section--four--images",
             "flex-layout.row#home__section--five--title",
             "flex-layout.row#home__section--six--title",
+            "flex-layout.row#home__section--six--images",
             "flex-layout.row#home__section--seven--title",
             "slider-layout#home__section--seven--images",
             "flex-layout.row#home__section--eight--title",
             "slider-layout#home__section--eight--images",
             "flex-layout.row#home__section--nine--title",
             "slider-layout#home__section--nine--images",
-            "flex-layout.row#home__section--ten--title"
+            "flex-layout.row#home__section--ten--title",
+            "flex-layout.row#home__section--ten--images"
           ]    
        },
       "responsive-layout.desktop#home__info--desktop":{
         "title": "Component desktop",
          "children":[
-           // "rich-text#home__info--desktop",
+            "rich-text#home__info--desktop",
             "flex-layout.row#home__section--one",
             "flex-layout.row#home__section--two--title",
             "slider-layout#home__section--two--images",

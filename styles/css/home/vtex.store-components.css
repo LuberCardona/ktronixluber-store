@@ -16,3 +16,11 @@
     width: 400px;
     transform: translateX(150px);
 }
+.imageElement--home__section__three--image,
+.imageElement--home__section__four--image,
+.imageElement--home__section__five--image,
+.imageElement--home__section__seven--image,
+.imageElement--home__section__eight--image,
+.imageElement--home__section__nine--image{
+    width: 415px;
+}

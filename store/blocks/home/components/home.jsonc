@@ -2,6 +2,8 @@
   "store.home": { 
     "blocks": [
       "whatsapp-button",
+     // "list-context.bullet-group",
+      //"bullets-diagramation",
       //"flex-layout.row#home__section--one",
       "responsive-layout.desktop#home__info--desktop",
       "responsive-layout.phone#home__info--mobile",
@@ -30,6 +32,17 @@
       "flex-layout.row#home__section--ten--title",
       "flex-layout.row#home__section--ten--images" */
     ]
+  },
+  "list-context.bullet-group":{
+    "props":{
+      "bullets":{
+        "image": "miimagen.png",
+        "titleBullet": "Computadores",
+        "link":{
+          "url":"/"
+        }
+      }
+    }
   },
   "whatsapp-button":{
     "props":{
