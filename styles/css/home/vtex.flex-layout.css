@@ -95,7 +95,7 @@
 }
 .flexRowContent--container__banner--img{
     width: 100px;
-}
+} 
 .flexColChild--home__section__ten--image{
     align-self: center;
 }
@@ -122,3 +122,13 @@
     align-items: center;
     padding: 30px;
 }
+.flexCol--home__slider--section--ten--images-mobile{
+    align-items: center;
+}
+.flexRow--home__section--banner--one-mobile{
+    background-color: #EBEBEB;
+}
+.flexRowContent--home__section--banner--one-mobile{
+    text-align: -webkit-center;
+}
+
