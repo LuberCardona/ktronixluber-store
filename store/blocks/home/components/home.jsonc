@@ -1,14 +1,15 @@
 {
   "store.home": { 
     "blocks": [
+     // "list-context.bullet-group",
       "whatsapp-button",
       "list-context.bullet-group",
       //"bullets-diagramation",
       //"flex-layout.row#home__section--one",
-      "responsive-layout.desktop#home__info--desktop",
-      "responsive-layout.phone#home__info--mobile",
+      "responsive-layout.desktop#home__info--desktop"
+      //"responsive-layout.phone#home__info--mobile",***********
      // "responsive-layout.mobile#home__info--mobile",
-      "responsive-layout.tablet#home__info--tablet"
+      //"responsive-layout.tablet#home__info--tablet"*************
       //"responsive-layout.desktop#home__desktop--section-one",***
       //"flex-layout.row#home__section--two--title",
      // "responsive-layout.desktop#home__desktop--section-two--images",
@@ -33,15 +34,65 @@
       "flex-layout.row#home__section--ten--images" */
     ]
   },
-  "list-context.bullet-group":{
+  "list-context.bullet-group":{   
+    "title": "Mi contexto de lista de Bullets",
+    "children":["slider-layout#bullet-group"],
     "props":{
-      "bullets":{
-        "image": "miimagen.png",
-        "titleBullet": "Computadores",
-        "link":{
-          "url":"/"
+      "bullets":[     
+        {
+          "image": "assets/img/computador.png",
+          "titleBullet": "Computadores",
+          "link":{
+            "url":"/"
+          }
+        },
+        {
+          "image": "assets/img/deportes.png",
+          "titleBullet": "Ropa",
+          "link":{
+            "url":"/"
+          }
+        },
+        {
+          "image": "assets/img/computador.png",
+          "titleBullet": "Computadores",
+          "link":{
+            "url":"/"
+          }
+        },
+        {
+          "image": "assets/img/deportes.png",
+          "titleBullet": "Ropa",
+          "link":{
+            "url":"/"
+          }
+        },
+        {
+          "image": "assets/img/computador.png",
+          "titleBullet": "Computadores",
+          "link":{
+            "url":"/"
+          }
+        },
+        {
+          "image": "assets/img/deportes.png",
+          "titleBullet": "Ropa",
+          "link":{
+            "url":"/"
+          }
         }
-      }
+      ]     
+        
+    }
+  },
+  "slider-layout#bullet-group":{
+    "props":{
+      "itemsPerPage":{
+        "desktop": 5,
+        "tablet": 5,
+        "mobile":5
+      },
+      "infinite": true
     }
   },
   "whatsapp-button":{
