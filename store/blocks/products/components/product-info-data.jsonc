@@ -38,7 +38,8 @@
       "product-rating-inline",
       "product-price",
       "flex-layout.row#product__dropdown__add-to-cart",
-      "rich-text#product__promo-info"
+      "rich-text#product__promo-info",
+      "add-to-cart-info"
     ],
     "props":{
       "width": "30%",
