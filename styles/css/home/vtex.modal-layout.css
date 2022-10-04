@@ -1,0 +1,9 @@
+.headerContainer--header__container--quick-view--modal{
+   border: none;
+   padding: 5px;
+}
+.closeButton--header__container--quick-view--modal{
+   /*  border-radius: 50%;
+    border: solid 2px #151515; */
+    opacity: 1;
+}

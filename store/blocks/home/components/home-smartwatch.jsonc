@@ -23,7 +23,26 @@
         "blockClass": "home__section--eight--title-text"
       }
     },
-    "flex-layout.row#home__section--eight--images":{
+    "slider-layout#home__section--eight--images":{
+      "title": "Slider smartwatch",
+      "props":{
+          "itemsPerPage": {
+              "desktop": 3,
+              "tablet": 3,
+              "phone": 1.5
+          },
+          "showPaginationDots":"never",
+          "showNavigationArrows": "never",
+          "infinite": true,
+          "blockClass": "slider__home--section-eight-images"       
+      },
+      "children":[  
+        "image#section__eight--image1",
+        "image#section__eight--image2",
+        "image#section__eight--image3"
+      ]
+    },
+    /* "flex-layout.row#home__section--eight--images":{
      "title": "section -images-smartwatch",
       "children":[
         "flex-layout.row#home__section--eight--images-smartwatch"  
@@ -48,18 +67,18 @@
       "props":{
         "blockClass": "home__section__four--image"
       }
-    },
+    }, */
     "image#section__eight--image1":{
       "title": "Image1 -section eight - smartwatch",
       "props": {
           "src": "assets/img/huaweigt2pro.jpg",
-          "blockClass": "home__section__four--image",
+          "blockClass": "home__section__eight--image",
           "link":{
               "url": "/"
           }
       }
     },
-    "flex-layout.col#section__eight--image2":{
+    /* "flex-layout.col#section__eight--image2":{
       "title": "section eight - smartwatch Image2",
       "children":[
         "image#section__eight--image2"
@@ -67,7 +86,7 @@
       "props":{
         "blockClass": "home__section__eight--image"
       }
-    },
+    }, */
     "image#section__eight--image2":{
       "title": "Image2 -section eight - smartwatch",
       "props": {
@@ -78,7 +97,7 @@
           }
       }
     },
-    "flex-layout.col#section__eight--image3":{
+   /*  "flex-layout.col#section__eight--image3":{
       "title": "Section eight smartwatch",
       "children":[
         "image#section__eight--image3"
@@ -86,7 +105,7 @@
       "props":{
         "blockClass": "home__section__eight--image"
       }
-    },
+    }, */
     "image#section__eight--image3":{
       "title": "Image3 -section eight - smartwatch",
       "props": {

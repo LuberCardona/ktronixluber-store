@@ -13,6 +13,9 @@
 .headerRowContentContainer--Header__top{  
     height: 50px;
 }
+.headerStickyRow--hearder__mobile{
+    width: 100%;
+}
 
 
 

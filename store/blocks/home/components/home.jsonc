@@ -1,10 +1,19 @@
 {
   "store.home": { 
     "blocks": [
-      "flex-layout.row#home__section--one",
-      "flex-layout.row#home__section--two--title",
-      "flex-layout.row#home__section--two--images",
-      "flex-layout.row#home__section--banner--one",
+      "flex-layout.row#bullets",
+      "whatsapp-button",
+      //"bullets-diagramation",
+      //"flex-layout.row#home__section--one",
+      "responsive-layout.desktop#home__info--desktop",
+      "responsive-layout.phone#home__info--mobile",
+     // "responsive-layout.mobile#home__info--mobile",
+      "responsive-layout.tablet#home__info--tablet"
+      //"responsive-layout.desktop#home__desktop--section-one",***
+      //"flex-layout.row#home__section--two--title",
+     // "responsive-layout.desktop#home__desktop--section-two--images",
+     // "flex-layout.row#home__section--two--images",
+      /* "flex-layout.row#home__section--banner--one",
       "flex-layout.row#home__section--three--title",
       "flex-layout.row#home__section--three--images",
       "flex-layout.row#home__section--four--title",
@@ -21,8 +30,95 @@
       "flex-layout.row#home__section--nine--title",
       "flex-layout.row#home__section--nine--images",
       "flex-layout.row#home__section--ten--title",
-      "flex-layout.row#home__section--ten--images"
+      "flex-layout.row#home__section--ten--images" */
     ]
+  },
+  "flex-layout.row#bullets":{
+    "children":[
+      "list-context.bullet-group"
+    ]
+  },
+  "list-context.bullet-group":{   
+    "title": "Mi contexto de lista de Bullets",
+    "children":["slider-layout#bullet-group"],
+    "props":{
+      "bullets":[     
+        {
+          "image": "assets/img/computador.png",
+          "titleBullet": "Computadores",
+          "link":{
+            "url":"/"
+          }
+        },
+        {
+          "image": "assets/img/deportes.png",
+          "titleBullet": "Ropa",
+          "link":{
+            "url":"/"
+          }
+        },
+        {
+          "image": "assets/img/computador.png",
+          "titleBullet": "Computadores",
+          "link":{
+            "url":"/"
+          }
+        },
+        {
+          "image": "assets/img/deportes.png",
+          "titleBullet": "Ropa",
+          "link":{
+            "url":"/"
+          }
+        },
+        {
+          "image": "assets/img/computador.png",
+          "titleBullet": "Computadores",
+          "link":{
+            "url":"/"
+          }
+        },
+        {
+          "image": "assets/img/deportes.png",
+          "titleBullet": "Ropa",
+          "link":{
+            "url":"/"
+          }
+        },
+        {
+          "image": "assets/img/computador.png",
+          "titleBullet": "Computadores",
+          "link":{
+            "url":"/"
+          }
+        },
+        {
+          "image": "assets/img/deportes.png",
+          "titleBullet": "Ropa",
+          "link":{
+            "url":"/"
+          }
+        }
+      ]     
+        
+    }
+  },
+  "slider-layout#bullet-group":{
+    "props":{
+      "itemsPerPage":{
+        "desktop": 5,
+        "tablet": 5,
+        "mobile":5
+      },
+      "infinite": true
+    }
+  },
+  "whatsapp-button":{
+    "props":{
+      "logo": "assets/img/logo-whatsapp.png",
+      "phone": "3054572215",
+      "message": "Ktronix pasión tecno!. En qué podemos ayudarte?"
+    }
   }
 }
 

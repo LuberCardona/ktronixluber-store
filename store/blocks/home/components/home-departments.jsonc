@@ -1,5 +1,11 @@
 {
-    "flex-layout.row#home__section--one":{
+  /* "responsive-layout.desktop#home__desktop--section-one":{
+    "title": "Componente desktop",
+      "children":[
+        "flex-layout.row#home__section--one"
+      ]    
+  },   */
+  "flex-layout.row#home__section--one":{
       "title":"slider",
       "children":[
          //"slider-layout#home__section--one-slider",

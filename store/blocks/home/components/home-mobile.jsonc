@@ -1,0 +1,127 @@
+{
+  "flex-layout.row#home__section--banner--one-mobile":{
+    "title":"home__banner--one-mobile",
+    "children":[
+        "flex-layout.row#home__section--banner--one-1"
+    ],
+    "props": {            
+        "blockClass": "home__section--banner--one-mobile",
+        "colsizing": "auto"    
+    }
+  },  
+  "list-context.product-list#slider-mobile": {
+    "blocks": ["product-summary.shelf#slider"],
+    "children": ["slider-layout#demo-products--mobile"]
+  },
+  "slider-layout#demo-products--mobile":{
+    "title": "Slider section one",
+    "props":{
+    "itemsPerPage": {
+        "desktop": 2,
+        "tablet": 1,
+        "phone": 1
+    },
+    "infinite": true,
+    "blockClass": "home__slider--mobile",
+    "fullwidth": false
+    } 
+  },
+  "slider-layout#home__section--six--images-mobile":{
+    "title": "Slider homeappliances",
+    "props":{
+        "itemsPerPage": {
+            "phone": 1.5
+        },
+        "showPaginationDots":"never",
+        "showNavigationArrows": "never",
+        "infinite": true,
+        "blockClass": "slider__home--section-six-images-mobile"       
+    },
+    "children":[  
+      "image#section__six--image1",
+      "image#section__six--image2",
+      "image#section__six--image3",
+      "image#section__six--image4",
+      "image#section__six--image5",
+      "image#section__six--image6"
+    ]
+  },
+  "slider-layout#home__section--ten--images-mobile":{
+    "title": "Slider payment methods",
+    "props":{
+        "itemsPerPage": {
+            "phone": 2
+        },
+        "showPaginationDots":"never",
+        "showNavigationArrows": "never",
+        "infinite": true,
+        "blockClass": "slider__home--section-ten-images-mobile"       
+    },
+    "children":[ 
+      "flex-layout.row#home__slider--section--ten--images-mobile1",
+      "flex-layout.row#home__slider--section--ten--images-mobile2",
+      "flex-layout.row#home__slider--section--ten--images-mobile3",
+      "flex-layout.row#home__slider--section--ten--images-mobile4"
+    ] 
+  },
+  "flex-layout.row#home__slider--section--ten--images-mobile1":{
+  "children": [
+      "flex-layout.col#home__slider--section--ten--images1-mobile"
+  ]
+  }, 
+  "flex-layout.row#home__slider--section--ten--images-mobile2":{
+    "children": [
+        "flex-layout.col#home__slider--section--ten--images2-mobile" 
+    ]
+  }, 
+  "flex-layout.row#home__slider--section--ten--images-mobile3":{
+    "children": [    
+        "flex-layout.col#home__slider--section--ten--images3-mobile"
+    ]
+  }, 
+  "flex-layout.row#home__slider--section--ten--images-mobile4":{
+    "children": [
+        "flex-layout.col#home__slider--section--ten--images4-mobile" 
+    ]
+  }, 
+  "flex-layout.col#home__slider--section--ten--images1-mobile":{
+    "children":[
+      "image#section__ten--image1",
+      "rich-text#section__ten--image1-text1",
+      "rich-text#section__ten--image1-text2"
+    ],
+    "props":{
+      "blockClass":"home__slider--section--ten--images-mobile"
+    }
+  },
+  "flex-layout.col#home__slider--section--ten--images2-mobile":{
+    "children":[
+      "image#section__ten--image2",
+      "rich-text#section__ten--image2-text1",
+      "rich-text#section__ten--image2-text2"
+    ],
+    "props":{
+      "blockClass":"home__slider--section--ten--images-mobile"
+    }
+  },
+  "flex-layout.col#home__slider--section--ten--images3-mobile":{
+    "children":[
+      "image#section__ten--image3",
+      "rich-text#section__ten--image3-text1",
+      "rich-text#section__ten--image3-text2"
+    ],
+    "props":{
+      "blockClass":"home__slider--section--ten--images-mobile"
+    }
+  },
+  "flex-layout.col#home__slider--section--ten--images4-mobile":{
+    "children":[
+      "image#section__ten--image4",
+      "rich-text#section__ten--image4-text1",
+      "rich-text#section__ten--image4-text2"
+    ],
+    "props":{
+      "blockClass":"home__slider--section--ten--images-mobile"
+    }
+  }
+}

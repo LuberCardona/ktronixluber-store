@@ -23,7 +23,26 @@
         "blockClass": "home__section--four--title-text"
       }
     },
-    "flex-layout.row#home__section--four--images":{
+    "slider-layout#home__section--four--images":{
+      "title": "Slider computers",
+      "props":{
+          "itemsPerPage": {
+              "desktop": 3,
+              "tablet": 3,
+              "phone": 1.5
+          },
+          "showPaginationDots":"never",
+          "showNavigationArrows": "never",
+          "infinite": true,
+          "blockClass": "slider__home--section-four-images"       
+      },
+      "children":[  
+        "image#section__four--image1",
+        "image#section__four--image2",
+        "image#section__four--image3"
+      ]
+    },
+   /*  "flex-layout.row#home__section--four--images":{
      "title": "section four -images-computers",
       "children":[
         "flex-layout.row#home__section--four--images-computers"  
@@ -39,8 +58,8 @@
         "flex-layout.col#section__four--image2",
         "flex-layout.col#section__four--image3"
       ]
-    }, 
-    "flex-layout.col#section__four--image1":{
+    },  */
+    /* "flex-layout.col#section__four--image1":{
       "title": "Section four - computers - image1",
       "children":[
         "image#section__four--image1"
@@ -48,7 +67,7 @@
       "props":{
         "blockClass": "home__section__four--image"
       }
-    },
+    }, */
     "image#section__four--image1":{
       "title": "Image1 -section four - computers",
       "props": {
@@ -59,7 +78,7 @@
           }
       }
     },
-    "flex-layout.col#section__four--image2":{
+   /*  "flex-layout.col#section__four--image2":{
       "title": "section four - computers Image2",
       "children":[
         "image#section__four--image2"
@@ -67,7 +86,7 @@
       "props":{
         "blockClass": "home__section__four--image"
       }
-    },
+    }, */
     "image#section__four--image2":{
       "title": "Image2 -section four - computers",
       "props": {
@@ -78,7 +97,7 @@
           }
       }
     },
-    "flex-layout.col#section__four--image3":{
+   /*  "flex-layout.col#section__four--image3":{
       "title": "Section four - computers",
       "children":[
         "image#section__four--image3"
@@ -86,7 +105,7 @@
       "props":{
         "blockClass": "home__section__four--image"
       }
-    },
+    }, */
     "image#section__four--image3":{
       "title": "Image3 -section four - computers",
       "props": {

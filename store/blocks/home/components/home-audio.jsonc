@@ -23,7 +23,26 @@
         "blockClass": "home__section--nine--title-text"
       }
     },
-    "flex-layout.row#home__section--nine--images":{
+    "slider-layout#home__section--nine--images":{
+      "title": "Slider smartwatch",
+      "props":{
+          "itemsPerPage": {
+              "desktop": 3,
+              "tablet": 3,
+              "phone": 1.5
+          },
+          "showPaginationDots":"never",
+          "showNavigationArrows": "never",
+          "infinite": true,
+          "blockClass": "slider__home--section-nine-images"       
+      },
+      "children":[  
+        "image#section__nine--image1",
+        "image#section__nine--image2",
+        "image#section__nine--image3"
+      ]
+    },
+   /*  "flex-layout.row#home__section--nine--images":{
      "title": "section -images-audio",
       "children":[
         "flex-layout.row#home__section--nine--images-audio"  
@@ -48,18 +67,18 @@
       "props":{
         "blockClass": "home__section__four--image"
       }
-    },
+    }, */
     "image#section__nine--image1":{
       "title": "Image1 -section nine - audio",
       "props": {
           "src": "assets/img/bose.jpg",
-          "blockClass": "home__section__four--image",
+          "blockClass": "home__section__nine--image",
           "link":{
               "url": "/"
           }
       }
     },
-    "flex-layout.col#section__nine--image2":{
+   /*  "flex-layout.col#section__nine--image2":{
       "title": "section nine - audio Image2",
       "children":[
         "image#section__nine--image2"
@@ -67,7 +86,7 @@
       "props":{
         "blockClass": "home__section__nine--image"
       }
-    },
+    }, */
     "image#section__nine--image2":{
       "title": "Image2 -section nine - audio",
       "props": {
@@ -78,7 +97,7 @@
           }
       }
     },
-    "flex-layout.col#section__nine--image3":{
+   /*  "flex-layout.col#section__nine--image3":{
       "title": "Section nine audio",
       "children":[
         "image#section__nine--image3"
@@ -86,7 +105,7 @@
       "props":{
         "blockClass": "home__section__nine--image"
       }
-    },
+    }, */
     "image#section__nine--image3":{
       "title": "Image3 -section nine - audio",
       "props": {

@@ -23,7 +23,26 @@
         "blockClass": "home__section--seven--title-text"
       }
     },
-    "flex-layout.row#home__section--seven--images":{
+    "slider-layout#home__section--seven--images":{
+      "title": "Slider videogames",
+      "props":{
+          "itemsPerPage": {
+              "desktop": 3,
+              "tablet": 3,
+              "phone": 1.5
+          },
+          "showPaginationDots":"never",
+          "showNavigationArrows": "never",
+          "infinite": true,
+          "blockClass": "slider__home--section-seven-images"       
+      },
+      "children":[  
+        "image#section__seven--image1",
+        "image#section__seven--image2",
+        "image#section__seven--image3"
+      ]
+    },
+    /*  "flex-layout.row#home__section--seven--images":{
      "title": "section -images-videogames",
       "children":[
         "flex-layout.row#home__section--seven--images-videogames"  
@@ -48,18 +67,18 @@
       "props":{
         "blockClass": "home__section__four--image"
       }
-    },
+    }, */
     "image#section__seven--image1":{
       "title": "Image1 -section seven - videogames",
       "props": {
           "src": "assets/img/sony.jpg",
-          "blockClass": "home__section__four--image",
+          "blockClass": "home__section__seven--image",
           "link":{
               "url": "/"
           }
       }
     },
-    "flex-layout.col#section__seven--image2":{
+    /* "flex-layout.col#section__seven--image2":{
       "title": "section seven - videogames Image2",
       "children":[
         "image#section__seven--image2"
@@ -67,7 +86,7 @@
       "props":{
         "blockClass": "home__section__seven--image"
       }
-    },
+    }, */
     "image#section__seven--image2":{
       "title": "Image2 -section seven - videogames",
       "props": {
@@ -78,7 +97,7 @@
           }
       }
     },
-    "flex-layout.col#section__seven--image3":{
+    /* "flex-layout.col#section__seven--image3":{
       "title": "Section seven videogames",
       "children":[
         "image#section__seven--image3"
@@ -86,7 +105,7 @@
       "props":{
         "blockClass": "home__section__seven--image"
       }
-    },
+    }, */
     "image#section__seven--image3":{
       "title": "Image3 -section seven - videogames",
       "props": {

@@ -1,0 +1,35 @@
+{
+  "header-layout.mobile":{
+    "title": "Header Mobile",
+    "children":[
+      "header-row#header__top--mobile"
+    ]
+  },
+  "header-row#header__top--mobile":{
+    "children":[
+      "logo#header__top--logo-mobile",
+      "search-bar#header__search--mobile"
+    ],
+    "props":{
+      "blockClass":"hearder__mobile"
+    }
+  },
+  "logo#header__top--logo-mobile":{
+    "title": "Logo",
+    "props":{
+      "blockClass":"header__top--logo-mobile",
+      "url": "assets/img/logo.svg",
+      "href": "/"
+    }
+  },
+  "search-bar#header__search--mobile":{
+    "blocks": ["autocomplete-result-list.v2"],
+    "props": {
+      "openAutocompleteOnFocus": true,
+      "placeholder": "¿Qué buscas hoy?",
+      "maxWidth": 500,
+      "blockClass":"header__search--mobile"
+    }
+  }
+
+}
