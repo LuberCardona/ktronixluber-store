@@ -98,6 +98,54 @@
           "link":{
             "url":"/"
           }
+        },
+        {
+          "image": "assets/img/computador.png",
+          "titleBullet": "Computadores",
+          "link":{
+            "url":"/"
+          }
+        },
+        {
+          "image": "assets/img/deportes.png",
+          "titleBullet": "Ropa",
+          "link":{
+            "url":"/"
+          }
+        }, {
+          "image": "assets/img/computador.png",
+          "titleBullet": "Computadores",
+          "link":{
+            "url":"/"
+          }
+        },
+        {
+          "image": "assets/img/deportes.png",
+          "titleBullet": "Ropa",
+          "link":{
+            "url":"/"
+          }
+        },
+        {
+          "image": "assets/img/computador.png",
+          "titleBullet": "Computadores",
+          "link":{
+            "url":"/"
+          }
+        },
+        {
+          "image": "assets/img/deportes.png",
+          "titleBullet": "Ropa",
+          "link":{
+            "url":"/"
+          }
+        },
+        {
+          "image": "assets/img/deportes.png",
+          "titleBullet": "Ropa",
+          "link":{
+            "url":"/"
+          }
         }
       ]     
         
