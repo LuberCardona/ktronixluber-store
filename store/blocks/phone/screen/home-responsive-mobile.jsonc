@@ -1,0 +1,34 @@
+{
+  "responsive-layout.phone#home__info--mobile":{
+    "title": "Component phone",
+      "children":[
+       // "list-context.bullet-group",
+        "rich-text#home__info--mobile",
+        "flex-layout.row#home__section--banner--one-mobile",
+        "list-context.product-list#slider-mobile",
+        "flex-layout.row#home__section--one-department-mobile",
+        "flex-layout.row#home__section--two--title",
+        "slider-layout#home__section--two--images",
+        "flex-layout.row#home__section--three--title",
+        "slider-layout#home__section--three--images",
+        "flex-layout.row#home__section--four--title",
+        "slider-layout#home__section--four--images",
+        "flex-layout.row#home__section--five--title",
+        "flex-layout.row#home__section--six--title",
+        "slider-layout#home__section--six--images-mobile",
+        "flex-layout.row#home__section--seven--title",
+        "slider-layout#home__section--seven--images",
+        "flex-layout.row#home__section--eight--title",
+        "slider-layout#home__section--eight--images",
+        "flex-layout.row#home__section--nine--title",
+        "slider-layout#home__section--nine--images",
+        "flex-layout.row#home__section--ten--title",
+        "slider-layout#home__section--ten--images-mobile"
+      ]          
+  },
+  "rich-text#home__info--mobile":{
+    "props":{
+      "text": "# Resolucion de Móvil  "
+    }
+  }
+}
