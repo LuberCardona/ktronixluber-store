@@ -10,7 +10,7 @@
       "children":[
          //"slider-layout#home__section--one-slider",
          "list-context.product-list#slider",
-          "flex-layout.row#home__section--one-department"
+         "flex-layout.row#home__section--one-department"
       ],
       "props":{
           "blockClass":"home__section--one-slider-departments"
@@ -39,10 +39,8 @@
       ],
       "props":{
           "blockClass":"home__section--one-col-departments"
-      }
-      
-    },
-    
+      }      
+    },    
     "flex-layout.col#home__section--one-department-two":{
       "children":[
           "image#home__section--one-department-computadores", 
