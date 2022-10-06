@@ -2,8 +2,15 @@
    border: none;
    padding: 5px;
 }
-.closeButton--header__container--quick-view--modal{
-   /*  border-radius: 50%;
-    border: solid 2px #151515; */
+.closeButton--header__container--quick-view--modal{   
     opacity: 1;
+}
+.headerContainer--modal__header--add-to-cart-info{
+   border-bottom: 2px solid #e63027;
+}
+.paper--modal__layout--add-to-cart-info{
+   width: 780px;
+}
+.closeIcon--modal__header--add-to-cart-info{
+    color: #004691;
 }

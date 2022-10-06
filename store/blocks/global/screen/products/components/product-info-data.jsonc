@@ -39,7 +39,8 @@
       "product-price",
       "flex-layout.row#product__dropdown__add-to-cart",
       "rich-text#product__promo-info",
-      "add-to-cart-info"
+      "modal-trigger#add-to-cart-info"
+      
     ],
     "props":{
       "width": "30%",
@@ -66,6 +67,31 @@
     "title":" ",
     "props":{
      "text": "**Opciones de entrega**"
+    }
+  },
+  "modal-trigger#add-to-cart-info":{
+    "children":[
+      "modal-layout#add-to-cart-info"
+      
+    ],
+    "props":{
+      "customPixelEventName": "addToCart"
+    }
+  },
+  "modal-layout#add-to-cart-info":{
+    "children":[
+      "modal-header#add-to-cart-info",
+      "add-to-cart-info"
+    ],
+    "props":{
+      "blockClass": "modal__layout--add-to-cart-info"
+    }
+  },
+  "modal-header#add-to-cart-info":{
+    "props":{
+      "showCloseButton": true,
+      "iconCloseSize": 24,
+      "blockClass": "modal__header--add-to-cart-info"
     }
   }
 }
