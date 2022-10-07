@@ -86,7 +86,8 @@
     "children":[
       "search-bar#header__search",
       "login",
-      "flex-layout.row#minicart__logo--header"
+      "flex-layout.row#minicart__logo--header",
+      "department-search"
     ],
      "props":{
      "blockClass": "Header__middle"

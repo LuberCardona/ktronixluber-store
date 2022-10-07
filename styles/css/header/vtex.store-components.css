@@ -29,3 +29,7 @@
     padding: 5px 16px;
     border-bottom: solid 2px #e63027;
 }
+.suffixWrapper--header__search{
+    transform: translateX(16px);
+    display: flex;
+}
