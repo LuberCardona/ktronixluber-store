@@ -1,0 +1,14 @@
+{
+    "store.custom#catalog":{
+        "blocks":[
+            "pdf-reader"
+        ]
+    },
+    "pdf-reader":{
+        "props":{
+          "pdfUrl": "assets/documents/Catalog.pdf",
+          "width": 500,
+          "height": 400
+        }
+    }
+}
