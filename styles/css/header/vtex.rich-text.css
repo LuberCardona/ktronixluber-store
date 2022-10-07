@@ -8,3 +8,7 @@
     line-height: 16px;
     margin-right: 25px;
 }
+.link--header__contact--text{
+    text-decoration: none;
+    color: #004691;
+}
