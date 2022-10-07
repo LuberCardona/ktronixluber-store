@@ -65,13 +65,13 @@
   },
   "rich-text#tiendas":{
     "props":{
-      "text": "Tiendas",
+      "text":"[Tiendas](/)",
       "blockClass":"header__contact--text"      
     }
   },
   "rich-text#catalogo":{
     "props":{
-      "text": "Catálogo",
+      "text":"[Catálogo](/catalogo)",
       "blockClass":"header__contact--text"     
     }
   },

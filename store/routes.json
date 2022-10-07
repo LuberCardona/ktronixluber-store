@@ -4,7 +4,10 @@
   },
   "store.custom#cart": {
     "path": "/cart"
-  }  
+  },
+  "store.custom#catalog": {
+    "path": "/catalogo"
+  }
 }
 
 
