@@ -1,6 +1,7 @@
 {
   "store.home": { 
-    "blocks": [           
+    "blocks": [  
+      "quick-order",      
       "whatsapp-button",
       //"bullets-diagramation",
       //"flex-layout.row#home__section--one",
