@@ -6,6 +6,7 @@
       // "rich-text#home__info--desktop",
       "flex-layout.row#home__section--one",
       "flex-layout.row#bullets",
+      "quick-order",
       "flex-layout.row#home__section--two--title",
       "slider-layout#home__section--two--images",
       //"flex-layout.row#home__section--two--images",
