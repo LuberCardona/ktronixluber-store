@@ -23,8 +23,7 @@
   },
   "header-row#header__top":{
     "title": "Header superior",
-    "children":[    
-      "logo#header__top--logo",
+    "children":[   
       "header-spacer", 
       "rich-text#televentas",
       "rich-text#contacto",
@@ -34,6 +33,7 @@
       "rich-text#pqr"
     ],
     "props":{
+      "sticky":true,
       "blockClass": "Header__top"
     }
   },
@@ -47,25 +47,25 @@
   }, 
   "rich-text#televentas":{
     "props":{
-      "text": "Televentas: (601) 3649734",
+      "text": "[Televentas: (601) 3649734](/quienes-somos)",
       "blockClass":"header__contact--text"
     }
   }, 
   "rich-text#contacto":{
     "props":{
-      "text": "Atención al cliente: 018000 111 448",
+      "text": "[Atención al cliente: 018000 111 448](/quienes-somos)",
       "blockClass":"header__contact--text"    
     }
   },
   "rich-text#rastreo":{
     "props":{
-      "text": "Rastrea tu pedido",
+      "text": "[Rastrea tu pedido](/quienes-somos)",
       "blockClass":"header__contact--text"      
     }
   },
   "rich-text#tiendas":{
     "props":{
-      "text":"[Tiendas](/)",
+      "text":"[Tiendas](/quienes-somos)",
       "blockClass":"header__contact--text"      
     }
   },
@@ -77,20 +77,22 @@
   },
   "rich-text#pqr":{
     "props":{
-      "text": "PQR",
+      "text": "[PQR](/quienes-somos)",
       "blockClass":"header__contact--text"
     }
   }, 
  
   "header-row#header__middle":{
     "children":[
+      "logo#header__top--logo",
       "search-bar#header__search",
       "login",
       "flex-layout.row#minicart__logo--header",
       "department-search"
     ],
      "props":{
-     "blockClass": "Header__middle"
+      "sticky":true,
+      "blockClass": "Header__middle"
     }
   },
    "search-bar#header__search":{

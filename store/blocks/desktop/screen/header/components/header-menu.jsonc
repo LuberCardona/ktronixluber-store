@@ -5,6 +5,7 @@
       "vtex.menu@2.x:menu#header__menu"
     ],
     "props":{
+      "sticky":true,
       "blockClass": "header__desktop--menu"
     }
   },

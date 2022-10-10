@@ -1,8 +1,7 @@
 .logoImage--header__top--logo{ 
     position: absolute;
-    margin-left: 94px;
-    margin-top: 8px;
     z-index: 5;
+    transform: translate(-230px, -67px);
 }
 .searchBarContainer :global(.vtex-input-prefix__group){
     border: solid 1px  #004691;
