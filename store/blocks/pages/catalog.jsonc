@@ -1,14 +1,54 @@
 {
-    "store.custom#catalog":{
-        "blocks":[
-            "pdf-reader"
-        ]
-    },
-    "pdf-reader":{
-        "props":{
-          "pdfUrl": "assets/documents/Catalog.pdf",
-          "width": 500,
-          "height": 400
-        }
+  "store.custom#catalog":{
+      "blocks":[
+          "pdf-reader",
+          "custom-grid"
+      ]
+  },
+  "pdf-reader":{
+      "props":{
+        "pdfUrl": "assets/documents/Catalog.pdf",
+        "width": 500,
+        "height": 400
+      }
+  },
+  "custom-grid":{
+      "children":[
+        "image#custom-grid-1",
+        "image#custom-grid-2",
+        "image#custom-grid-3",
+        "image#custom-grid-4",
+        "image#custom-grid-5"
+      ]
+  },
+  "image#custom-grid-1":{
+    "props": {
+        "src": "assets/img/nevera.jpg",
+        "blockClass": "image__custom-grid1"
     }
+  },
+  "image#custom-grid-2":{
+    "props": {
+        "src": "assets/img/licuadora.jpg",
+        "blockClass": "image__custom-grid"
+    }
+  },
+  "image#custom-grid-3":{
+    "props": {
+        "src": "assets/img/freidora.jpg",
+        "blockClass": "image__custom-grid"
+    }
+  },
+  "image#custom-grid-4":{
+    "props": {
+        "src": "assets/img/aspiradora.jpg",
+        "blockClass": "image__custom-grid"
+    }
+  },
+  "image#custom-grid-5":{
+    "props": {
+        "src": "assets/img/bicicleta.jpg",
+        "blockClass": "image__custom-grid"
+    }
+  }    
 }
