@@ -1,7 +1,7 @@
 {
   "store.home": { 
     "blocks": [  
-      "custom-grid",           
+     // "custom-grid",           
       "whatsapp-button",
       //"bullets-diagramation",
       //"flex-layout.row#home__section--one",
@@ -32,52 +32,6 @@
       "flex-layout.row#home__section--ten--title",
       "flex-layout.row#home__section--ten--images" */
     ]
-  }, 
-  "custom-grid":{
-    "children":[
-      "rich-text#custom-grid-1",
-      "rich-text#custom-grid-2",
-      "rich-text#custom-grid-3",
-      //"flex-layout.row#custom-grid-3",
-      "rich-text#custom-grid-4",
-      "rich-text#custom-grid-5"
-    ]
-  },
-  "rich-text#custom-grid-1":{
-    "props":{
-      "text": "Grilla 1"
-    }
-  },
-  "rich-text#custom-grid-2":{
-    "props":{
-      "text": "Grilla 2"
-    }
-  },
- /*  "flex-layout.row#custom-grid-3":{
-    "children":[
-      "flex-layout.col#custom-grid-3"
-    ]
-  },
-  "flex-layout.col#custom-grid-3":{
-    "children":[
-      "rich-text#custom-grid-3",
-      "image#footer__container--mediosdepago-img2"
-    ]
-  }, */
-  "rich-text#custom-grid-3":{
-    "props":{
-      "text": "Grilla 3"
-    }
-  },
-  "rich-text#custom-grid-4":{
-    "props":{
-      "text": "Grilla 4"
-    }
-  },
-  "rich-text#custom-grid-5":{
-    "props":{
-      "text": "Grilla 5"
-    }
   },
   "whatsapp-button":{
     "props":{
