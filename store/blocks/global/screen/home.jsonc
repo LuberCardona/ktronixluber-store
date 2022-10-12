@@ -1,6 +1,7 @@
 {
   "store.home": { 
-    "blocks": [             
+    "blocks": [  
+     // "custom-grid",           
       "whatsapp-button",
       //"bullets-diagramation",
       //"flex-layout.row#home__section--one",
@@ -31,7 +32,7 @@
       "flex-layout.row#home__section--ten--title",
       "flex-layout.row#home__section--ten--images" */
     ]
-  },  
+  },
   "whatsapp-button":{
     "props":{
       "logo": "assets/img/logo-whatsapp.png",
