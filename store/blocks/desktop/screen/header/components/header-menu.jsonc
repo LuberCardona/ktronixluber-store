@@ -23,7 +23,8 @@
      // "menu-item#department__accessories--nine"
     ],
     "props":{
-      "orientation": "horizontal" 
+      "orientation": "horizontal",
+      "blockClass": "container__header--menu"
     }
    },
    "link#department":{
@@ -39,95 +40,213 @@
       "type": "custom",
       "blockClass":"department-name",  
       "itemProps": {
-        "type": "external",
-        "href": "/",
+        "href": "/catalogo",
         "noFollow": true,
         "tagTitle": "Celulares",
         "text": "Celulares"
       }
     },
-    "blocks":["submenu.accordion#department__celphones--one"]
+    "blocks": ["vtex.menu@2.x:submenu#department__celphones--one"]
    },
-   "submenu.accordion#department__celphones--one":{
+   "vtex.menu@2.x:submenu#department__celphones--one":{
      "children":[
       "menu#department__celphones--one"
      ],
      "props":{
-      "blockClass": "category-container"        
+      "blockClass": "category-container",
+      "onMountBehavior": "open"        
       }
    },
    "menu#department__celphones--one":{
       "children":[
-        "menu-item#category__celphones--one",
-        "menu-item#category__celphones--two",
-        "menu-item#category__celphones--three",
-        "menu-item#category__celphones--four",
-        "menu-item#category__celphones--five"
-
+        "flex-layout.row#department__celphones--one"      
       ],
       "props":{
         "orientation": "vertical"       
       }
    },   
+   "flex-layout.row#department__celphones--one":{
+    "children":[
+        "flex-layout.col#category__celphones--one",
+        "flex-layout.col#category__celphones--two",
+        "flex-layout.col#category__celphones--three",
+        "flex-layout.col#category__celphones--four",
+        "flex-layout.col#category__celphones--five" 
+
+    ],
+    "props":{
+      "colSizing": "auto"     
+    } 
+   },
+   "flex-layout.col#category__celphones--one":{
+    "children":[
+      "menu-item#category__celphones--one",
+      "rich-text#category__celphones--one-title1",
+      "rich-text#category__celphones--one-description1",
+      "rich-text#category__celphones--one-title2",
+      "rich-text#category__celphones--one-description2",
+      "rich-text#category__celphones--one-title3",
+      "rich-text#category__celphones--one-description3",
+      "rich-text#category__celphones--one-title4",
+      "rich-text#category__celphones--one-description4",
+      "rich-text#category__celphones--one-title5",
+      "rich-text#category__celphones--one-description5"
+    ],
+    "props":{
+      "blockClass":"category__celphones--one" 
+    } 
+   },
    "menu-item#category__celphones--one":{
     "props":{
       "id": "category-celphones-one",
       "type": "custom",
+      "blockClass":"title__categories",
       "itemProps": {
-        "type": "external",
-        "href": "/",
+        "href": "/catalogo",
         "noFollow": true,
         "tagTitle": "Celulares",
         "text": "Celulares"
       }
     }
    },
+   "rich-text#category__celphones--one-title1":{
+    "props":{
+      "text":"Marca",
+      "blockClass":"text__celphones--one-title"
+    }
+   },
+   "rich-text#category__celphones--one-description1":{
+    "props":{
+      "text":"[!Phone](/) | [Samsumg](/) | [Xiaomi](/) |\n[Motorola](/) | [vivo](/) | [Nokia](/) | [Oppo](/) |\n[Realme](/) | [Zte](/) | [TCL](/) | [Alcatel](/) | [Kalley](/) |\n[Huawei](/) | [Honor](/) | [Tecno](/)",
+      "blockClass":"text__celphones--one-description"
+    }
+   },
+   "rich-text#category__celphones--one-title2":{
+    "props":{
+      "text":"Capacidad de almacenamiento",
+      "blockClass":"text__celphones--one-title"
+    }
+   },
+   "rich-text#category__celphones--one-description2":{
+    "props":{
+      "text":"[32 GB](/) | [64 GB](/) | [128 GB](/) | [256 GB](/)",
+      "blockClass":"text__celphones--one-description"
+    }
+   },
+   "rich-text#category__celphones--one-title3":{
+    "props":{
+      "text":"Tamaño de Pantalla",
+      "blockClass":"text__celphones--one-title"
+    }
+   },
+   "rich-text#category__celphones--one-description3":{
+    "props":{
+      "text":"[De 4.1' a 5'](/) | [De 5.1' a 6'](/) |\n[De 6.1' a 8'](/)",
+      "blockClass":"text__celphones--one-description"
+    }
+   },
+   "rich-text#category__celphones--one-title4":{
+    "props":{
+      "text":"Tipo de cámara posterior",
+      "blockClass":"text__celphones--one-title"
+    }
+   },
+   "rich-text#category__celphones--one-description4":{
+    "props":{
+      "text":"[Sencilla](/) | [Dual](/) | [Triple](/) | [Cuádruple](/)",
+      "blockClass":"text__celphones--one-description"
+    }
+   },
+   "rich-text#category__celphones--one-title5":{
+    "props":{
+      "text":"Tipo de cámara frontal",
+      "blockClass":"text__celphones--one-title"
+    }
+   },
+   "rich-text#category__celphones--one-description5":{
+    "props":{
+      "text":"[Sencilla](/) | [Dual](/)",
+      "blockClass":"text__celphones--one-description"
+    }
+   },
+   "flex-layout.col#category__celphones--two":{
+    "children":[
+      "menu-item#category__celphones--two"
+    ],
+    "props":{
+      "blockClass":"category__celphones--one" 
+    } 
+   },
     "menu-item#category__celphones--two":{
       "props":{
         "id": "category-celphones--two",
         "type": "custom",
+        "blockClass":"title__categories",
         "itemProps": {
-          "type": "external",
-          "href": "/",
+          "href": "/catalogo",
           "noFollow": true,
           "tagTitle": "Accesorios",
-          "text": "Accesorios"
+          "text": "Accesorios Celulares y Tabletas"
         }
       }
+   },
+   "flex-layout.col#category__celphones--three":{
+    "children":[
+      "menu-item#category__celphones--three"
+    ],
+    "props":{
+      "blockClass":"category__celphones--one" 
+    } 
    },
     "menu-item#category__celphones--three":{
       "props":{
         "id": "category-celphones-three",
         "type": "custom",
+        "blockClass":"title__categories",
         "itemProps": {
-          "type": "external",
-          "href": "/",
+          "href": "/catalogo",
           "noFollow": true,
           "tagTitle": "Smartwatch",
           "text": "Smartwatch"
           }
         }
     },
+    "flex-layout.col#category__celphones--four":{
+      "children":[
+        "menu-item#category__celphones--four"
+      ],
+      "props":{
+        "blockClass":"category__celphones--one" 
+      } 
+     },
     "menu-item#category__celphones--four":{
       "props":{
         "id": "category-celphones-four",
         "type": "custom",
+        "blockClass":"title__categories",
         "itemProps": {
-          "type": "external",
-          "href": "/",
+          "href": "/catalogo",
           "noFollow": true,
           "tagTitle": "Tabletas",
           "text": "Tabletas"
           }
         }
     },
+    "flex-layout.col#category__celphones--five":{
+      "children":[
+        "menu-item#category__celphones--five"
+      ],
+      "props":{
+        "blockClass":"category__celphones--one" 
+      } 
+     },
     "menu-item#category__celphones--five":{
       "props":{
         "id": "category-celphones-five",
         "type": "custom",
+        "blockClass":"title__categories",
         "itemProps": {
-          "type": "external",
-          "href": "/",
+          "href": "/quienes-somos",
           "noFollow": true,
           "tagTitle": "Conoce mas",
           "text": "Conoce más"
@@ -141,99 +260,137 @@
       "type": "custom",
       "blockClass":"department-name",
       "itemProps": {
-        "type": "external",
-        "href": "/",
+        "href": "/catalogo",
         "noFollow": true,
         "tagTitle": "Computadores",
-        "text": "Computadores"
+        "text": "Computadores e Impresoras"
       }
     },
-    "blocks":["submenu.accordion#department__computers--two"]
+    "blocks": ["vtex.menu@2.x:submenu#department__computers--two"]
    },
-   "submenu.accordion#department__computers--two":{
+   "vtex.menu@2.x:submenu#department__computers--two":{
      "children":[
       "menu#department__computers--two"
      ],
      "props":{
-      "blockClass": "category-container"        
+      "blockClass": "category-container",
+      "onMountBehavior": "open"       
       }
    },
    "menu#department__computers--two":{
       "children":[
-        "menu-item#category__computers--one",
-        "menu-item#category__computers--two",
-        "menu-item#category__computers--three",
-        "menu-item#category__computers--four",
-        "menu-item#category__computers--five",
-        "menu-item#category__computers--six",
-        "menu-item#category__computers--seven",
-        "menu-item#category__computers--eight",
-        "menu-item#category__computers--nine",
-        "menu-item#category__computers--ten"
+        "flex-layout.row#department__computers--two"        
       ],
       "props":{
         "orientation": "vertical"
       }
-   },   
+   },  
+   "flex-layout.row#department__computers--two":{
+      "children":[
+        "flex-layout.col#category__computers--one",
+        "flex-layout.col#category__computers--two",
+        "flex-layout.col#category__computers--three",
+        "flex-layout.col#category__computers--four",
+        "flex-layout.col#category__computers--five" 
+      ],
+      "props":{
+        "colSizing": "auto"     
+      } 
+   },
+   "flex-layout.col#category__computers--one":{
+      "children":[
+        "menu-item#category__computers--one"
+      ],
+      "props":{
+        "blockClass":"category__computers--two" 
+      } 
+   },
    "menu-item#category__computers--one":{
     "props":{
       "id": "category-computers-one",
       "type": "custom",
       "itemProps": {
-        "type": "external",
-        "href": "/",
+        "href": "/catalogo",
         "noFollow": true,
         "tagTitle": "Portátiles",
-        "text": "Portátiles"
+        "text": "Computadores Portátiles"
       }
     }
+   },
+   "flex-layout.col#category__computers--two":{
+      "children":[
+        "menu-item#category__computers--two"
+      ],
+      "props":{
+        "blockClass":"category__computers--two" 
+      } 
    },
     "menu-item#category__computers--two":{
       "props":{
         "id": "category-computers--two",
         "type": "custom",
         "itemProps": {
-          "type": "external",
-          "href": "/",
+          "href": "/catalogo",
           "noFollow": true,
           "tagTitle": "Comp Escritorio",
-          "text": "Comp Escritorio"
+          "text": "Computadores de Escritorio"
         }
       }
+   },
+   "flex-layout.col#category__computers--three":{
+    "children":[
+      "menu-item#category__computers--three"
+    ],
+    "props":{
+      "blockClass":"category__computers--two" 
+    } 
    },
     "menu-item#category__computers--three":{
       "props":{
         "id": "category-computers-three",
         "type": "custom",
         "itemProps": {
-          "type": "external",
-          "href": "/",
+          "href": "/catalogo",
           "noFollow": true,
           "tagTitle": "Zona Emp",
-          "text": "Zona Emp"
+          "text": "Zona Empresarial"
           }
         }
     },
+    "flex-layout.col#category__computers--four":{
+      "children":[
+        "menu-item#category__computers--four"
+      ],
+      "props":{
+        "blockClass":"category__computers--two" 
+      } 
+     },
     "menu-item#category__computers--four":{
       "props":{
         "id": "category-computers-four",
         "type": "custom",
         "itemProps": {
-          "type": "external",
-          "href": "/",
+          "href": "/catalogo",
           "noFollow": true,
           "tagTitle": "Complem comp",
-          "text": "Complem comp"
+          "text": "Complementos de Computadores"
           }
         }
     },
+    "flex-layout.col#category__computers--five":{
+      "children":[
+        "menu-item#category__computers--five"
+      ],
+      "props":{
+        "blockClass":"category__computers--two" 
+      } 
+     },
     "menu-item#category__computers--five":{
       "props":{
         "id": "category-computers-five",
         "type": "custom",
         "itemProps": {
-          "type": "external",
-          "href": "/",
+          "href": "/catalogo",
           "noFollow": true,
           "tagTitle": "Tabletas",
           "text": "Tabletas"
