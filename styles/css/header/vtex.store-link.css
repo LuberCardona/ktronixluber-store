@@ -5,4 +5,17 @@
     text-decoration: none;
     padding: 10px;
     color: #fff;
+    font-size: 14px;
+    height: 38px;
+}
+.link--link__department:hover{
+    color: #004691;
+    background-color: #fff;
+}
+.link--link__department::after{
+    content: "";
+    display: block;
+    border-right: 1px solid #fff;
+    height: 8px;
+    transform: translate(10px,-12px);
 }
