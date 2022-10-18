@@ -86,7 +86,7 @@
     "children":[
       "logo#header__top--logo",
       "search-bar#header__search",
-      "login",
+      "flex-layout.row#login__logo--header",
       "flex-layout.row#minicart__logo--header",
       "department-search"
     ],
@@ -106,8 +106,22 @@
   },   
   "autocomplete-result-list.v2": {
     "blocks": ["product-summary"]
-  },  
-   "login":{
+  },
+  "flex-layout.row#login__logo--header":{
+    "children":[
+      "flex-layout.col#login__logo--header"    
+    ],
+    "props":{
+      "blockClass":"container__login__logo--header"
+    }
+  },
+  "flex-layout.col#login__logo--header":{
+    "children":[     
+      "login",
+      "link#login"
+    ]
+  },
+  "login":{
     "props": {
       "emailAndPasswordTitle": "LOG-IN",
       "accessCodeTitle": "Acess Code LOG-IN",
@@ -115,6 +129,13 @@
       "passwordPlaceholder": "password",
       "showPasswordVerificationIntoTooltip": true,
        "showIconProfile": true
+    }
+  },
+  "link#login": {
+    "props": {
+      "href": "/",
+      "label": "Mi cuenta",
+      "blockClass":"link__login"
     }
   },
   "flex-layout.row#minicart__logo--header":{

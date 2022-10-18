@@ -1,46 +1,99 @@
 .styledLinkContent--department-name{
     color: white;
-    padding-top: 10px;
+    padding: 10px 0px 10px 0px; 
     font-size: 14px;
-    max-width: max-content;
-    height: 30px;   
+   /*  max-width: max-content;
+    height: 30px;  */  
 }
-.submenuWrapper--category-container--isOpen{
-    width: 1346px;
-    margin-left: -104px;
-    margin-top: 8px;
+.submenuWrapper--category-container--isOpen,
+.submenuWrapper--category-container--computers--isOpen,
+.submenuWrapper--category-container--tv--isOpen,
+.submenuWrapper--category-container--audio--isOpen,
+.submenuWrapper--category-container--homeAppliances--isOpen,
+.submenuWrapper--category-container--videogames--isOpen,
+.submenuWrapper--category-container--cameras--isOpen,
+.submenuWrapper--category-container--homeintelligent--isOpen,
+.submenuWrapper--category-container--accessories--isOpen,
+.submenuWrapper--category-container--netflix--isOpen,
+.submenuWrapper--category-container--sports--isOpen,
+.submenuWrapper--category-container--others--isOpen{
+    width: 100vw;  
+    height: 492px; 
+    margin-top: 1px;
     border-bottom: 2px solid white;
 }
+.submenuWrapper--category-container--isOpen{
+    margin-left: -116px;    
+}
+.submenuWrapper--category-container--computers--isOpen{
+    margin-left: -195px;
+}
+.submenuWrapper--category-container--tv--isOpen{
+    margin-left: -392px;
+}
+.submenuWrapper--category-container--audio--isOpen{
+    margin-left: -430px;
+}
+.submenuWrapper--category-container--homeAppliances--isOpen{
+    margin-left: -486px;
+}
+.submenuWrapper--category-container--videogames--isOpen{
+    margin-left: -620px;
+}
+.submenuWrapper--category-container--cameras--isOpen{
+    margin-left: -717px;
+}
+.submenuWrapper--category-container--homeintelligent--isOpen{
+    margin-left: -794px;
+}
+.submenuWrapper--category-container--accessories--isOpen{
+    margin-left: -915px;
+}
+.submenuWrapper--category-container--netflix--isOpen{
+    margin-left: -1004px;
+}
+.submenuWrapper--category-container--sports--isOpen{
+    margin-left: -1111px;
+}
+.submenuWrapper--category-container--others--isOpen{
+    margin-left: -1276px;
+}
+
 .styledLinkContainer--department-name{
     padding: 0px 10px 0px 10px;
     margin: 0px;
+}
+.menuContainer--container__header--menu{
+    height: 37px;
 }
 .menuItem--department-name::after{
     content: "";
     display: block;
     border-right: 1px solid #fff;
     height: 8px;
-    transform: translateY(-16px);
+    transform: translateY(-22px);
+}
+.styledLinkContainer--department-name:hover{
+    background-color: #fff; 
 }
 .styledLinkContent--department-name:hover{
     color: #004691; 
-    background-color: #fff;   
+   /*  background-color: #fff;   */ 
 }
 .menuItem--department-name:hover{
-    color: #004691; 
+   /*  color: #004691;  */
     background-color: #fff; 
-}
+} 
 .styledLinkContent--title__categories{
     color:#004691;
     margin-left: 10px;
+    white-space: unset;
 }
 .menuItem--title__categories{
     margin: 0 10px 0 10px;
     border-bottom: 2px solid #e63027;
-    padding-bottom: 10px;
     width: 220px;
     transform: translateX(-20px);
+    height: 42px;
 }
-.styledLink--title__categories{
-    display: flex;
-}
+

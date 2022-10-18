@@ -11,18 +11,83 @@
     text-decoration: none;
     color: #004691;
 }
-.link--text__celphones--one-description{
-    font-size: 11px;
+.link--text__celphones--description,
+.link--text__celphones--two-description2,
+.link--text__celphones--three-description2,
+.link--text__celphones--three-description3,
+.link--text__celphones--four-description2{
     text-decoration: none;
     color: #444;
 }
-.wrapper--text__celphones--one-title{
+.wrapper--text__celphones--title,
+.wrapper--text__celphones--three--title1,
+.wrapper--text__celphones--three--title2,
+.wrapper--text__celphones--four--title1{
     color: #e63027;
     height: 16px; 
     font-size: 12px;
     margin-left: -10px;
 }
-.paragraph--text__celphones--one-description{
-    line-height: 1;
+.wrapper--text__celphones--three--title1{
+    margin-top: -25px;
+}
+.wrapper--text__celphones--three-description2{
+    font-size: 11px;
+    margin-top: -60px;
+}
+.wrapper--text__celphones--description,
+.wrapper--text__celphones--two-description2{
+    font-size: 11px;
+    margin-top: 8px;
+}
+.wrapper--text__celphones--three-description3{
+    font-size: 11px;
+    margin-top: -106px;
+}
+.wrapper--text__celphones--four-description2{
+    font-size: 11px;
+    margin-top: 10px;
+}
+.wrapper--text__celphones--three--title2{
+    margin-top: -68px;
+}
+.paragraph--text__celphones--description,
+.paragraph--text__celphones--two-description2,
+.paragraph--text__celphones--three-description2,
+.paragraph--text__celphones--four-description1,
+.paragraph--text__celphones--five-description1{
+    line-height: 1.2;
     margin-bottom: 0px;
 } 
+.container--text__celphones--two-description1{
+    margin-top: -11px;
+}
+.container--text__celphones--three-description1{
+    margin-top: -18px;
+}
+.container--text__celphones--two-description2{
+    margin-top: -35px;
+}
+.link--text__celphones--two--title2{
+    color: #444;
+    margin-left: -10px;
+    font-size: 12px;
+    text-decoration: none;
+}
+.container--text__celphones--two--title2{
+    margin-top: -40px;
+}
+.link--text__celphones--two-description1,
+.link--text__celphones--three-description1,
+.link--text__celphones--four-description1,
+.link--text__celphones--five-description1{
+    font-size: 12px;
+    text-decoration: none;
+    color: #444;
+}
+.paragraph--text__celphones--two-description1,
+.paragraph--text__celphones--three-description1{
+    line-height: 1.2;
+    margin-bottom: 0px;
+    margin-left: -10px;
+}
