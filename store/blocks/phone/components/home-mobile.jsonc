@@ -2,7 +2,8 @@
   "flex-layout.row#home__section--banner--one-mobile":{
     "title":"home__banner--one-mobile",
     "children":[
-        "flex-layout.row#home__section--banner--one-1"
+        "flex-layout.col#home__section--banner--one-1-img",
+        "flex-layout.col#home__section--banner--one-1-text"
     ],
     "props": {            
         "blockClass": "home__section--banner--one-mobile",
@@ -26,7 +27,30 @@
     "fullwidth": false
     } 
   },
-
+  "flex-layout.row#home__mobile--title":{
+    "title": "title departments mobile",
+    "children":[
+      "flex-layout.row#home__mobile--title-departments"
+    ],
+    "props":{
+      "blockClass": "home__mobile--title"
+     }
+  },  
+  "flex-layout.row#home__mobile--title-departments":{
+    "children":[
+      "rich-text#home__mobile--title-departments"
+    ],
+    "props":{
+      "blockClass": "home__mobile--title-departments"
+    }
+  },
+  "rich-text#home__mobile--title-departments":{
+    "props":{
+      "text": "**Compra por categorías**",
+      "textPosition": "CENTER",
+      "blockClass": "home__mobile--title-text-departments"
+    }
+  },
   "flex-layout.row#home__section--one-department-mobile":{
     "children":[
         "flex-layout.col#home__section--one-department-mobile-one",
@@ -187,5 +211,34 @@
     "props":{
       "blockClass":"home__slider--section--ten--images-mobile"
     }
+  },
+  "flex-layout.row#home__offers--mobile--title":{
+    "title": "section offers mobile-title",
+    "children":[
+       "flex-layout.row#home__section--two--title-offers"
+    ],
+    "props":{
+      "blockClass": "home__offers--mobile--title"
+     }
+  },
+  "slider-layout#home__mobile--offers--images":{
+    "title": "Slider offers mobile",
+    "props":{
+        "itemsPerPage": {
+            "desktop": 4,
+            "tablet": 4,
+            "phone": 1.5
+        },
+        "showPaginationDots":"never",
+        "showNavigationArrows": "never",
+        "infinite": true,
+        "blockClass": "slider__home--mobile-offers-images"       
+    },
+    "children":[  
+      "image#section__two--image1",
+      "image#section__two--image2",
+      "image#section__two--image3",
+      "image#section__two--image4"
+    ]
   }
 }
