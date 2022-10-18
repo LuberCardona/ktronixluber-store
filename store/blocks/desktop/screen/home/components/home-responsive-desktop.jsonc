@@ -6,7 +6,8 @@
       // "rich-text#home__info--desktop",
       "flex-layout.row#home__section--one",
       "flex-layout.row#bullets",
-      "quick-order",
+      "flex-layout.row#departmentSearch-and-quickOrder",
+      //"quick-order",
       "flex-layout.row#home__section--two--title",
       "slider-layout#home__section--two--images",
       //"flex-layout.row#home__section--two--images",
@@ -171,6 +172,34 @@
       },
       "infinite": true
     }
-  }
- 
+  },
+  "flex-layout.row#departmentSearch-and-quickOrder":{
+    "children":[
+      "flex-layout.col#quickOrder",
+      "flex-layout.col#department-search"    
+    ],
+    "props":{
+      "blockClass": "container__department-search"
+    }
+  },
+  "flex-layout.col#quickOrder":{
+    "children":[
+      "quick-order"
+    ]
+  },
+  "flex-layout.col#department-search":{
+    "children":[
+      "rich-text#department-search",
+      "department-search"
+    ],
+    "props":{
+      "blockClass": "container__department-search"
+    }
+  },
+  "rich-text#department-search":{
+    "props":{
+      "text":"### Busca por Departamento",
+      "blockClass": "text__department-search"
+    }
+  } 
 }

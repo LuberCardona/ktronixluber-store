@@ -61,3 +61,6 @@
 .container--quick-view--trigger{
     place-content: center;
 }
+.wrapper--text__department-search{
+    color: black;
+}

@@ -131,4 +131,13 @@
 .flexRowContent--home__section--banner--one-mobile{
     text-align: -webkit-center;
 }
-
+.flexRowContent--container__department-search{   
+    margin-left: 15px;
+}
+.flexCol--container__department-search{
+    padding: 20px;
+    border: solid 1px #e3e4e6;
+    margin-top: 8px;
+    height: 200px;
+    margin-right: 45px;
+}

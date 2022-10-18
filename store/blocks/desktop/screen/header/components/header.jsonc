@@ -25,6 +25,7 @@
     "title": "Header superior",
     "children":[   
       "header-spacer", 
+      "rich-text#home",
       "rich-text#televentas",
       "rich-text#contacto",
       "rich-text#rastreo",
@@ -43,6 +44,12 @@
       "blockClass":"header__top--logo",
       "url": "assets/img/logo.svg",
       "href": "/"
+    }
+  }, 
+  "rich-text#home":{
+    "props":{
+      "text": "[Home](/homeCustom)",
+      "blockClass":"header__contact--text"
     }
   }, 
   "rich-text#televentas":{
@@ -87,8 +94,8 @@
       "logo#header__top--logo",
       "search-bar#header__search",
       "flex-layout.row#login__logo--header",
-      "flex-layout.row#minicart__logo--header",
-      "department-search"
+      "flex-layout.row#minicart__logo--header"
+      
     ],
      "props":{
       "sticky":true,
