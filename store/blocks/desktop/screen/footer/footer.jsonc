@@ -1,8 +1,8 @@
 {
   "footer": {
     "blocks": [
-      "footer-layout.desktop"
-      //"footer-layout.mobile"
+      "footer-layout.desktop",
+      "footer-layout.mobile"
     ]
   }, 
    "footer-layout.desktop": { 
@@ -22,7 +22,6 @@
   "flex-layout.row#footer__container--contacto":{
     "title": "Section 1 contacto-footer",
     "children":[
-      //"flex-layout.row#footer__container--contacto-1"
       "flex-layout.col#footer__container--contacto-col-one",
       "flex-layout.col#footer__container--contacto-col-two",
       "flex-layout.col#footer__container--contacto-col-three"
@@ -31,27 +30,18 @@
       "blockClass": "footer__container--contacto"
     }
   },
-  /* "flex-layout.row#footer__container--contacto-1":{
-    "children":[
-      "flex-layout.col#footer__container--contacto-col-one",
-      "flex-layout.col#footer__container--contacto-col-two",
-      "flex-layout.col#footer__container--contacto-col-three"
-    ],
-    "props":{
-      "blockClass": "footer__container--contacto1"
-    }
-    
-  }, */
   "flex-layout.col#footer__container--contacto-col-one":{
       "children":[
        "image#footer__container--contacto-col-one",
        "rich-text#footer__container--contacto-col-one",
        "rich-text#footer__container--razonsocial-col-one",
        "rich-text#footer__container--nit-col-one"
-      ]
-      
+      ],    
+      "props":{
+        "colSizing": "auto"
+      }
+           
   },
-
   "rich-text#footer__container--contacto-col-one":{
     "props":{
       "text": "Sobre Nosotros",
@@ -80,7 +70,8 @@
       "rich-text#footer__container--email-col-two"
     ],
     "props":{
-      "blockClass":"footer__container--contacto-col"
+      "blockClass":"footer__container--contacto-col",
+      "colSizing": "auto"
     }
   },
   "rich-text#footer__container--contacto-col-two":{
@@ -103,7 +94,10 @@
       "rich-text#footer__container--contacto-col-three",
       "rich-text#footer__container--serv-cliente-col-three",
       "rich-text#footer__container--vta-telefonica-col-three"
-    ]
+    ],    
+    "props":{
+      "colSizing": "auto"
+    }
   },
   "rich-text#footer__container--contacto-col-three":{
     "props":{
@@ -246,27 +240,10 @@
         "blockClass": "footer__container--mediosdepago-card"
     }
   },
-  /*  "flex-layout.row#footer__container--disclosure":{
-    "children":[
-      //"disclosure-layout-group#footer__menu--politicas"
-      "disclosure-layout#policies"
-    ],
-    "props":{
-      "blockClass":"footer__container--disclosure"
-    }
-  },  */
- /*  "disclosure-layout-group#footer__menu--politicas":{
-    "title":"Terms and conditions",
-    "children": [
-      "disclosure-layout#policies",
-      "flex-layout.row#footer__container--disclosure-content"
-    ]
-  }, */
   "disclosure-layout#policies":{
     "children":[
       "disclosure-trigger#policies",
       "disclosure-content#policies"
-     // "flex-layout.row#footer__container--disclosure-content"
     ]
   },  
   "disclosure-trigger#policies":{
@@ -280,11 +257,6 @@
       "blockClass": "disclosure-policies-text"
     }
   }, 
-  /* "flex-layout.row#footer__container--disclosure-content":{
-    "children":[
-      "disclosure-content#policies"
-    ]
-  }, */
   "disclosure-content#policies":{
     "children":[
      "rich-text#policies__content",

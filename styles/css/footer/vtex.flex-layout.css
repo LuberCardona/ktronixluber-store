@@ -49,3 +49,43 @@
 .flexRow--footer__container--socialmedia{
     margin: 0px 60px 0px 60px;
 }
+
+
+@media screen and (max-width: 1024px){   
+    .flexRowContent--footer__container--contacto{
+        display: flex;
+    }
+    .flexRow--footer__container--contacto{
+        margin: 0px 50px 0px 50px;
+    }
+    .flexRow--footer__container--mediosdepago{
+        margin: 25px 25px 20px;
+    }
+}
+@media screen and (max-width: 639px){ 
+    .flexRowContent--footer__container--contacto{
+        display: flex;
+        min-width: max-content;
+    }  
+    .flexRow--footer__container--contacto{
+        margin: 0px;
+        overflow:auto
+    }
+    .flexRow--footer__container--contacto::-webkit-scrollbar{
+        height: 3px;
+    }
+    .flexRow--footer__container--contacto::-webkit-scrollbar-thumb{ 
+        background-color: rgb(85, 85, 85);
+    }
+    .flexRow--footer__container--contacto::-webkit-scrollbar-track{ 
+        background-clip: padding-box;
+    }
+    .paragraph--rich-text__footer__container--contacto-razonsocial{
+        min-width: max-content;
+    }
+    .flexRowContent--footer__container--contacto :global(.vtex-flex-layout-0-x-stretchChildrenWidth){
+        margin: 0 15px 0 15px
+    }
+
+}
+

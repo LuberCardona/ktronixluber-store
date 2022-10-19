@@ -4,6 +4,7 @@
     "children":[
       // "list-context.bullet-group",
       // "rich-text#home__info--desktop",
+      "whatsapp-button",
       "flex-layout.row#home__section--one",
       "flex-layout.row#bullets",
       "flex-layout.row#departmentSearch-and-quickOrder",

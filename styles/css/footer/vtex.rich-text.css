@@ -97,3 +97,33 @@
     text-decoration: none;
  }
  
+ @media screen and (max-width: 639px){   
+    .paragraph--rich-text__footer__container--contacto-razonsocial,
+    .paragraph--rich-text__footer__container--contacto{
+        min-width: max-content;
+    }
+    .wrapper--footer__container--mediosdepago-text{
+        margin-top: -15px;
+        margin-left: -8px;
+    }
+}
+
+@media screen and (max-width: 1024px){   
+    .paragraph--rich-text__footer__container--contacto-razonsocial,
+    .paragraph--rich-text__footer__container--contacto{
+        min-width: max-content;
+    }
+    .container--rich-text__footer__container--contacto-title-email,
+    .container--rich-text__footer__container--contacto-email{
+        border-left: none;
+        border-right: none;
+    }
+    
+}
+
+@media screen and (min-width: 640px) and (max-width: 1024px){
+    .wrapper--footer__container--mediosdepago-text{
+        margin-top: -15px;
+        margin-left: -16px;
+    }
+}
