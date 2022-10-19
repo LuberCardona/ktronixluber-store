@@ -163,3 +163,17 @@
 .flexRowContent--container__department-search{
     padding: 12px;
 }
+
+@media screen and (min-width: 639px){   
+    .flexRow--home__mobile--title,
+    .flexRow--home__section--one-departments-mobile{
+       background-color: #fff;
+    }
+}
+
+@media screen and (max-width: 1023px){  
+    .flexRow--home__section--banner--one{
+        padding: 2px 5px 2px 5px;
+    }
+}
+

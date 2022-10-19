@@ -25,7 +25,7 @@
     "title": "Header superior",
     "children":[   
       "header-spacer", 
-      "rich-text#home",
+     // "rich-text#home",
       "rich-text#televentas",
       "rich-text#contacto",
       "rich-text#rastreo",

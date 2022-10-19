@@ -73,17 +73,12 @@
     height: 8px;
     transform: translateY(-22px);
 }
-.styledLinkContainer--department-name:hover{
-    background-color: #fff; 
+.menuItem--department-name--isOpen{
+    background-color: white; 
 }
-.styledLinkContent--department-name:hover{
+.menuItem--department-name--isOpen :global(.vtex-menu-2-x-styledLinkContent--department-name){
     color: #004691; 
-   /*  background-color: #fff;   */ 
 }
-.menuItem--department-name:hover{
-   /*  color: #004691;  */
-    background-color: #fff; 
-} 
 .styledLinkContent--title__categories{
     color:#004691;
     margin-left: 10px;

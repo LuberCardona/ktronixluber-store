@@ -2,7 +2,6 @@
   "responsive-layout.phone#home__info--mobile":{
     "title": "Component phone",
       "children":[
-       // "list-context.bullet-group",
         "rich-text#home__info--mobile",
         "flex-layout.row#home__section--banner--one-mobile",
         "list-context.product-list#slider-mobile",
