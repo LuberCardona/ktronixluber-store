@@ -51,17 +51,6 @@
 }
 
 
-@media screen and (max-width: 1024px){   
-    .flexRowContent--footer__container--contacto{
-        display: flex;
-    }
-    .flexRow--footer__container--contacto{
-        margin: 0px 50px 0px 50px;
-    }
-    .flexRow--footer__container--mediosdepago{
-        margin: 25px 25px 20px;
-    }
-}
 @media screen and (max-width: 639px){ 
     .flexRowContent--footer__container--contacto{
         display: flex;
@@ -86,6 +75,87 @@
     .flexRowContent--footer__container--contacto :global(.vtex-flex-layout-0-x-stretchChildrenWidth){
         margin: 0 15px 0 15px
     }
-
+    .flexRowContent--footer__container--mediosdepago-img :global(.vtex-flex-layout-0-x-stretchChildrenWidth){
+        margin: 0 30px;
+    }  
+    .flexRowContent--footer__container--socialmedia-text-icons{
+        display: flex;
+        margin-left: 25%;
+    }
+    .flexRow--footer__container--socialmedia{
+        margin: 0px 17px 0px 17px;
+    }
 }
+
+
+@media screen and (max-width: 1024px){   
+    .flexRowContent--footer__container--contacto{
+        display: flex;
+    }
+    
+    .flexRow--footer__container--mediosdepago{
+        margin: 25px 25px 20px;
+    }
+    .flexRowContent--footer__container--mediosdepago-img{
+        display: flex;
+        min-width: max-content;
+        padding-bottom: 15px;
+    }
+    
+    .flexRow--footer__container--mediosdepago-img{
+        overflow: auto;
+    } 
+    .flexRow--footer__container--mediosdepago-img::-webkit-scrollbar{
+        height: 3px;
+    }
+    .flexRow--footer__container--mediosdepago-img::-webkit-scrollbar-thumb{ 
+        background-color: rgb(85, 85, 85);
+    }
+    .flexRow--footer__container--mediosdepago-img::-webkit-scrollbar-track{ 
+        background-clip: padding-box;
+    }
+    .flexColChild--policies__content2--image{
+        width: 116px;
+        margin-left: 15px;
+        margin-right: 10px;
+    }
+    .flexRowContent--policies__content2{
+        display: flex;
+    }
+    .flexRowContent--footer__container--links{
+        text-align: start;
+        flex-direction: column;
+    }
+    .flexRow--footer__container--links{
+        margin: 0px 25px 40px 25px;
+    }
+    .paragraph--links-title{
+        margin: 0;
+    }   
+    
+}
+
+@media screen and (min-width: 640px) and (max-width: 1024px){
+    .flexRow--footer__container--contacto{
+        margin: 0px 50px 0px 50px;
+    }
+    .flexRowContent--footer__container--mediosdepago-img :global(.vtex-flex-layout-0-x-stretchChildrenWidth){
+        margin: 0 22px;
+    }  
+    .flexRowContent--footer__container--socialmedia-text-icons{
+        margin-left: 37%;
+    }
+    .flexRow--footer__container--socialmedia{
+        margin: 0px 10px 0px 10px;
+    }    
+    .paragraph--links-title{
+        transform: translate(-20px, -40px);
+    }
+    .flexRow--footer__container--links{
+        margin: 0px 25px 40px 25px;
+    } 
+    
+}
+
+
 

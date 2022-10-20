@@ -1,16 +1,110 @@
 {
-  "footer-layout.mobile": { 
-    "children": [
-      "flex-layout.row#footer__container--contacto",
-      "flex-layout.row#footer__container--mediosdepago-text"
-     /*
-      "flex-layout.row#footer__container--mediosdepago",
-      "disclosure-layout#policies",
-      "flex-layout.row#footer__container--links",
-      "flex-layout.row#footer__container--socialmedia"  */     
+  "flex-layout.row#footer__container--links-mobile":{
+    "title": "Section contact - footer mobile",
+    "children":[
+      "flex-layout.col#footer__container--links-mobile"      
     ],
     "props":{
-      "blockClass": "footer__container"
+      "blockClass": "footer__container--links",
+      "colSizing":"auto"
     }
+  }, 
+  "flex-layout.col#footer__container--links-mobile":{
+    "children":[
+      "disclosure-layout#contact-about-us",
+      "disclosure-layout#contact-webPurchases",
+      "disclosure-layout#contact-services",
+      "disclosure-layout#contact-policies"
+    ],
+    "props":{
+      "blockClass":"col__container--links-mobile"
+    }
+  },
+  "disclosure-layout#contact-about-us":{
+    "children":[
+      "disclosure-trigger#about-us",
+      "disclosure-content#about-us"
+    ]
+  },
+  "disclosure-trigger#about-us":{
+    "children":[
+      "rich-text#footer__container--links-col-one-title"
+    ]
+  },
+  "disclosure-content#about-us":{
+    "children":[
+      "rich-text#footer__container--links-col-one-link1",
+      "rich-text#footer__container--links-col-one-link2",
+      "rich-text#footer__container--links-col-one-link3",
+      "rich-text#footer__container--links-col-one-link4",
+      "rich-text#footer__container--links-col-one-link5",
+      "rich-text#footer__container--links-col-one-link6",
+      "rich-text#footer__container--links-col-one-link7"
+    ]
+  },
+  "disclosure-layout#contact-webPurchases":{
+    "children":[
+      "disclosure-trigger#webPurchases",
+      "disclosure-content#webPurchases"
+    ]
+  },
+  "disclosure-trigger#webPurchases":{
+    "children":[
+      "rich-text#footer__container--links-col-two-title"
+    ]
+  },
+  "disclosure-content#webPurchases":{
+    "children":[
+      "rich-text#footer__container--links-col-two-link1",
+      "rich-text#footer__container--links-col-two-link2",
+      "rich-text#footer__container--links-col-two-link3",
+      "rich-text#footer__container--links-col-two-link4",
+      "rich-text#footer__container--links-col-two-link5"      
+    ]
+  },
+  "disclosure-layout#contact-services":{
+    "children":[
+      "disclosure-trigger#services",
+      "disclosure-content#services"
+    ]
+  },
+  "disclosure-trigger#services":{
+    "children":[
+      "rich-text#footer__container--links-col-three-title"
+    ]
+  },
+  "disclosure-content#services":{
+    "children":[
+      "rich-text#footer__container--links-col-three-link1",
+      "rich-text#footer__container--links-col-three-link2"
+    ]
+  },
+  "disclosure-layout#contact-policies":{
+    "children":[
+      "disclosure-trigger#contact-policies",
+      "disclosure-content#contact-policies"
+    ]
+  },
+  "disclosure-trigger#contact-policies":{
+    "children":[
+      "rich-text#footer__container--links-col-four-title"
+    ]
+  },
+  "disclosure-content#contact-policies":{
+    "children":[
+      "rich-text#footer__container--links-col-four-link1",
+      "rich-text#footer__container--links-col-four-link2",
+      "rich-text#footer__container--links-col-four-link3",
+      "rich-text#footer__container--links-col-four-link4",
+      "rich-text#footer__container--links-col-four-link5",
+      "rich-text#footer__container--links-col-four-link6",
+      "rich-text#footer__container--links-col-four-link7",
+      "rich-text#footer__container--links-col-four-link8",
+      "rich-text#footer__container--links-col-four-link9",
+      "rich-text#footer__container--links-col-four-link10",
+      "rich-text#footer__container--links-col-four-link11"
+    ]
   }
 }
+
+
