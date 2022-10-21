@@ -1,0 +1,72 @@
+{
+    "header-row#header__middle":{
+        "children":[
+          "logo#header__top--logo",
+          "search-bar#header__search",
+          "flex-layout.row#login__logo--header",
+          "flex-layout.row#minicart__logo--header"
+          
+        ],
+         "props":{
+          "sticky":true,
+          "blockClass": "Header__middle"
+        }
+    },
+    "search-bar#header__search":{
+        "blocks": ["autocomplete-result-list.v2"],
+        "props": {
+            "openAutocompleteOnFocus": true,
+            "placeholder": "¿Qué buscas hoy?",
+            "maxWidth": 500,
+            "blockClass":"header__search"
+        }
+    },   
+    "autocomplete-result-list.v2": {
+    "blocks": ["product-summary"]
+    },
+    "flex-layout.row#login__logo--header":{
+        "children":[
+            "flex-layout.col#login__logo--header"    
+        ],
+        "props":{
+            "blockClass":"container__login__logo--header"
+        }
+    },
+    "flex-layout.col#login__logo--header":{
+        "children":[     
+            "login",
+            "link#login"
+        ]
+    },
+    "login":{
+        "props": {
+            "emailAndPasswordTitle": "LOG-IN",
+            "accessCodeTitle": "Acess Code LOG-IN",
+            "emailPlaceholder": "e-mail",
+            "passwordPlaceholder": "password",
+            "showPasswordVerificationIntoTooltip": true,
+            "showIconProfile": true
+        }
+    },
+    "link#login": {
+        "props": {
+            "href": "/",
+            "label": "Mi cuenta",
+            "blockClass":"link__login"
+        }
+    },
+    "flex-layout.row#minicart__logo--header":{
+        "children":[
+            "flex-layout.col#minicart__logo--header"    
+        ],
+        "props":{
+            "blockClass":"container__minicart__logo--header"
+        }
+    },
+    "flex-layout.col#minicart__logo--header":{
+        "children":[     
+            "minicart.v2#minicart__logo--header",
+            "link#minicart"
+        ]
+    }
+}

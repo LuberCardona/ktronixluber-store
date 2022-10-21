@@ -1,13 +1,13 @@
 {
   "footer-layout.mobile": { 
     "children": [
+      "whatsapp-button",
       "flex-layout.row#footer__container--contacto",
       "flex-layout.row#footer__container--mediosdepago-text",
       "flex-layout.row#footer__container--mediosdepago",
       "disclosure-layout#policies",
       "flex-layout.row#footer__container--links-mobile",
-      "flex-layout.row#footer__container--socialmedia",
-      "whatsapp-button"     
+      "flex-layout.row#footer__container--socialmedia"           
     ],
     "props":{
       "blockClass": "footer__container"

@@ -1,5 +1,5 @@
 .flexRowContent--container__col__minicart__empty{
-    width: 1250px;
+    width: 95vw;
     margin: 20px 20px 100px 20px;
 }
 .flexCol--container__col1__minicart__empty{
@@ -32,5 +32,21 @@
 .flexColChild--minicart__col2--desktop :global(.vtex-button){
     background-color: #e63027;
     border: none;
+}
+
+@media screen and (max-width: 1024px){
+    .flexCol--container__col2__minicart__empty{
+        display: none;
+    }
+    .flexRowContent--container__col__minicart__empty{
+        width: 95vw;
+        margin: 0;
+        margin-bottom: 40px;
+    }
+    .flexColChild--container__col1__minicart__empty{
+        width: 94vw;        
+    }
+    
+    
 }
 
