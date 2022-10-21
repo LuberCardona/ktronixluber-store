@@ -130,12 +130,11 @@
 }
 .flexRow--home__section--banner--one-mobile{
     background-color: #EBEBEB;
-    border-top: 2px solid #E63027;
 }
 .flexRowContent--home__section--banner--one-mobile{
     display: flex;
-    width: 50%;
-    margin-left: 25%;
+    text-align: end;
+    transform: translateX(-15%);
 }
 .flexRow--home__section--one-departments-mobile,
 .flexRow--home__mobile--title{

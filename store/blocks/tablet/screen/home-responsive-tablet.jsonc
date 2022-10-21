@@ -3,7 +3,7 @@
     "title": "Component Tablet",
     "children":[
       // "list-context.bullet-group",
-      "rich-text#home__info--tablet",
+     // "rich-text#home__info--tablet",
      // "flex-layout.row#home__section--banner--one-mobile",
       "list-context.product-list#slider-mobile",
       "flex-layout.row#home__mobile--title",

@@ -1,7 +1,7 @@
 .trigger--visible,
 .trigger--hidden{
     padding: 0px;
-    height: 45px;
+    height: 45px; 
     background: #151515;
     border: solid 1px #151515;
     margin: 30px 0 20px 0;
@@ -15,6 +15,15 @@
     }    
 }
 
+@media screen and (max-width: 1024px){
+    .trigger--hidden{
+        margin: 0;
+    }
+    .trigger--visible{
+        margin-top: 10px;
+    }
+}
+
 @media screen and (min-width: 640px) and (max-width: 1024px){
     .content--visible{
         margin-top: -50px;
@@ -22,3 +31,5 @@
     }
     
 }
+
+

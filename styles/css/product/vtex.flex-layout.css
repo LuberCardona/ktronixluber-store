@@ -35,3 +35,12 @@
     box-shadow: 0px 0px 9px -6px;
     border-radius: 10px;
 }
+
+@media screen and (max-width: 1024px){ 
+  .flexRowContent--category__results{
+    flex-direction: column;
+  }
+  .flexRowContent--category__results :global(.vtex-flex-layout-0-x-stretchChildrenWidth){
+    width: 100%;
+  }
+} 

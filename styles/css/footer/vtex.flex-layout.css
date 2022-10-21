@@ -131,7 +131,11 @@
     }
     .paragraph--links-title{
         margin: 0;
-    }   
+    } 
+    .flexRow--footer__container--links{
+        margin-bottom: 25px;
+        padding-top: 30px;
+    }  
     
 }
 

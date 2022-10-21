@@ -113,7 +113,7 @@
         transform: translateX(-2px);
     } 
     .paragraph--links-title{
-        transform: translate(-15px, -40px)
+        transform: translate(-15px, -20px)
     }
 }
 
@@ -140,12 +140,18 @@
     .paragraph--policies__content-text-2{
         margin-right: 10px;
     }  
-    .paragraph--disclosure-policies-text{
+   /*  .paragraph--disclosure-policies-text{
         margin-bottom: -23px;
-    } 
+    }  */
     .paragraph--links-title{
        font-size: 16px;
-    }  
+    }
+    .wrapper--disclosure-policies-text{
+        transform: translateY(-8px);
+    }
+    .container--policies__content-text{
+        margin-top: 40px;
+    }
 }
 
 @media screen and (min-width: 640px) and (max-width: 1024px){
@@ -154,9 +160,9 @@
         margin-left: -16px;
     }   
     .paragraph--disclosure-policies-text{
-        transform: translateX(-174px);
+        transform: translate(-174px);
     } 
     .paragraph--links-title{
-        transform: translate(-20px, -40px)
+        transform: translate(-20px, -20px)
     }
 }

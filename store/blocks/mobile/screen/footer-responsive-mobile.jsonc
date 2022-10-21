@@ -6,7 +6,8 @@
       "flex-layout.row#footer__container--mediosdepago",
       "disclosure-layout#policies",
       "flex-layout.row#footer__container--links-mobile",
-        "flex-layout.row#footer__container--socialmedia"      
+      "flex-layout.row#footer__container--socialmedia",
+      "whatsapp-button"     
     ],
     "props":{
       "blockClass": "footer__container"

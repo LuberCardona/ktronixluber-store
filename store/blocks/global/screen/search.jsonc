@@ -39,13 +39,17 @@
     "children":[
       "add-to-list-btn",
       "product-summary-image",
-      "product-summary-name",
+      "product-rating-inline",
+      "product-summary-name",      
       "product-list-price",
       "product-selling-price",
       "product-summary-sku-selector",
       "add-to-cart-button",
       "modal-trigger#global__quick-view"
-    ]
+    ],
+    "props":{
+      "blockClass": "search__container"
+    }
   },
   "product-summary-name":{
     "props":{

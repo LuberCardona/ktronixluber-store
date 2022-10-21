@@ -1,0 +1,25 @@
+.containerNormal--search__container :global(.vtex-reviews-and-ratings-3-x-star--empty){
+    color:#f1c40f ;
+}
+.containerNormal--search__container :global(.vtex-product-summary-2-x-productBrand){
+    font-size: 18px;
+    font-weight: 600;
+}
+.containerNormal--search__container :global(.vtex-product-summary-2-x-element--search__container){
+    justify-content: space-between;   
+}
+
+
+@media screen and (max-width: 1024px){ 
+    .containerNormal{
+        padding: 0;
+        box-shadow: none;
+    }
+    .containerNormal--search__container :global(.vtex-reviews-and-ratings-3-x-inlineContainer){
+        margin-left: 0;
+    }
+    .containerNormal--search__container :global(.vtex-product-summary-2-x-nameContainer){
+        justify-content: start;
+    }
+
+}

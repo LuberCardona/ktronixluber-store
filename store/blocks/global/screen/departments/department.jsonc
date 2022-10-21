@@ -37,8 +37,13 @@
     "children":[
       //"rich-text#mobile-response-department", 
       "flex-layout.row#department__breadcrumb",
-      //"responsive-layout.tablet#tablet__department",
+      "responsive-layout.tablet#tablet__department",
       "responsive-layout.phone#phone__department"
+    ]
+  },
+  "responsive-layout.tablet#tablet__department":{
+    "children":[
+      "flex-layout.row#category__results"
     ]
   },
   "responsive-layout.phone#phone__department":{
@@ -55,14 +60,18 @@
     "children":[
       "flex-layout.col#category__results--filter",
       "flex-layout.col#category__results--content"
-    ]
+    ],
+    "props":{
+      "blockClass":"category__results"
+    }
   },
   "flex-layout.col#category__results--filter":{
     "children":[
       "filter-navigator.v3"
     ],
     "props":{
-      "width": "25%"
+      "width": "25%",
+      "blockClass":"category__results--filter"
     }
   },
   "flex-layout.col#category__results--content":{
@@ -70,7 +79,8 @@
       "search-content#results__content--products"
     ],
     "props":{
-      "width": "75%"
+      "width": "75%",
+      "blockClass":"category__results--content"
     }
   },
   "rich-text#desktop-response-department":{ 
@@ -97,8 +107,8 @@
           "component":"GeneralGrid",
           "itemsPerRow":{
             "desktop":4,
-            "tablet":3,
-            "phone":2
+            "tablet":1,
+            "phone":1
           }
         }
       ],

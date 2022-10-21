@@ -104,6 +104,13 @@
       "rich-text#footer__container--links-col-four-link10",
       "rich-text#footer__container--links-col-four-link11"
     ]
+  },
+  "whatsapp-button":{
+    "props":{
+      "logo": "assets/img/logo-whatsapp.png",
+      "phone": "3054572215",
+      "message": "Ktronix pasión tecno!. En qué podemos ayudarte?"
+    }
   }
 }
 

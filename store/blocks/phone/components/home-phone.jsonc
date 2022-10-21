@@ -2,8 +2,8 @@
   "flex-layout.row#home__section--banner--one-mobile":{
     "title":"home__banner--one-mobile",
     "children":[
-        "flex-layout.col#home__section--banner--one-1-img",
-        "flex-layout.col#home__section--banner--one-1-text"
+        "flex-layout.col#home__section--banner--one-2-img",
+        "flex-layout.col#home__section--banner--one-2-text"
     ],
     "props": {            
         "blockClass": "home__section--banner--one-mobile",
