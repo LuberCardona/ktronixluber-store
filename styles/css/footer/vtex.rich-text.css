@@ -96,4 +96,73 @@
     color: #929292;
     text-decoration: none;
  }
+ .paragraph--disclosure-policies-text{
+    transform: translateX(-412px)
+ }
  
+ @media screen and (max-width: 639px){   
+    .paragraph--rich-text__footer__container--contacto-razonsocial,
+    .paragraph--rich-text__footer__container--contacto{
+        min-width: max-content;
+    }
+    .wrapper--footer__container--mediosdepago-text{
+        margin-top: -15px;
+        margin-left: -8px;
+    }
+    .paragraph--disclosure-policies-text{
+        transform: translateX(-2px);
+    } 
+    .paragraph--links-title{
+        transform: translate(-15px, -20px)
+    }
+}
+
+@media screen and (max-width: 1024px){   
+    .paragraph--rich-text__footer__container--contacto-razonsocial,
+    .paragraph--rich-text__footer__container--contacto{
+        min-width: max-content;
+    }
+    .container--rich-text__footer__container--contacto-title-email,
+    .container--rich-text__footer__container--contacto-email{
+        border-left: none;
+        border-right: none;
+    }
+    .paragraph--policies__content-text{
+        margin-left: 42px;
+        margin-top: -10px;
+    }
+    .paragraph--policies__content-text-3{
+        margin: 1px 42px 1px 42px;
+    }
+    .paragraph--policies__content-text-4{
+        margin: 15px 42px 40px 40px
+    }  
+    .paragraph--policies__content-text-2{
+        margin-right: 10px;
+    }  
+   /*  .paragraph--disclosure-policies-text{
+        margin-bottom: -23px;
+    }  */
+    .paragraph--links-title{
+       font-size: 16px;
+    }
+    .wrapper--disclosure-policies-text{
+        transform: translateY(-8px);
+    }
+    .container--policies__content-text{
+        margin-top: 40px;
+    }
+}
+
+@media screen and (min-width: 640px) and (max-width: 1024px){
+    .wrapper--footer__container--mediosdepago-text{
+        margin-top: -15px;
+        margin-left: -16px;
+    }   
+    .paragraph--disclosure-policies-text{
+        transform: translate(-174px);
+    } 
+    .paragraph--links-title{
+        transform: translate(-20px, -20px)
+    }
+}

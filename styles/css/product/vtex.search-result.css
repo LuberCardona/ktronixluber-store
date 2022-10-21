@@ -1,0 +1,52 @@
+@media screen and (max-width: 639px){
+    .sidebar{
+        margin: 82px 10px;
+        width: 95%;
+    } 
+}
+
+@media screen and (max-width: 1024px){ 
+    .galleryItem--normal{
+        border: 1px solid #bfbfbf;
+        margin: 15px 14px 20px 5px;
+    }
+    .filterPopupButton{
+        background-color: #004691;
+        border: 1px solid #e9e9e9;
+        max-height: 40px;
+        border-radius: 4px;
+        margin-left: -5px;
+    }
+    .filterPopupTitle{
+        color: #fff;
+        font-weight: 600;
+    }
+    .filtersWrapperMobile{
+        justify-content: flex-start;
+        margin-top: 20px;
+    }
+    .sidebar{
+        height: auto;
+    } 
+    .filterButtonsBox{
+        display: none;
+    }
+    .filterBreadcrumbsText,
+    .accordionFilterItemTitle,
+    .filterBreadcrumbsItemName{
+        color: #004691;
+        font-size: 16px;
+        font-weight: 600;
+    } 
+    
+}
+
+@media screen and (min-width: 639px) and (max-width: 1024px){
+    .gallery--general-grid{
+        width: 97vw;
+    }
+    .sidebar{
+        margin: 82px 10px;
+        width: 97%;
+    }
+} 

@@ -4,3 +4,49 @@
 .productDescriptionContainer{
     padding: 50px;
 }
+.content--quick-view__modal--info-images{
+    display: flex;
+}
+
+@media screen and (max-width: 639px){ 
+    .productDescriptionText{
+        transform: translateX(1%);        
+    }
+    .productDescriptionContainer{
+        padding: 0;
+        padding-bottom: 15px;
+    }
+    .productDescriptionTitle{
+        text-align: center;
+    }
+    .productDescriptionText{
+        text-align: center;
+    }
+   
+} 
+
+@media screen and (max-width: 1024px){ 
+    .productDescriptionContainer{
+        padding: 0;
+        padding-bottom: 15px;
+    }
+    .productDescriptionText{
+        font-size: 24px;
+        font-weight: 600;
+        color: #444444;  
+    }
+    .specificationsTableContainer{
+        display: none;
+    }
+}
+   
+@media screen and (min-width: 640px) and (max-width: 1024px){ 
+    .productDescriptionTitle{
+        text-align: start;
+    }
+    .productDescriptionText{
+        text-align: start;
+    }
+    
+}
+   

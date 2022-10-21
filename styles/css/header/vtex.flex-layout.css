@@ -8,3 +8,23 @@
 .flexColChild--container__department--celphones--one:hover{
     background-color: #fff;
 }
+.flexCol--col__category__celphones--four,
+.flexCol--col__category__celphones--five{
+    height: auto;
+    align-self: flex-start;
+}
+.flexRowContent--container__minicart__logo--header::before{
+    content: "";
+    display: block;
+    height: 24px;
+    width: 1px;
+    background: #004691;
+    margin-right: 11px;
+    transform: translateY(10px);
+}
+.flexRowContent--container__login__logo--header{
+    margin-bottom: 10px;
+}
+.flexRow--container__login__logo--header{
+    margin-left: 20px;
+}

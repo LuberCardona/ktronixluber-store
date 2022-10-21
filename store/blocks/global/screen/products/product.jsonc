@@ -1,0 +1,31 @@
+{
+  "store.product": {
+    "children": [
+      //"rich-text#product",
+      "flex-layout.row#product__breadcrumb",
+      "flex-layout.row#product__info",
+      "flex-layout.row#product__tabs"
+    ]
+  },   
+ 
+ /* "rich-text#reviews":{
+    "props":{
+      "text": "### reviews"
+    }
+  },
+  "rich-text#specification":{
+    "props":{
+      "text": "### specification"
+    }
+  },
+  "rich-text#question":{
+    "props":{
+      "text": "### question"
+    }
+  }*/
+  "rich-text#product":{
+    "props":{
+      "text":"# Esta es una página de producto"
+    }
+  } 
+}

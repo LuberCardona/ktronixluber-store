@@ -1,0 +1,10 @@
+{
+  "store.custom#homeCustom":{
+      "blocks":[
+       /*  "whatsapp-button",
+        "responsive-layout.desktop#home__info--desktop",
+        "responsive-layout.phone#home__info--mobile",
+        "responsive-layout.tablet#home__info--tablet" */
+      ]
+  } 
+}

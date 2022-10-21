@@ -1,11 +1,15 @@
 .logoImage--header__top--logo{ 
     position: absolute;
     z-index: 5;
-    transform: translate(-230px, -67px);
+    transform: translate(-247px, -60px);
 }
 .searchBarContainer :global(.vtex-input-prefix__group){
     border: solid 1px  #004691;
     border-radius: 3px;
+}
+.searchBarContainer ::placeholder{
+    color: #004691;
+    font-size: 14px;
 }
 .searchBarIcon--header__search--search{
     color: white;

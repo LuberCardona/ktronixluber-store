@@ -7,6 +7,9 @@
   },
   "store.custom#catalog": {
     "path": "/catalogo"
+  },
+  "store.custom#homeCustom": {
+    "path": "/homeCustom"
   }
 }
 
