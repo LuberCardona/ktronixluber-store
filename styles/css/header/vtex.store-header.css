@@ -1,6 +1,7 @@
 .headerRowContentContainer--header__desktop--menu{
     border-top: solid 3px #e63027;
     background: #004691;
+    height: 40px;
 }
 .headerRowContainer--Header__middle {
     justify-content: center;
@@ -11,7 +12,7 @@
     justify-content: center;
 }
 .headerRowContentContainer--Header__top{  
-    height: 50px;
+    height: 43px;
 }
 .headerStickyRow--hearder__mobile{
     width: 100%;

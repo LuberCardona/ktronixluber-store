@@ -1,0 +1,69 @@
+{
+    "header-row#header__top":{
+        "title": "Header superior",
+        "children":[   
+          "header-spacer", 
+         // "rich-text#home",
+          "rich-text#televentas",
+          "rich-text#contacto",
+          "rich-text#rastreo",
+          "rich-text#tiendas",
+          "rich-text#catalogo",
+          "rich-text#pqr"
+        ],
+        "props":{
+          "sticky":true,
+          "blockClass": "Header__top"
+        }
+    },
+    "logo#header__top--logo":{
+        "title": "Logo",
+        "props":{
+            "blockClass":"header__top--logo",
+            "url": "assets/img/logo.svg",
+            "href": "/"
+        }
+    }, 
+    "rich-text#home":{
+        "props":{
+            "text": "[Home](/homeCustom)",
+            "blockClass":"header__contact--text"
+        }
+    }, 
+    "rich-text#televentas":{
+        "props":{
+            "text": "[Televentas: (601) 3649734](/quienes-somos)",
+            "blockClass":"header__contact--text"
+        }
+    }, 
+    "rich-text#contacto":{
+        "props":{
+            "text": "[Atención al cliente: 018000 111 448](/quienes-somos)",
+            "blockClass":"header__contact--text"    
+        }
+    },
+    "rich-text#rastreo":{
+        "props":{
+            "text": "[Rastrea tu pedido](/quienes-somos)",
+            "blockClass":"header__contact--text"      
+        }
+    },
+    "rich-text#tiendas":{
+        "props":{
+            "text":"[Tiendas](/quienes-somos)",
+            "blockClass":"header__contact--text"      
+        }
+    },
+    "rich-text#catalogo":{
+        "props":{
+            "text":"[Catálogo](/catalogo)",
+            "blockClass":"header__contact--text"     
+        }
+    },
+    "rich-text#pqr":{
+        "props":{
+            "text": "[PQR](/quienes-somos)",
+            "blockClass":"header__contact--text"
+        }
+    }
+}

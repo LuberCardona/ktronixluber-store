@@ -75,7 +75,8 @@
       "props":{
           "text":"**Productos en el carrito:(0)**",
           "textAlignment": "CENTER",
-          "textPosition": "CENTER"
+          "textPosition": "CENTER",
+          "blockClass": "minicart__empty--text1"
       }
   },
   "rich-text#minicart__empty--text2":{

@@ -1,0 +1,77 @@
+{
+    "flex-layout.row#product__tabs":{
+        "title": "Información adicional",
+        "children":[
+         "tab-layout#product__tabs"
+        ]
+    },
+    "tab-layout#product__tabs":{
+        "children":[
+            "tab-list#product__tabs--list",
+            "tab-content#product__tabs--content"
+        ]
+    },
+    "tab-list#product__tabs--list":{
+        "children":[
+        "tab-list.item#tabs__list--reviews-and-ratings",
+        "tab-list.item#tabs__list--product-specification",
+        "tab-list.item#tabs__list--questions"
+        ]
+    },
+    "tab-list.item#tabs__list--reviews-and-ratings":{
+        "props":{
+            "tabId": "reviews-and-ratings",
+            "label": "Revisiones y calificaciones",
+            "defaultActiveTab": true
+        }
+    },
+    "tab-list.item#tabs__list--product-specification":{
+        "props":{
+            "tabId": "product-specification",
+            "label": "Especificaciones de producto",
+            "defaultActiveTab": true
+        }
+    },
+    "tab-list.item#tabs__list--questions":{
+        "props":{
+            "tabId": "questions",
+            "label": "Preguntas y respuestas",
+            "defaultActiveTab": true
+        }
+    },
+    "tab-content#product__tabs--content":{
+        "children":[
+        "tab-content.item#tabs__content--reviews-and-ratings",
+        "tab-content.item#tabs__content--product-specification",
+        "tab-content.item#tabs__content--questions"
+        ]
+    },
+    "tab-content.item#tabs__content--reviews-and-ratings":{
+        "props":{
+            "tabId":"reviews-and-ratings"
+        },
+        "children":[
+            //"rich-text#reviews"
+            "product-reviews"
+        ]
+    },
+    "tab-content.item#tabs__content--product-specification":{
+        "props":{
+            "tabId":"product-specification"
+        },
+        "children":[
+            //"rich-text#specification"
+            "product-specifications"
+        ]
+    },
+    "tab-content.item#tabs__content--questions":{
+        "props":{
+            "tabId":"questions",
+            "blockClass":"tabs__content--questions"
+        },
+        "children":[
+            //"rich-text#question"
+            "questions-and-answers"
+        ]
+    }
+}

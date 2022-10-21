@@ -11,8 +11,16 @@
 .wrapper--home__section--eight--title-text,
 .wrapper--home__section--nine--title-text,
 .wrapper--home__section--ten--title-text{
-    margin-bottom: 2px;
-    box-shadow: 0px 4px #e63027;
+    margin-bottom: 1px;
+    box-shadow: 0px 3px #e63027;
+}
+.wrapper--home__mobile--title-text-departments{    
+    box-shadow: 0px 3px #e63027;
+    margin-bottom: 1px;
+}
+.paragraph--home__mobile--title-text-departments{
+    margin: 15px 0px 6px 0px;
+    color: #004691;
 }
 .paragraph--home__section--two--title-text,
 .paragraph--home__section--three--title-text,
@@ -56,8 +64,21 @@
     line-height: 0.5;
     font-size: 14px;
     color: #004691;
-    /* font-family: Arial,Helvetica,sans-serif;  */
+}
+.container--home_section-one-departmentName{
+    place-content: center;
 }
 .container--quick-view--trigger{
     place-content: center;
+}
+.wrapper--text__department-search{
+    color: black;
+}
+
+
+@media screen and (max-width: 1023px){  
+    .container--home__section--banner--one-1-text{
+        min-width: 160px;
+    } 
+
 }
