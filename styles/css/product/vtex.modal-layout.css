@@ -1,0 +1,17 @@
+.paperNotFullScreen{
+    height: 80vh;
+}
+@media screen and (max-width: 1024px){
+    .headerContainer--header__container--quick-view--modal{
+        flex-direction: column;
+        border-bottom: 2px solid #E63027;
+    }
+    .paperScrollContent{
+        max-height: 100vh;
+    } 
+    .paperNotFullScreen{
+        width: 100vw;
+        margin: 0;
+        height: 100vh;
+    }
+}

@@ -4,6 +4,9 @@
 .productDescriptionContainer{
     padding: 50px;
 }
+.content--quick-view__modal--info-images{
+    display: flex;
+}
 
 @media screen and (max-width: 639px){ 
     .productDescriptionText{

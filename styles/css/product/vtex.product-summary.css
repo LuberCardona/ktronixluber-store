@@ -8,6 +8,9 @@
 .containerNormal--search__container :global(.vtex-product-summary-2-x-element--search__container){
     justify-content: space-between;   
 }
+.nameContainer--quick-view__modal--info-name{
+    margin-top: -25%;
+}
 
 
 @media screen and (max-width: 1024px){ 
@@ -20,6 +23,9 @@
     }
     .containerNormal--search__container :global(.vtex-product-summary-2-x-nameContainer){
         justify-content: start;
+    }
+    .nameContainer--quick-view__modal--info-name{
+        display: none;
     }
 
 }

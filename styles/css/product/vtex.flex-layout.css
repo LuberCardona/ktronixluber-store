@@ -39,6 +39,7 @@
     width: 98% !important;
 }
 
+
 @media screen and (max-width: 639px){ 
     .container__product__info--image{
         align-items: center;
@@ -83,7 +84,9 @@
     width: 100%;
     height: 56px;
   }
-  
+  .flexRowContent--container__quick-view__modal{
+    flex-direction: column;
+  } 
   
 } 
 
