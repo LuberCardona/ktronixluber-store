@@ -2,7 +2,7 @@
    "store.custom#about-us":{
     "blocks":[
       "flex-layout.row#about-us__section--one",
-      "flex-layout.row#about-us__section--two",
+      "flex-layout.row#about-us__section--two2",
       "flex-layout.row#about-us__section--three"
     ]
   },
@@ -11,7 +11,7 @@
       "flex-layout.col#about-us__section--one"
     ]
   },
-  "flex-layout.row#about-us__section--two":{
+  "flex-layout.row#about-us__section--two2":{
     "children":[
       "flex-layout.col#about-us__section--two"
     ]
@@ -28,7 +28,7 @@
   },
   "flex-layout.col#about-us__section--two":{
     "children":[
-      "rich-text#about-us__section--two",
+      "flex-layout.row#about-us__section--two",
       "link#about-us__section--two"
     ],
     "props":{
@@ -50,7 +50,9 @@
   },  
   "flex-layout.row#about-us__section--three-one":{
     "children":[
-      "image#about-us__section--three-image-one",
+      "flex-layout.col#about-us__section--three-one-img",
+    /*   "image#about-us__section--three-image-one",  
+      "image#about-us__section--three-image-one-phone", */
       "rich-text#about-us__section--three-text-one"
     ],
     "props":{
@@ -58,14 +60,41 @@
       "colSizing": "auto"
     }
   },
+   "flex-layout.col#about-us__section--three-one-img":{
+    "children":[
+      "image#about-us__section--three-image-one"
+      /* "image#about-us__section--three-image-one-phone" */
+    ],
+    "props":{
+      "blockClass":"container__about-us__section--three-one-img",
+      "colSizing": "auto"
+    }
+  }, 
   "rich-text#about-us__section--one":{
     "props":{
       "text":"### Quiénes somos"
     }
   },
-  "rich-text#about-us__section--two":{
+  "flex-layout.row#about-us__section--two":{
+    "children":[
+      "rich-text#about-us__section--two-text1",
+      "rich-text#about-us__section--two-text2"      
+    ],
     "props":{
-      "text":"**Déjate sorprender por Ktronix, un espectáculo de conectividad y emoción. Disfruta del verdadero placer de la tecnología.**"
+      "blockClass":"container__about-us__section--two"
+    }
+  },
+  "rich-text#about-us__section--two-text1":{
+    "props":{
+      "text":"**Déjate sorprender por Ktronix, un espectáculo de conectividad y emoción.**\r\n",
+      "blockClass":"about-us__section--two-text1"
+    }
+  },
+ 
+  "rich-text#about-us__section--two-text2":{
+    "props":{
+      "text":"**Disfruta del verdadero placer de la tecnología.**",
+      "blockClass":"about-us__section--two-text2"
     }
   },
   "link#about-us__section--two": {
@@ -78,10 +107,16 @@
   },
   "image#about-us__section--three-image-one":{
     "props":{
-       "src":"assets/img/simbolo-k.svg",
-       "blockClass": "about-us__section--three-image1"
+      "src":"assets/img/simbolo-k.svg",
+      "blockClass": "about-us__section--three-image1"
     }
   },
+ /*  "image#about-us__section--three-image-one-phone":{
+    "props":{
+       "src":"assets/img/kp.svg",
+       "blockClass": "about-us__section--three-image1"
+    }
+  },  */
   "rich-text#about-us__section--three-text-one":{
     "props":{
        "text": "En 1998 ALKOSTO líder en tecnología decide lanzar un nuevo formato, Ktronix, como la única tienda multimarcas especializada en electrónica y tecnología.",
@@ -90,11 +125,21 @@
   },
   "flex-layout.row#about-us__section--three-two":{
     "children":[
-      "image#about-us__section--three-image-two",
+      "flex-layout.col#about-us__section--three-two-img",
+     /*  "image#about-us__section--three-image-two", */
       "rich-text#about-us__section--three-text-two"
     ],
     "props":{
       "blockClass":"about-us__section--three-two",
+      "colSizing": "auto"
+    }
+  },
+  "flex-layout.col#about-us__section--three-two-img":{
+    "children":[
+      "image#about-us__section--three-image-two"
+    ],
+    "props":{
+      "blockClass":"container__about-us__section--three-two-img",
       "colSizing": "auto"
     }
   },
@@ -112,11 +157,21 @@
   },
   "flex-layout.row#about-us__section--three-three":{
     "children":[
-      "image#about-us__section--three-image-three",
+      "flex-layout.col#about-us__section--three-three-img",
+      /* "image#about-us__section--three-image-three", */
       "rich-text#about-us__section--three-text-three"
     ],
     "props":{
       "blockClass":"about-us__section--three-three",
+      "colSizing": "auto"
+    }
+  },
+  "flex-layout.col#about-us__section--three-three-img":{
+    "children":[
+      "image#about-us__section--three-image-three"
+    ],
+    "props":{
+      "blockClass":"container__about-us__section--three-three-img",
       "colSizing": "auto"
     }
   },
@@ -134,11 +189,21 @@
   },
   "flex-layout.row#about-us__section--three-four":{
     "children":[
-      "image#about-us__section--three-image-four",
+      "flex-layout.col#about-us__section--three-four-img",
+     /*  "image#about-us__section--three-image-four", */
       "rich-text#about-us__section--three-text-four"
     ],
     "props":{
       "blockClass":"about-us__section--three-four",
+      "colSizing": "auto"
+    }
+  },
+  "flex-layout.col#about-us__section--three-four-img":{
+    "children":[
+      "image#about-us__section--three-image-four"
+    ],
+    "props":{
+      "blockClass":"container__about-us__section--three-four-img",
       "colSizing": "auto"
     }
   },
@@ -156,11 +221,21 @@
   },
   "flex-layout.row#about-us__section--three-five":{
     "children":[
-      "image#about-us__section--three-image-five",
+      "flex-layout.col#about-us__section--three-five-img",
+     /*  "image#about-us__section--three-image-five", */
       "rich-text#about-us__section--three-text-five"
     ],
     "props":{
       "blockClass":"about-us__section--three-five",
+      "colSizing": "auto"
+    }
+  },
+  "flex-layout.col#about-us__section--three-five-img":{
+    "children":[
+      "image#about-us__section--three-image-five"
+    ],
+    "props":{
+      "blockClass":"container__about-us__section--three-five-img",
       "colSizing": "auto"
     }
   },
@@ -178,11 +253,21 @@
   },
   "flex-layout.row#about-us__section--three-six":{
     "children":[
-      "image#about-us__section--three-image-six",
+      "flex-layout.col#about-us__section--three-six-img",
+      /* "image#about-us__section--three-image-six", */
       "rich-text#about-us__section--three-text-six"
     ],
     "props":{
       "blockClass":"about-us__section--three-six",
+      "colSizing": "auto"
+    }
+  },
+  "flex-layout.col#about-us__section--three-six-img":{
+    "children":[
+      "image#about-us__section--three-image-six"
+    ],
+    "props":{
+      "blockClass":"container__about-us__section--three-six-img",
       "colSizing": "auto"
     }
   },

@@ -9,7 +9,7 @@
       "props":{
         "pdfUrl": "assets/documents/Catalog.pdf",
         "width": 500,
-        "height": 400
+        "height": 300
       }
   },
   "custom-grid":{

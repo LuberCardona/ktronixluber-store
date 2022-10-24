@@ -23,7 +23,9 @@
         "flex-layout.row#home__section--nine--title",
         "slider-layout#home__section--nine--images",
         "flex-layout.row#home__section--ten--title",
+        "list-context.bullet-group",
         "slider-layout#home__section--ten--images-mobile"
+        
       ]          
   },
   "rich-text#home__info--mobile":{
