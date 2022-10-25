@@ -38,6 +38,11 @@
 .flexCol--category__results--content{
     width: 98% !important;
 }
+.flexCol--container__department__breadcrumb-and-switcher{
+    flex-direction: row;
+    place-content: space-between;
+    margin-right: 20px;
+}
 
 
 @media screen and (max-width: 639px){ 

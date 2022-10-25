@@ -1,0 +1,11 @@
+.gridIcon,
+.inlineGridIcon{
+    color: #004691;
+}
+
+@media screen and (max-width: 1024px){
+    .gridIcon,
+    .inlineGridIcon{
+      display: none;
+    }
+}

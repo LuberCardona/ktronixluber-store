@@ -1,7 +1,7 @@
 {   
   "responsive-layout.desktop#home__info--desktop":{
     "title": "Component desktop",
-    "children":[      
+    "children":[  
       "flex-layout.row#home__section--one",
       "flex-layout.row#bullets",
       "flex-layout.row#departmentSearch-and-quickOrder",
