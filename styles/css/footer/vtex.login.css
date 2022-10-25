@@ -1,12 +1,7 @@
 @media screen and (max-width: 1024px){  
-    .content--accountOptions{
-        transform: translate(55%, -134%);
+    .contentContainer{       
+        transform: translateX(48%);
     }
-    .arrowUp{
-      /*   transform: translate(-98%, -120%);*/
-      display: none;
-      
-    } 
 }
 
 

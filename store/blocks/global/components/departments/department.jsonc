@@ -11,8 +11,14 @@
   "search-result-layout.desktop#desktop__department":{
     "children":[   
       "flex-layout.row#department__breadcrumb",
-      "responsive-layout.desktop#desktop__department"    
-    ]
+      "responsive-layout.desktop#desktop__department"  
+      
+    ],
+    "props": {
+      "pagination": "show-more",
+      "preventRouteChange": false,
+      "defaultGalleryLayout": "grid"
+    }
   },   
   "flex-layout.row#department__breadcrumb":{
       "children":[
@@ -21,8 +27,12 @@
   },
   "flex-layout.col#department__breadcrumb":{
       "children":[
-        "breadcrumb.search"
-      ]
+        "breadcrumb.search",
+        "gallery-layout-switcher"        
+      ],
+      "props":{
+        "blockClass":"container__department__breadcrumb-and-switcher"
+      }
   },
   "search-result-layout.mobile#mobile__department":{
     "children":[
@@ -43,11 +53,12 @@
   },
   "responsive-layout.desktop#desktop__department":{ 
     "children":[
+      
       "flex-layout.row#category__results"
     ]
   },
   "flex-layout.row#category__results":{
-    "children":[
+    "children":[      
       "flex-layout.col#category__results--filter",
       "flex-layout.col#category__results--content"
     ],
@@ -93,17 +104,38 @@
     "props":{
       "layouts":[
         {
-          "name":"general-grid",
+          "name":"grid",
           "component":"GeneralGrid",
           "itemsPerRow":{
             "desktop":4,
             "tablet":1,
             "phone":1
           }
+        },
+        {
+          "name": "list",
+          "component": "ListSummary",
+          "itemsPerRow": 1
         }
       ],
-      "GeneralGrid":"product-summary.shelf"
+      "GeneralGrid":"product-summary.shelf",
+      "ListSummary": "product-summary.shelf#listLayout"
     }
-  } 
-
+  },
+  "product-summary.shelf#listLayout":{
+    "children":[
+      "add-to-list-btn",
+      "product-summary-image",
+      "product-rating-inline",
+      "product-summary-name",      
+      "product-list-price",
+      "product-selling-price",
+      "product-summary-sku-selector",
+      "add-to-cart-button",
+      "modal-trigger#global__quick-view"
+    ],
+    "props":{
+      "blockClass": "search__container"
+    }
+  }
 }

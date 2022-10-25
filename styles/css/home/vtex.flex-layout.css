@@ -163,10 +163,16 @@
     padding: 12px;
 }
 
-@media screen and (min-width: 639px){   
+@media screen and (max-width: 639px){   
     .flexRow--home__mobile--title,
     .flexRow--home__section--one-departments-mobile{
        background-color: #fff;
+    }
+    .flexRowContent--menu__mobile-sticky{
+        display: flex;
+    }
+    .flexRow--menu__mobile-sticky{
+        margin: 0 10px 0 10px;
     }
 }
 
@@ -174,6 +180,19 @@
     .flexRow--home__section--banner--one{
         padding: 2px 5px 2px 5px;
     }
-    
+    .flexRow--menu__mobile-sticky{
+         height: auto;
+         width: 95vw;
+         margin-top: 10px;
+         box-shadow: 0px 1px 6px -4px #004691
+     }
+     .flexCol--container__login__logo--header{
+         width: 70px !important;
+     }   
+     .flexCol--container__minicart__logo--header{
+         width: 60px !important;
+         margin-right: 25%;
+         
+     }
 }
 
