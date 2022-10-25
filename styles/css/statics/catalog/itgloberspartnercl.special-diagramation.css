@@ -1,0 +1,8 @@
+@media screen and (max-width: 1024px){
+    .grid__1,
+    .grid__2,
+    .grid__3,
+    .grid__4{
+        padding: 10px;
+    }
+}

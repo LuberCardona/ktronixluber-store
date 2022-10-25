@@ -21,7 +21,7 @@
     margin: 20px 20px 200px 20px;
 }
 .flexCol--minicart__col2--desktop{
-    width: 350px !important;
+    margin-left: 40%;
     background-color: #f5f5f5;
 } 
 .flexCol--minicart__col1--desktop,
@@ -32,6 +32,15 @@
 .flexColChild--minicart__col2--desktop :global(.vtex-button){
     background-color: #e63027;
     border: none;
+}
+
+@media screen and (max-width: 639px){
+    .flexRow--minicart__row--desktop{
+        width: 85vw;
+    }
+    .flexCol--minicart__col2--desktop{
+        margin-left: -8%;
+    }
 }
 
 @media screen and (max-width: 1024px){
@@ -47,6 +56,34 @@
         width: 94vw;        
     }
     
-    
+    .flexRowContent--minicart__row--desktop{
+        flex-direction: column;
+    }
+    .flexCol--minicart__col2--desktop{
+        background-color: inherit;
+    }
+    .flexCol--minicart__col1--desktop,
+    .flexCol--minicart__col2--desktop{
+        border: none;
+    }
+    .flexColChild--minicart__col1--desktop{
+        width: 80vw;
+    }
+    .flexColChild--minicart__col2--desktop :global(.vtex-rich-text-0-x-container){
+        display: none;
+    } 
+    .flexColChild--minicart__col2--desktop :global(.vtex-button){
+        width: 75vw;
+    }
+   
+}
+
+@media screen and (min-width: 640px) and (max-width: 1024px){
+    .flexRow--minicart__row--desktop{
+        width: 90vw;
+    }
+    .flexCol--minicart__col2--desktop{
+        margin-left: 0%;
+    }
 }
 

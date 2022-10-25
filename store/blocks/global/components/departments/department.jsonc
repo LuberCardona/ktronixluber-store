@@ -1,5 +1,6 @@
 {  
   "search-result-layout#department":{
+    "title": "Departments",
     "blocks":[
       "search-result-layout.desktop#desktop__department",
       "search-result-layout.mobile#mobile__department",
@@ -8,8 +9,7 @@
   },
  
   "search-result-layout.desktop#desktop__department":{
-    "children":[
-     // "rich-text#desktop-response-department",
+    "children":[   
       "flex-layout.row#department__breadcrumb",
       "responsive-layout.desktop#desktop__department"    
     ]
@@ -26,7 +26,6 @@
   },
   "search-result-layout.mobile#mobile__department":{
     "children":[
-      //"rich-text#mobile-response-department", 
       "flex-layout.row#department__breadcrumb",
       "responsive-layout.tablet#tablet__department",
       "responsive-layout.phone#phone__department"

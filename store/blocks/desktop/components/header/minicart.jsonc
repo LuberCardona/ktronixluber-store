@@ -9,6 +9,7 @@
     }
   },
   "link#minicart": {
+    "title": "link minicart",
     "props": {
       "href": "/cart",
       "label": "Mi carrito",

@@ -85,6 +85,9 @@
     .flexRow--footer__container--socialmedia{
         margin: 0px 17px 0px 17px;
     }
+    .flexRowContent--menu__mobile-sticky{
+        display: flex;
+    }
 }
 
 
@@ -136,7 +139,10 @@
         margin-bottom: 25px;
         padding-top: 30px;
     }  
-    
+    .flexRow--menu__mobile-sticky{
+        background-color: #fff;
+        position: absolute;
+    }
 }
 
 @media screen and (min-width: 640px) and (max-width: 1024px){

@@ -1,5 +1,6 @@
 {
   "store.custom#catalog":{
+    "title": "static page - catalog",
       "blocks":[
           "pdf-reader",
           "custom-grid"
@@ -9,7 +10,7 @@
       "props":{
         "pdfUrl": "assets/documents/Catalog.pdf",
         "width": 500,
-        "height": 400
+        "height": 300
       }
   },
   "custom-grid":{

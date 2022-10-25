@@ -1,5 +1,6 @@
 {
     "flex-layout.row#departmentSearch-and-quickOrder":{
+        "title": "Department search and quick order",
         "children":[
           "flex-layout.col#quickOrder",
           "flex-layout.col#department-search"    

@@ -14,6 +14,9 @@
     padding: 0px 90px 0px 90px;
     align-items: flex-start;
 }
+.flexColChild--container__about-us__section--three-one-img{
+    height: 100px;
+}
 .flexRowContent--about-us__section--three-three,
 .flexRowContent--about-us__section--three-five{
     background-color: #f6f6f6;
@@ -24,4 +27,97 @@
 .flexRow--about-us__section--three-three,
 .flexRow--about-us__section--three-five{
     width: 1160px;
+}
+.flexCol--about-us__section--two{
+    align-items: center;
+}
+.flexRow--container__about-us__section--two{    
+    transform: translateX(12%);
+}
+
+
+@media screen and (max-width: 639px){
+    .flexRow--container__about-us__section--two{
+        transform: translateX(0%);
+    }
+    .flexCol--container-about-us__section--three{
+        flex-direction: column;
+    }
+    .flexRow--about-us__section--three-three,
+    .flexRow--about-us__section--three-five{
+        width: auto;
+    } 
+    .flexCol--container-about-us__section--three{
+        padding: 0;
+    }
+    .flexRowContent--container__about-us__section--two{
+        width: 96%;
+        margin: 0;
+    }  
+    .flexCol--container-about-us__section--three{
+        padding: 0 15px 0 15px;
+    }
+    .flexCol--container__about-us__section--three-two-img,
+    .flexCol--container__about-us__section--three-three-img,
+    .flexCol--container__about-us__section--three-four-img,
+    .flexCol--container__about-us__section--three-five-img,
+    .flexCol--container__about-us__section--three-six-img{
+        position: relative;
+        width: 100%;
+        height: 100px;
+        height: 80px;
+    }
+    .flexCol--container__about-us__section--three-two-img,
+    .flexCol--container__about-us__section--three-four-img,
+    .flexCol--container__about-us__section--three-six-img{
+        background-color: #dd171b;
+    }
+    .flexCol--container__about-us__section--three-three-img,
+    .flexCol--container__about-us__section--three-five-img{
+        background-color: #003780;
+    }   
+    .flexCol--container__about-us__section--three-two-img::after,
+    .flexCol--container__about-us__section--three-three-img::after,
+    .flexCol--container__about-us__section--three-four-img::after,
+    .flexCol--container__about-us__section--three-five-img::after,
+    .flexCol--container__about-us__section--three-six-img::after{       
+        display: inline-block; 
+        color: #fff;  
+        position: absolute;        
+        font-size: 14px;
+    }
+    .flexCol--container__about-us__section--three-two-img::after{
+        content: "Presencia virtual"; 
+        transform: translate(92%,190%);
+    }
+    .flexCol--container__about-us__section--three-three-img::after{
+        content: "+1.600 referencias"; 
+        transform: translate(82%,190%);
+    }
+    .flexCol--container__about-us__section--three-four-img::after{
+        content: "Tiendas físicas"; 
+        transform: translate(103%,190%);
+    }
+    .flexCol--container__about-us__section--three-five-img::after{
+        content: "Presencia nacional"; 
+        transform: translate(80%,190%);
+    }
+    .flexCol--container__about-us__section--three-six-img::after{
+        content: "100% Colombianos";
+        transform: translate(78%,190%);
+    }
+    
+}
+
+@media screen and (min-width: 640px) and (max-width: 1024px){
+    .flexCol--container-about-us__section--three{
+        padding: 60px 10px 60px 10px;
+    }
+    .flexRow--about-us__section--three-three,
+    .flexRow--about-us__section--three-five{
+        width: 93vw;
+    }
+    .flexRowContent--container__about-us__section--two{
+        flex-direction: column;
+    }
 }
