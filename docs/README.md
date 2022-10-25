@@ -7,13 +7,13 @@ Store-theme es una tienda de tecnología y electrodomésticos basada en VTEX IO 
 ![preview-desktop](https://user-images.githubusercontent.com/66228518/197647662-585714f0-a485-463e-bdfa-7018b653d0f0.png)
 
 ## Vista en Tableta - Header, Home and Footer
-![preview-tablet](https://user-images.githubusercontent.com/66228518/197648516-42eaa825-8ad0-42b5-b0bd-c1b54ddf35b0.png)
+![preview-tablet](https://user-images.githubusercontent.com/66228518/197862497-3d961e2c-5528-4a05-9d7d-d33e53e4f38e.png)
 
 ## Vista en Teléfono - Header, Home and Footer
-![preview phone](https://user-images.githubusercontent.com/66228518/197649074-37890bef-4832-44ae-9221-fd218e2dcb62.png)
+![preview phone](https://user-images.githubusercontent.com/66228518/197862550-8b634817-77cf-4146-a93e-220c625e2b17.png)
 
 ## Vista de Escritorio - Página lista de productos
-![PLP-desktop](https://user-images.githubusercontent.com/66228518/197649841-d6e72fcd-9222-4844-92e6-7273b9b5dfe0.JPG)
+![PLP-desktop2](https://user-images.githubusercontent.com/66228518/197862672-2e64296e-3e5d-48ff-aa8c-5380b7174402.JPG)
 
 ## Vista en móviles - Página lista de productos
 ![PLP-phone](https://user-images.githubusercontent.com/66228518/197650262-c05044c6-30a8-408c-9fc3-d22f1b054ee4.JPG)
