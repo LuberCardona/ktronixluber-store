@@ -1,9 +1,8 @@
 {
     "header-row#header__top":{
-        "title": "Header superior",
+        "title": "Header top",
         "children":[   
           "header-spacer", 
-         // "rich-text#home",
           "rich-text#televentas",
           "rich-text#contacto",
           "rich-text#rastreo",

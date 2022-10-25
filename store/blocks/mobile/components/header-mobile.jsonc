@@ -1,5 +1,6 @@
 {  
   "header-row#header__top--mobile":{
+    "title": "Header mobile",
     "children":[
       "logo#header__top--logo-mobile",
       "search-bar#header__search--mobile"

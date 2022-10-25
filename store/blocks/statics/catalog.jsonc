@@ -1,5 +1,6 @@
 {
   "store.custom#catalog":{
+    "title": "static page - catalog",
       "blocks":[
           "pdf-reader",
           "custom-grid"

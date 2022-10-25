@@ -14,6 +14,7 @@
         "flex-layout.row#home__section--four--title",
         "slider-layout#home__section--four--images",
         "flex-layout.row#home__section--five--title",
+        "slider-layout#home__section--five--images",
         "flex-layout.row#home__section--six--title",
         "slider-layout#home__section--six--images-mobile",
         "flex-layout.row#home__section--seven--title",
@@ -22,8 +23,8 @@
         "slider-layout#home__section--eight--images",
         "flex-layout.row#home__section--nine--title",
         "slider-layout#home__section--nine--images",
-        "flex-layout.row#home__section--ten--title",
         "list-context.bullet-group",
+        "flex-layout.row#home__section--ten--title",
         "slider-layout#home__section--ten--images-mobile"
         
       ]          

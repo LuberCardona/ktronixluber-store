@@ -1,14 +1,7 @@
 {
-  /* "responsive-layout.desktop#home__desktop--section-one":{
-    "title": "Componente desktop",
-      "children":[
-        "flex-layout.row#home__section--one"
-      ]    
-  },   */
   "flex-layout.row#home__section--one":{
-      "title":"slider",
+      "title":"slider home  section one",
       "children":[
-         //"slider-layout#home__section--one-slider",
          "list-context.product-list#slider",
          "flex-layout.row#home__section--one-department"
       ],

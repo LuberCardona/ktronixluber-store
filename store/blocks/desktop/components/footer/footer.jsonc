@@ -235,6 +235,7 @@
     }
   },
   "disclosure-layout#policies":{
+    "title": "Disclosure policies",
     "children":[
       "disclosure-trigger#policies",
       "disclosure-content#policies"
@@ -545,7 +546,7 @@
   }
  },
  "flex-layout.row#footer__container--socialmedia":{
-  "title": "social media",
+  "title": "section social media",
   "children":[
   "flex-layout.row#footer__container--socialmedia-text-icons"     
    
@@ -588,22 +589,3 @@
   }
   
 }
-
-
- ///////////////////////////////////////////////////////////////
- /*  "footer-layout.mobile": { 
-    "children": [
-      "flex-layout.row#footer"
-    ]
-  },
-  "flex-layout.row#footer": { 
-    "children": [
-      "image"
-    ]
-  },
-  "image": {
-    "props": {
-      "width": 100,
-      "src": "https://brand.vtex.com/static/media/VTEX_pink_RGB.751a9fb5.svg"
-    }
-  } */
