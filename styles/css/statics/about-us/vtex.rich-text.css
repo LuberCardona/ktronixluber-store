@@ -16,3 +16,79 @@
     text-decoration: none;
     color: #444444
 }
+.container--about-us__section--two-text1{     
+    color: #444444;
+    transform: translateX(-10%);
+
+}
+.container--about-us__section--two-text2{
+    justify-content: flex-start;
+    color: #003780;
+}
+.container--about-us__section--two-text1,
+.container--about-us__section--two-text2{
+    font-size: 18px;
+    font-weight: 600;
+    min-width: max-content;
+}
+
+@media screen and (max-width: 639px){
+    .container--about-us__section--two-text1,
+    .container--about-us__section--two-text2{
+        min-width: unset;
+        text-align: center;
+    }
+    .container--about-us__section--two-text1{ 
+        transform: translateX(0%);    
+    }
+    .paragraph--about-us__section--three-text1,
+    .paragraph--about-us__section--three-text2,
+    .paragraph--about-us__section--three-text3,
+    .paragraph--about-us__section--three-text4,
+    .paragraph--about-us__section--three-text5,
+    .paragraph--about-us__section--three-text6{
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .paragraph--about-us__section--two-text1{
+        line-height: 1.2;
+        margin-bottom: 0;
+    }
+    .paragraph--about-us__section--two-text2{
+        margin-top: 0;
+        margin-bottom: 30px;
+    }
+   
+}
+
+
+@media screen and (min-width: 640px) and (max-width: 1024px){
+    .paragraph--about-us__section--three-text1,
+    .paragraph--about-us__section--three-text2,
+    .paragraph--about-us__section--three-text3,
+    .paragraph--about-us__section--three-text4,
+    .paragraph--about-us__section--three-text5,
+    .paragraph--about-us__section--three-text6{
+        font-size: 15px;
+    }
+    .paragraph--about-us__section--two-text{
+        font-size: 18px;
+        text-align: center;
+        padding: 0 20px 15px 20px;
+    }
+    .container--about-us__section--two-text1{
+        transform: translateX(13%);
+    }
+    .container--about-us__section--two-text2{
+        transform: translateX(21%);
+    }
+    .paragraph--about-us__section--two-text1{
+        height: 0;
+        margin: 0;
+        margin-bottom: 5px;
+    }
+    .paragraph--about-us__section--two-text2{
+        padding-bottom: 15px;
+    }
+
+}

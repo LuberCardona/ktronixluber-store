@@ -1,5 +1,6 @@
 {
   "flex-layout.row#home__section--one-department-tablet":{
+    "title": "Home section one - departments - tablet",
     "children":[
         "flex-layout.col#home__section--one-department-tablet-one",
         "flex-layout.col#home__section--one-department-tablet-two",

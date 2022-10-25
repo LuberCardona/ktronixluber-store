@@ -1,5 +1,6 @@
 {
   "store.custom#cart":{
+    "title": "staic page - cart",
     "blocks":[
         "minicart.v2"
     ]

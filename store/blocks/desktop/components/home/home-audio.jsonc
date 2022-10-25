@@ -41,33 +41,7 @@
         "image#section__nine--image2",
         "image#section__nine--image3"
       ]
-    },
-   /*  "flex-layout.row#home__section--nine--images":{
-     "title": "section -images-audio",
-      "children":[
-        "flex-layout.row#home__section--nine--images-audio"  
-         
-      ],        
-      "props":{
-        "blockClass": "home__section--nine"
-       }
-    },
-    "flex-layout.row#home__section--nine--images-audio":{
-      "children":[
-        "flex-layout.col#section__nine--image1",
-        "flex-layout.col#section__nine--image2",
-        "flex-layout.col#section__nine--image3"
-      ]
-    }, 
-    "flex-layout.col#section__nine--image1":{
-      "title": "Section nine - audio - image1",
-      "children":[
-        "image#section__nine--image1"
-      ],
-      "props":{
-        "blockClass": "home__section__four--image"
-      }
-    }, */
+    },   
     "image#section__nine--image1":{
       "title": "Image1 -section nine - audio",
       "props": {
@@ -77,16 +51,7 @@
               "url": "/"
           }
       }
-    },
-   /*  "flex-layout.col#section__nine--image2":{
-      "title": "section nine - audio Image2",
-      "children":[
-        "image#section__nine--image2"
-      ],
-      "props":{
-        "blockClass": "home__section__nine--image"
-      }
-    }, */
+    },   
     "image#section__nine--image2":{
       "title": "Image2 -section nine - audio",
       "props": {
@@ -96,16 +61,7 @@
               "url": "/"
           }
       }
-    },
-   /*  "flex-layout.col#section__nine--image3":{
-      "title": "Section nine audio",
-      "children":[
-        "image#section__nine--image3"
-      ],
-      "props":{
-        "blockClass": "home__section__nine--image"
-      }
-    }, */
+    },  
     "image#section__nine--image3":{
       "title": "Image3 -section nine - audio",
       "props": {

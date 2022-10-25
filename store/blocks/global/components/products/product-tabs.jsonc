@@ -1,6 +1,6 @@
 {
     "flex-layout.row#product__tabs":{
-        "title": "Información adicional",
+        "title": "Información adicional - Tabs",
         "children":[
          "tab-layout#product__tabs"
         ]
@@ -51,7 +51,6 @@
             "tabId":"reviews-and-ratings"
         },
         "children":[
-            //"rich-text#reviews"
             "product-reviews"
         ]
     },
@@ -60,7 +59,6 @@
             "tabId":"product-specification"
         },
         "children":[
-            //"rich-text#specification"
             "product-specifications"
         ]
     },
@@ -70,7 +68,6 @@
             "blockClass":"tabs__content--questions"
         },
         "children":[
-            //"rich-text#question"
             "questions-and-answers"
         ]
     }

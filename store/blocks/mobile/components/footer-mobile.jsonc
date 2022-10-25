@@ -111,6 +111,18 @@
       "phone": "3054572215",
       "message": "Ktronix pasión tecno!. En qué podemos ayudarte?"
     }
+  },  
+  "flex-layout.row#menu__mobile-sticky":{
+    "title": "menu mobile sticky",
+    "children":[     
+      "flex-layout.col#login__logo--header",
+      "flex-layout.col#minicart__logo--header",
+      "department-search"
+    ],
+    "props":{
+       "sticky":true, 
+      "blockClass": "menu__mobile-sticky"
+    }
   }
 }
 

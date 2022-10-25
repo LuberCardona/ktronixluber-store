@@ -1,5 +1,6 @@
 {
     "header-row#header__middle":{
+        "title": "Header middle",
         "children":[
           "logo#header__top--logo",
           "search-bar#header__search",
