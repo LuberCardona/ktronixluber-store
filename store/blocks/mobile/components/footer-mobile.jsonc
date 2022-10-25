@@ -120,7 +120,7 @@
       "department-search"
     ],
     "props":{
-       "sticky":true, 
+       /* "sticky":true,  */
       "blockClass": "menu__mobile-sticky"
     }
   }

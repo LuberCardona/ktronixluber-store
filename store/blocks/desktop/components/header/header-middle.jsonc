@@ -37,7 +37,10 @@
         "children":[     
             "login",
             "link#login"
-        ]
+        ],
+        "props":{
+            "blockClass":"container__login__logo--header"
+        }
     },
     "login":{
         "props": {
@@ -68,6 +71,10 @@
         "children":[     
             "minicart.v2#minicart__logo--header",
             "link#minicart"
-        ]
+        ],
+        "props":{
+            "blockClass": "container__minicart__logo--header"
+        }
+
     }
 }

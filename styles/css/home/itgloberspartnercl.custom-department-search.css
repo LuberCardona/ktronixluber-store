@@ -1,0 +1,11 @@
+@media screen and (max-width: 1024px){
+    .container__select__searchBar{
+        transform: translateX(0px);
+    }
+    .container__select{
+        margin-top: 12px;
+    }
+    .select__item{
+        padding: 8PX;
+    }
+}

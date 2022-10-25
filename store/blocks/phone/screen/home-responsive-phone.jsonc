@@ -3,6 +3,7 @@
     "title": "Component phone",
       "children":[
         //"rich-text#home__info--mobile",
+        "flex-layout.row#menu__mobile-sticky", 
         "flex-layout.row#home__section--banner--one-mobile",
         "list-context.product-list#slider-mobile",
         "flex-layout.row#home__mobile--title",
