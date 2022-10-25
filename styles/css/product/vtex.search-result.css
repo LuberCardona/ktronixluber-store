@@ -9,6 +9,7 @@
     .galleryItem--normal{
         border: 1px solid #bfbfbf;
         margin: 15px 14px 20px 5px;
+        min-width: 92vw;
     }
     .filterPopupButton{
         background-color: #004691;

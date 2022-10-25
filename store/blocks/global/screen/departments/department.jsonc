@@ -1,6 +1,8 @@
 {
     "store.search#department":{
-        "blocks": ["search-result-layout#department"],
+        "blocks": [
+          "search-result-layout#department"
+        ],
         "props":{
           "context":{
             "skusFilter":"FIRST_AVAILABLE",
